@@ -1,0 +1,12 @@
+{
+	"games": [
+		{
+			"title": "Deathloop",
+			"image": "deathloop.jpg"
+		},
+		{
+			"title": "Nier Automata",
+			"image": "nierautomata.jpg"
+		}
+	]
+}
