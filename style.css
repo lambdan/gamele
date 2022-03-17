@@ -3,17 +3,31 @@
 }
 
 #container {
-	padding: 1em;
+	padding: 10px;
+}
+
+#playfield {
+	position: relative;
 }
 
 #image img {
+	position: absolute;
 	width:  100%;
 	max-width: 1280px;
+	max-height: 720px;
+	height: auto;
 	margin:  auto;
 	display: block;
 }
 
+
 #guessfield {
-	margin-top: 1em;
+	margin: 30px;
 	text-align: center;
+}
+
+.blocker {
+	position: absolute;
+	background-color: black;
+	border: 1px solid red;
 }
