@@ -45,7 +45,7 @@ function init () {
 
 
 	// read and parse games.json
-	$.each(gamesjson.games, function(k,v) {
+	$.each(gamesjson, function(k,v) {
 		games.push(v);
 		game_titles.push(v.title);
 	});
