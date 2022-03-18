@@ -2,11 +2,28 @@
 	"games": [
 		{
 			"title": "Deathloop",
-			"image": "deathloop.jpg"
+			"image": "deathloop.jpg",
+			"aspect": "16:9"
 		},
 		{
 			"title": "Nier Automata",
-			"image": "nierautomata.jpg"
+			"image": "nierautomata.jpg",
+			"aspect": "16:9"
+		},
+		{
+			"title": "Super Mario Bros.",
+			"image": "smb.png",
+			"aspect": "8:7"
+		},
+		{
+			"title": "Mega Man 2",
+			"image": "mm2.png",
+			"aspect": "8:7"
+		},
+		{
+			"title": "Mega Man",
+			"image": "mm1.png",
+			"aspect": "8:7"
 		}
 	]
 }

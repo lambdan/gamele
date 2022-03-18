@@ -1,12 +1,42 @@
-var todays_image = "screens/nierautomata.jpg";
+var todays_image;
 var img = new Image();
+
 
 var rows = 2;
 var cols = 5;
 var guesses = 0;
 var lastclicked = ""; // for doube click prevention
 
+var gamesjson;
+var games = []; // used for search suggestions
+var game_today = ""; // title we're looking for today
+
+
 function init () {
+	// read and parse games.json
+	$.each(gamesjson.games, function(k,v) {
+		games.push(v);
+	});
+
+	r = Math.floor(Math.random() * games.length);
+
+	game_today = games[r].title
+	todays_image = "screens/" + games[r].image
+	todays_aspect = games[r].aspect
+
+	// calculate playfield area based on what aspect todays game is
+	playfield_max_width = 1280
+	if (todays_aspect != "16:9") {
+		playfield_max_width = 600
+	}
+	$("#image").css({
+		"max-width": playfield_max_width,
+	});
+	$("#playfield").css({
+		"max-width": playfield_max_width
+	});
+
+
 	img.src = todays_image
 	img.onload = function() {
 		// create blockers
@@ -16,8 +46,8 @@ function init () {
 		}
 		}	
 	}
-	$("#image").html(img)
 
+	$("#image").html(img)
 }
 
 function addBlock(row,col) {
@@ -48,7 +78,12 @@ function revealSquare(id) {
 }
 
 $(window).on("load", function() {
-	init();
+
+	// first load json until we do anything else
+	$.getJSON("games.json", (data) => {
+		gamesjson = data;
+	}).then(() => init());
+
 
 	$(document).click(function(event) { // check where clicked
     	//var e = $(event.target);
