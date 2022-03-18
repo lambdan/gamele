@@ -1,5 +1,8 @@
-* {
+body {
 	font-family: sans-serif;
+	background-color: #1e1e1e;
+	color: #fcfcfc;
+	font-size: 1.3em;
 }
 
 #container {
@@ -11,7 +14,7 @@
 	position: relative;
 	margin: 0 auto;
 	max-width: 1280px;
-	height: auto;
+	height: auto;;
 }
 
 #playfield img {
@@ -34,4 +37,16 @@
 	background-color: black;
 	border: 1px solid red;
 	z-index: 2;
+}
+
+.winner {
+	color:  lime;
+}
+
+.failure {
+	color:  red;
+}
+
+.helpbutton {
+	color:  yellow;
 }

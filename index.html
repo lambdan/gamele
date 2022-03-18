@@ -6,6 +6,8 @@
   src="https://code.jquery.com/jquery-3.6.0.js"
   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
 <script src="ss.js"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 <title>Screenshotle</title>
@@ -15,14 +17,20 @@
 
 <div id="container">
 
-  <div id="guessfield">
-    <p>Guesses: <span id="guesses-count">0</span></p>
+  <a onclick="help()" class="helpbutton">Help</a>
 
-    <label for="guess">Enter your guess:</label>
-    <input list="games" name="guess" id="guess">
-      <datalist id="games"><!-- filled with js -->
+  <div id="guessfield">
+
+    <div id="guessinput">
+      <label for="guess">The game is:</label>
+      <input list="games" name="guess" id="guess">
+      <datalist id="games">
+        <!-- filled with script -->
       </datalist>
       <input type="button" value="Guess" onclick="makeGuess()">
+    </div>
+
+    <!--<p>Guesses: <span id="guesses-count">0</span></p> -->
 
   </div>
 
@@ -32,8 +40,6 @@
   <div id="playfield">
    <div id="image"></div>
   </div>
-
-  
 
 </div>
 
