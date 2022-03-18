@@ -1,4 +1,5 @@
 var START_DATE = "2022-03-18"
+var SAVE_PREFIX = "screenshotle_dev11_"
 
 var todays_image;
 var img = new Image();
@@ -8,7 +9,6 @@ var rows = 2;
 var cols = 5;
 
 var max_guesses = rows*cols;
-var guesses = 0;
 var lastclicked = ""; // for double click prevention
 var blockers = [];
 
@@ -20,20 +20,10 @@ var game_today = ""; // title we're looking for today
 var game_over = false;
 var game_won = false;
 
-var default_save_data = {
-	"date": 0,
-	"revealed": [],
-	"wins_1": 0,
-	"wins_2": 0,
-	"wins_3": 0,
-	"wins_4": 0,
-	"wins_5": 0,
-	"wins_6": 0,
-	"wins_7": 0,
-	"wins_8": 0,
-	"wins_9": 0,
-	"wins_10": 0
-}
+var session_date;
+var revealed_today = []
+
+var user_stats;
 
 function dateToday() {
 	const d = new Date();
@@ -48,6 +38,10 @@ function daysSinceStart() {
 }
 
 function init () {
+	session_date = dateToday()
+	revealed_today = loadRevealed()
+
+
 	// read and parse games.json
 	$.each(gamesjson.games, function(k,v) {
 		games.push(v);
@@ -91,6 +85,30 @@ function init () {
 		}	
 	}
 	$("#image").html(img)
+
+	// delay a little before revealing previously revealed blocks... really janky solution 
+	setTimeout(
+		function() {
+			user_stats = loadStats();
+			console.log(user_stats)
+
+			if (loadTodaysResult()) {
+				$("#guessinput").hide();
+				if (loadTodaysResult() == "win") {
+					wonGame();
+				} else {
+					lostGame();
+				}
+			} else {
+				if (revealed_today.length > 0) {
+					$.each(revealed_today, function(k,v) {
+						//console.log("revealing", v)
+						$("#" + v).fadeOut(200);
+						
+					});
+				}
+			}
+	}, 100);
 }
 
 function regenPlayfield() {
@@ -130,7 +148,6 @@ function addBlock(row,col) {
 
 function clickedBlocker(id) {
 	revealSquare(id);
-	incrementGuesses();
 }
 
 function revealSquare(id) {
@@ -138,6 +155,8 @@ function revealSquare(id) {
 		if (v.id == id) {
 			if (v.active) {
 				blockers[k].active = false
+				revealed_today.push(id)
+				saveRevealed()
 			} else {
 				return false // blocker was not active
 			}
@@ -150,46 +169,49 @@ function revealSquare(id) {
 	});
 }
 
-function incrementGuesses() {
-	guesses++;
-	$("#guesses-count").html(guesses);
-}
 
 function revealAll() {
 	$.each(blockers, function(k,v) {
 		if (v.active) {
-			revealSquare(v.id)
+			$("#" + v.id).fadeOut(1000);
 		}
 	});
+}
+
+function wonGame() {
+		game_won = true;
+		game_over = true;
+
+		revealAll();
+		$("#guessinput").fadeOut(1000, function() {
+			$("#guessinput").html('<h2 class="winner">Winner!</h2><p><i>' + game_today + '</i></p>')
+			$("#guessinput").fadeIn(1000);
+		});	
+}
+
+function lostGame() {
+		game_won = false;
+		game_over = true;
+
+		revealAll();
+		$("#guessinput").fadeOut(2000, function() {
+			$("#guessinput").html('<h2 class="failure">Failure.</h2><p>The game was:<br><i>' + game_today + '</i></p>')
+			$("#guessinput").fadeIn(2000);
+		});	
 }
 
 function makeGuess() {
 	if (game_over) {
 		return // game is over, do nothing
 	}
-
-	incrementGuesses();
-
 	var guess = $('#guess').val();
-
 	if (guess == game_today) { // winner!
-		game_won = true;
-		game_over = true;
+		wonGame();
+		saveTodaysResult("win");
 
-		revealAll();
-		$("#guessinput").fadeOut(2000, function() {
-			$("#guessinput").html('<h2 class="winner">Winner!</h2><p>The game is: ' + game_today + '</p>')
-			$("#guessinput").fadeIn(2000);
-		});
-	} else if (guesses == max_guesses) { // failure
-		game_won = false;
-		game_over = true;
-
-		revealAll();
-		$("#guessinput").fadeOut(2000, function() {
-			$("#guessinput").html('<h2 class="failure">Failure.</h2><p>The game was: ' + game_today + '</p>')
-			$("#guessinput").fadeIn(2000);
-		});
+	} else if (revealed_today.length == max_guesses) { // failure
+		lostGame();
+		saveTodaysResult("fail");
 
 	} else { // just wrong guess
 		$("#playfield").effect("shake");
@@ -206,6 +228,103 @@ function makeGuess() {
 
 function help() {
 	alert("Click a tile to reveal part of a screenshot and guess what game it is.\nEvery wrong guess reveals an additional tile.\n\nPlease avoid changing your browser size.")
+}
+
+function saveRevealed() {
+	save_name = SAVE_PREFIX + "revealed_" + session_date
+	localStorage.setItem(save_name, JSON.stringify(revealed_today))
+	console.log("saved:", JSON.stringify(revealed_today))
+}
+
+function loadRevealed() {
+	save_name = SAVE_PREFIX + "revealed_" + session_date
+	console.log("load:", save_name)
+	if (localStorage.getItem(save_name) == null) {
+		// nothing is saved
+		return []
+	} else {
+		return JSON.parse(localStorage.getItem(save_name))
+	}
+}
+
+function wipeTodaysReveals() {
+	revealed_today = []
+	saveRevealed()
+	alert("OK reload page")
+}
+
+function saveTodaysResult(result) {
+	save_name = SAVE_PREFIX + "result_" + session_date
+	localStorage.setItem(save_name, result)
+	console.log("saved result", save_name)
+
+	// save stats
+	if (user_stats.played_days.includes(dateToday())) {
+		console.log("today was in stats already")
+	} else {
+		console.log("today was not in stats")
+		user_stats.played_days.push(dateToday())
+		if (result == "win") {
+			user_stats.wins[revealed_today.length]++;
+		} else {
+			user_stats.fails++;
+		}
+		saveStats();
+	}
+}
+
+function loadTodaysResult() {
+	save_name = SAVE_PREFIX + "result_" + session_date
+	if (localStorage.getItem(save_name) == null) {
+		// nothing is saved
+		return false
+	} else {
+		return localStorage.getItem(save_name)
+	}
+}
+
+function saveStats() {
+	save_name = SAVE_PREFIX + "stats"
+	localStorage.setItem(save_name, JSON.stringify(user_stats))
+	console.log("saved stats", save_name)
+}
+
+function loadStats() {
+	save_name = SAVE_PREFIX + "stats"
+	if (localStorage.getItem(save_name) == null) {
+		// nothing is saved, generate defaults
+		console.log("no stats, generating defaults")
+		return {
+			"first_played": dateToday(),
+			"last_played": dateToday(),
+			"played_days": [],
+			"wins": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"fails": 0
+		}
+	} else {
+		console.log("found stats")
+		return JSON.parse(localStorage.getItem(save_name))
+	}
+}
+
+function showStats() {
+	s = "First played: " + user_stats.first_played + "\n"
+	s += "Played days: " + user_stats.played_days.length + "\n"
+	s += "\n"
+	s += "Wins (0 revealed): " + user_stats.wins[0] + "\n"
+	s += "Wins (1 revealed): " + user_stats.wins[1] + "\n"
+	s += "Wins (2 revealed): " + user_stats.wins[2] + "\n"
+	s += "Wins (3 revealed): " + user_stats.wins[3] + "\n"
+	s += "Wins (4 revealed): " + user_stats.wins[4] + "\n"
+	s += "Wins (5 revealed): " + user_stats.wins[5] + "\n"
+	s += "Wins (6 revealed): " + user_stats.wins[6] + "\n"
+	s += "Wins (7 revealed): " + user_stats.wins[7] + "\n"
+	s += "Wins (8 revealed): " + user_stats.wins[8] + "\n"
+	s += "Wins (9 revealed): " + user_stats.wins[9] + "\n"
+	s += "Wins (10 revealed): " + user_stats.wins[10] + "\n"
+	s += "\n"
+	s += "Fails: " + user_stats.fails + "\n"
+	alert(s)
 }
 
 $(window).on("load", function() {
@@ -238,6 +357,6 @@ $(window).on('resize', function() {
   if ($(this).width() !== wwidth) {
     wwidth = $(this).width();
     $("#playfield").hide();
-    $("#guessfield").html("<p>Browser size changed. Please reload page.</p>")
+    $("#guessfield").html("<p>Browser size changed. Please reload page. (Progress is saved)</p>")
   }
 });
