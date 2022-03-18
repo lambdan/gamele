@@ -1,3 +1,5 @@
+var START_DATE = "2022-03-18"
+
 var todays_image;
 var img = new Image();
 
@@ -18,6 +20,32 @@ var game_today = ""; // title we're looking for today
 var game_over = false;
 var game_won = false;
 
+var default_save_data = {
+	"date": 0,
+	"revealed": [],
+	"wins_1": 0,
+	"wins_2": 0,
+	"wins_3": 0,
+	"wins_4": 0,
+	"wins_5": 0,
+	"wins_6": 0,
+	"wins_7": 0,
+	"wins_8": 0,
+	"wins_9": 0,
+	"wins_10": 0
+}
+
+function dateToday() {
+	const d = new Date();
+	iso = d.toISOString().split("T")[0] // this seems pretty yolo
+	return String(iso)
+}
+
+function daysSinceStart() {
+	start = moment(START_DATE);
+	today = moment(dateToday());
+	return today.diff(start,'days');
+}
 
 function init () {
 	// read and parse games.json
@@ -31,7 +59,10 @@ function init () {
 		$("#games").append('<option value="' + v + '">') // push game name to search box
 	});
 
-	r = Math.floor(Math.random() * games.length); // game for today picked here
+	// game is picked here
+	r = daysSinceStart()
+	//r = Math.floor(Math.random() * games.length); // random game for testing
+	
 	game_today = games[r].title
 	todays_image = "screens/" + games[r].image
 	todays_aspect = games[r].aspect
