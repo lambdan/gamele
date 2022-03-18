@@ -1,5 +1,5 @@
 var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev11_"
+var SAVE_PREFIX = "screenshotle_dev14_"
 
 var todays_image;
 var img = new Image();
@@ -24,6 +24,8 @@ var session_date;
 var revealed_today = []
 
 var user_stats;
+var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+
 
 function dateToday() {
 	const d = new Date();
@@ -184,7 +186,7 @@ function wonGame() {
 
 		revealAll();
 		$("#guessinput").fadeOut(1000, function() {
-			$("#guessinput").html('<h2 class="winner">Winner!</h2><p><i>' + game_today + '</i></p>')
+			$("#guessinput").html('<h2 class="winner">Winner!</h2><p><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
 			$("#guessinput").fadeIn(1000);
 		});	
 }
@@ -227,7 +229,7 @@ function makeGuess() {
 }
 
 function help() {
-	alert("Click a tile to reveal part of a screenshot and guess what game it is.\nEvery wrong guess reveals an additional tile.\n\nPlease avoid changing your browser size.")
+	alert("Click a tile to reveal part of a screenshot and guess what game it is.\nEvery wrong guess reveals an additional tile.\nGuessing wrong when everything is revealed means game over.\nPlease avoid changing your browser size.")
 }
 
 function saveRevealed() {
@@ -308,7 +310,7 @@ function loadStats() {
 }
 
 function showStats() {
-	s = "First played: " + user_stats.first_played + "\n"
+	var s = "First played: " + user_stats.first_played + "\n"
 	s += "Played days: " + user_stats.played_days.length + "\n"
 	s += "\n"
 	s += "Wins (0 revealed): " + user_stats.wins[0] + "\n"
@@ -325,6 +327,54 @@ function showStats() {
 	s += "\n"
 	s += "Fails: " + user_stats.fails + "\n"
 	alert(s)
+}
+
+function share() {
+	var res = "Screenshotle " + daysSinceStart() + "\n";
+
+	var squares = [["","","","",""], ["","","","",""]]
+
+	if (game_won) {
+		res += "✅" 
+	} else {
+		res += "❌"
+	}
+
+	res += " " + revealed_today.length + "/" + blockers.length + "\n"
+	
+	// put out the number emojis
+	$.each(revealed_today, function(k,v) {
+		splits = v.split("-")
+		squares[splits[1]][splits[2]] = num_emoji[k]
+		console.log(splits)
+	});
+
+	// fill the rest with black squares
+	$.each(squares, function(k,v) {
+		$.each(v, function(x,y) {
+			if (squares[k][x] == "") {
+				squares[k][x] = "⬛️"
+			}
+		});
+	});
+
+
+
+	// format the squares
+	$.each(squares, function(k,v){
+		$.each(v, function(x,y) {
+			res += y
+		});
+		res += "\n"
+	});
+
+	navigator.clipboard.writeText(res).then(function() {
+		alert(res + "\n(Copied to clipboard. Go tweet it)")
+	}, function(err) {
+  		alert(res + "\n(Failed copying to clipboard. No tweet for you)")
+	});
+
+	
 }
 
 $(window).on("load", function() {
