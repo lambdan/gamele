@@ -1,5 +1,5 @@
 var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev14_"
+var SAVE_PREFIX = "screenshotle_dev16_"
 
 var todays_image;
 var img = new Image();
@@ -47,7 +47,7 @@ function init () {
 	// read and parse games.json
 	$.each(gamesjson, function(k,v) {
 		games.push(v);
-		game_titles.push(v.title);
+		game_titles.push(v.title + " (" + v.year + ")");
 	});
 
 	// push sorted list of games to the input box ("datalist")
@@ -59,7 +59,7 @@ function init () {
 	r = daysSinceStart()
 	//r = Math.floor(Math.random() * games.length); // random game for testing
 	
-	game_today = games[r].title
+	game_today = games[r].title + " (" + games[r].year + ")"
 	todays_image = "screens/" + games[r].image
 	todays_aspect = games[r].aspect
 
