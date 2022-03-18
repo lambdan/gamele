@@ -17,6 +17,13 @@
 
   <div id="guessfield">
     <p>Guesses: <span id="guesses-count">0</span></p>
+
+    <label for="guess">Enter your guess:</label>
+    <input list="games" name="guess" id="guess">
+      <datalist id="games"><!-- filled with js -->
+      </datalist>
+      <input type="button" value="Guess" onclick="makeGuess()">
+
   </div>
 
   <br>

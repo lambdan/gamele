@@ -8,7 +8,7 @@ var guesses = 0;
 var lastclicked = ""; // for doube click prevention
 
 var gamesjson;
-var games = []; // used for search suggestions
+var games = [];
 var game_today = ""; // title we're looking for today
 
 
@@ -16,6 +16,7 @@ function init () {
 	// read and parse games.json
 	$.each(gamesjson.games, function(k,v) {
 		games.push(v);
+		$("#games").append('<option value="' + v.title + '">') // push game name to search box
 	});
 
 	r = Math.floor(Math.random() * games.length);
@@ -65,8 +66,7 @@ function addBlock(row,col) {
 
 function clickedBlocker(id) {
 	revealSquare(id);
-	guesses++;
-	$("#guesses-count").html(guesses)
+	incrementGuesses();
 
 
 }
@@ -75,6 +75,23 @@ function revealSquare(id) {
 	$("#" + id).fadeOut(1500, function() {
 		//console.log("done with fadeout")
 	});
+}
+
+function incrementGuesses() {
+	guesses++;
+	$("#guesses-count").html(guesses);
+}
+
+function makeGuess() {
+	incrementGuesses();
+
+	var guess = $('#guess').val();
+
+	if (guess == game_today) {
+		alert("WINNER!")
+	} else {
+		alert("WRONG!")
+	}
 }
 
 $(window).on("load", function() {
