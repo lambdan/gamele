@@ -6,6 +6,11 @@
 			"aspect": "16:9"
 		},
 		{
+			"title": "Mega Man 3",
+			"image": "mm3.png",
+			"aspect": "8:7"
+		},
+		{
 			"title": "Nier Automata",
 			"image": "nierautomata.jpg",
 			"aspect": "16:9"
@@ -21,18 +26,13 @@
 			"aspect": "8:7"
 		},
 		{
-			"title": "Mega Man",
-			"image": "mm1.png",
-			"aspect": "8:7"
-		},
-		{
-			"title": "Mega Man 3",
-			"image": "mm3.png",
-			"aspect": "8:7"
-		},
-		{
 			"title": "Super Metroid",
 			"image": "sm.png",
+			"aspect": "8:7"
+		},
+		{
+			"title": "Mega Man",
+			"image": "mm1.png",
 			"aspect": "8:7"
 		},
 		{
