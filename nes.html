@@ -1,0 +1,64 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+
+<title>NES-screenle</title>
+<script>
+var START_DATE = "2022-03-19"
+var SAVE_PREFIX = "screenshotle_public1_NES_"
+var SITE_URL = "https://lambdan.se/screenle/nes"
+var GAMES_JSON = "nes.json"
+var SCREENS_FOLDER = "screens/nes/"
+/* dont forget the <title> !!! */
+</script>
+
+
+<script src="ss.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+<div id="container">
+
+  <a onclick="help()" class="helpbutton">Help</a>
+  <a onclick="showStats()" class="helpbutton">Stats</a>
+  <a href="index.html" class="helpbutton">..</a>
+
+  <div id="guessfield">
+
+    <div id="guessinput">
+      <label for="guess">The game is:</label>
+      <input list="games" name="guess" id="guess">
+      <datalist id="games">
+        <!-- filled with script -->
+      </datalist>
+      <input type="button" value="Guess" onclick="makeGuess()">
+    </div>
+
+    <!--<p>Guesses: <span id="guesses-count">0</span></p> -->
+
+  </div>
+
+  <br>
+  <div id="loading">Loading...</div>
+  <br>
+
+  <div id="playfield">
+   <div id="image"></div>
+  </div>
+
+</div>
+
+
+</body>
+
+</html>
