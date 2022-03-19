@@ -29,7 +29,9 @@ var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣
 
 function dateToday() {
 	const d = new Date();
-	iso = d.toISOString().split("T")[0] // this seems pretty yolo
+	//console.log("moment:", moment(d).format())
+	iso = moment(d).format("YYYY-MM-DD")
+	//console.log("date is", iso)
 	return String(iso)
 }
 
