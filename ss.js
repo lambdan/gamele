@@ -94,7 +94,7 @@ function init () {
 	setTimeout(
 		function() {
 			user_stats = loadStats();
-			console.log(user_stats)
+			//console.log(user_stats)
 
 			if (loadTodaysResult()) {
 				$("#guessinput").hide();
@@ -237,12 +237,12 @@ function help() {
 function saveRevealed() {
 	save_name = SAVE_PREFIX + "revealed_" + session_date
 	localStorage.setItem(save_name, JSON.stringify(revealed_today))
-	console.log("saved:", JSON.stringify(revealed_today))
+	//console.log("saved:", JSON.stringify(revealed_today))
 }
 
 function loadRevealed() {
 	save_name = SAVE_PREFIX + "revealed_" + session_date
-	console.log("load:", save_name)
+	//console.log("load:", save_name)
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved
 		return []
@@ -297,7 +297,7 @@ function loadStats() {
 	save_name = SAVE_PREFIX + "stats"
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved, generate defaults
-		console.log("no stats, generating defaults")
+		//console.log("no stats, generating defaults")
 		return {
 			"first_played": dateToday(),
 			"last_played": dateToday(),
@@ -306,7 +306,7 @@ function loadStats() {
 			"fails": 0
 		}
 	} else {
-		console.log("found stats")
+		//console.log("found stats")
 		return JSON.parse(localStorage.getItem(save_name))
 	}
 }
@@ -348,7 +348,7 @@ function share() {
 	$.each(revealed_today, function(k,v) {
 		splits = v.split("-")
 		squares[splits[1]][splits[2]] = num_emoji[k]
-		console.log(splits)
+		//console.log(splits)
 	});
 
 	// fill the rest with black squares
