@@ -1,5 +1,5 @@
 var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev16_"
+var SAVE_PREFIX = "screenshotle_dev28_"
 
 var todays_image;
 var img = new Image();
@@ -43,8 +43,11 @@ function daysSinceStart() {
 
 function init () {
 	session_date = dateToday()
-	revealed_today = loadRevealed()
 
+	// load "save files"
+	revealed_today = loadRevealed();
+	user_stats = loadStats();
+	loadedTodayResults = loadTodaysResult();
 
 	// read and parse games.json
 	$.each(gamesjson, function(k,v) {
@@ -78,41 +81,42 @@ function init () {
 	});
 
 
-	// setup the image and create blockers
-	img.src = todays_image
+	//$("#guessinput").hide();
+
+	// setup the image and create blockers, after it has loaded
 	img.onload = function() {
+		console.log("finished loading img")
+		$("#loading").hide();
+		$("#image").html(img); // image needs to be shown before blockers are added
+
 		// create blockers
 		for (let r = 0; r < rows; r++) {
 			for (let c = 0; c < cols; c++) {
-			addBlock(r,c)
-		}
-		}	
-	}
-	$("#image").html(img)
-
-	// delay a little before revealing previously revealed blocks... really janky solution 
-	setTimeout(
-		function() {
-			user_stats = loadStats();
-			//console.log(user_stats)
-
-			if (loadTodaysResult()) {
-				$("#guessinput").hide();
-				if (loadTodaysResult() == "win") {
-					wonGame();
-				} else {
-					lostGame();
-				}
-			} else {
-				if (revealed_today.length > 0) {
-					$.each(revealed_today, function(k,v) {
-						//console.log("revealing", v)
-						$("#" + v).fadeOut(200);
-						
-					});
-				}
+				addBlock(r,c)
 			}
-	}, 100);
+		}
+
+		if (loadedTodayResults) {
+			//$("#guessinput").hide();
+			if (loadedTodayResults == "win") {
+				wonGame();
+			} else {
+				lostGame();
+			}
+		} else {
+			$("#guessinput").fadeIn();
+		}
+
+			if (revealed_today.length > 0) {
+				$.each(revealed_today, function(k,v) {
+					console.log("revealing", v)
+					$("#" + v).fadeOut();
+				});
+			}
+
+	}
+
+	img.src = todays_image // yes, src is set after the above onload... very weird
 }
 
 function regenPlayfield() {
@@ -145,6 +149,7 @@ function addBlock(row,col) {
 	y = row * h
 
 	name = "blocker-" + row + "-" + col
+
 	s = '<div id="' + name + '" class="blocker" style="margin-top:' + y + ';margin-left:' + x + ';width:' + w + ';height:' + h +';"></div>';
 	$('#playfield').append(s)
 	blockers.push({"id": name, "active": true})
@@ -167,7 +172,7 @@ function revealSquare(id) {
 		}
 	});
 
-	$("#" + id).fadeOut(1500, function() {
+	$("#" + id).fadeOut(2000, function() {
 		// animation done
 		return true
 	});
@@ -177,7 +182,7 @@ function revealSquare(id) {
 function revealAll() {
 	$.each(blockers, function(k,v) {
 		if (v.active) {
-			$("#" + v.id).fadeOut(1000);
+			$("#" + v.id).fadeOut(3000);
 		}
 	});
 }
@@ -187,9 +192,9 @@ function wonGame() {
 		game_over = true;
 
 		revealAll();
-		$("#guessinput").fadeOut(1000, function() {
+		$("#guessinput").fadeOut(2000, function() {
 			$("#guessinput").html('<h2 class="winner">Winner!</h2><p><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
-			$("#guessinput").fadeIn(1000);
+			$("#guessinput").fadeIn(2000);
 		});	
 }
 
@@ -223,6 +228,7 @@ function makeGuess() {
 		// reveal one random tile
 		r = Math.floor(Math.random() * blockers.length)
 		while (blockers[r].active == false) {
+			//console.log("oop, that one was already revealed")
 			r = Math.floor(Math.random() * blockers.length)
 		}
 		revealSquare(blockers[r].id)
@@ -237,10 +243,11 @@ function help() {
 function saveRevealed() {
 	save_name = SAVE_PREFIX + "revealed_" + session_date
 	localStorage.setItem(save_name, JSON.stringify(revealed_today))
-	//console.log("saved:", JSON.stringify(revealed_today))
+	console.log("saved revealed:", JSON.stringify(revealed_today))
 }
 
 function loadRevealed() {
+	console.log("loading revealed")
 	save_name = SAVE_PREFIX + "revealed_" + session_date
 	//console.log("load:", save_name)
 	if (localStorage.getItem(save_name) == null) {
@@ -278,6 +285,7 @@ function saveTodaysResult(result) {
 }
 
 function loadTodaysResult() {
+	console.log("loading todays results")
 	save_name = SAVE_PREFIX + "result_" + session_date
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved
@@ -294,6 +302,7 @@ function saveStats() {
 }
 
 function loadStats() {
+	console.log("loading stats")
 	save_name = SAVE_PREFIX + "stats"
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved, generate defaults
@@ -378,7 +387,12 @@ function share() {
 		$(".sharebutton").html("Copied to clipboard")
 	});
 
-	navigator.share(shareData) // this fails when testing in http:
+	try {
+		navigator.share(shareData) // this fails when testing in http:
+	} catch(error) {
+		console.log(error)
+	}
+	
 }
 
 $(window).on("load", function() {

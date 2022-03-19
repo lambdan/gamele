@@ -14,7 +14,11 @@ body {
 	position: relative;
 	margin: 0 auto;
 	max-width: 1280px;
-	height: auto;;
+	height: auto;
+}
+
+#loading {
+	text-align: center;
 }
 
 #playfield img {
@@ -65,4 +69,8 @@ body {
 
 .sharebutton:hover {
 	text-decoration: underline;
+}
+
+#guessinput {
+	display: none; /* hidden by default as its shown by the script if needed */
 }
