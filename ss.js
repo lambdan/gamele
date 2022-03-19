@@ -342,7 +342,7 @@ function share() {
 		res += "❌"
 	}
 
-	res += " " + revealed_today.length + "/" + blockers.length + "\n"
+	res += " " + revealed_today.length + "/" + (rows*cols) + "\n"
 	
 	// put out the number emojis
 	$.each(revealed_today, function(k,v) {
@@ -370,13 +370,15 @@ function share() {
 		res += "\n"
 	});
 
+	var shareData = {
+		text: res
+	}
+
 	navigator.clipboard.writeText(res).then(function() {
-		alert(res + "\n(Copied to clipboard. Go tweet it)")
-	}, function(err) {
-  		alert(res + "\n(Failed copying to clipboard. No tweet for you)")
+		$(".sharebutton").html("Copied to clipboard")
 	});
 
-	
+	navigator.share(shareData) // this fails when testing in http:
 }
 
 $(window).on("load", function() {
