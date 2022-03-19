@@ -1,5 +1,7 @@
 var START_DATE = "2022-03-18"
 var SAVE_PREFIX = "screenshotle_dev35_"
+var SITE_NAME = "NESscreenle"
+var GAMES_JSON = "nes.json"
 
 var todays_image;
 var img = new Image();
@@ -354,7 +356,7 @@ function showStats() {
 }
 
 function share() {
-	var res = "Screenshotle " + daysSinceStart() + "\n";
+	var res = SITE_NAME + " " + daysSinceStart() + "\n";
 
 	var squares = [["","","","",""], ["","","","",""]]
 
@@ -409,7 +411,7 @@ function share() {
 $(window).on("load", function() {
 
 	// first load json until we do anything else
-	$.getJSON("games.json", (data) => {
+	$.getJSON(GAMES_JSON, (data) => {
 		gamesjson = data;
 	}).then(() => init());
 
