@@ -1,5 +1,5 @@
 var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev28_"
+var SAVE_PREFIX = "screenshotle_dev30_"
 
 var todays_image;
 var img = new Image();
@@ -69,22 +69,24 @@ function init () {
 	todays_aspect = games[r].aspect
 
 	// calculate playfield area based on what aspect todays game is
-	playfield_max_width = 1280
+	playfield_max_width = "1280px"
 	if (todays_aspect != "16:9") {
-		playfield_max_width = 600
+		playfield_max_width = "600px"
 	}
-	$("#image").css({
-		"max-width": playfield_max_width,
-	});
+
 	$("#playfield").css({
 		"max-width": playfield_max_width
 	});
 
+	$("#image").css({
+		"max-width": playfield_max_width
+	});
 
 	//$("#guessinput").hide();
 
 	// setup the image and create blockers, after it has loaded
 	img.onload = function() {
+
 		console.log("finished loading img")
 		$("#loading").hide();
 		$("#image").html(img); // image needs to be shown before blockers are added
@@ -120,8 +122,9 @@ function init () {
 }
 
 function addBlock(row,col) {
-	w = img.width/cols
-	h = img.height/rows
+	console.log("addBlock img client sizes:", img.clientWidth, img.clientHeight)
+	w = img.clientWidth/cols
+	h = img.clientHeight/rows
 
 	x = col * w
 	y = row * h
@@ -160,7 +163,7 @@ function revealSquare(id) {
 function revealAll() {
 	$.each(blockers, function(k,v) {
 		if (v.active) {
-			$("#" + v.id).fadeOut(3000);
+			$("#" + v.id).fadeOut(500);
 		}
 	});
 }
@@ -346,8 +349,6 @@ function share() {
 			}
 		});
 	});
-
-
 
 	// format the squares
 	$.each(squares, function(k,v){
