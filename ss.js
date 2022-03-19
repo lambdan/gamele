@@ -1,5 +1,5 @@
 var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev32_"
+var SAVE_PREFIX = "screenshotle_dev35_"
 
 var todays_image;
 var img = new Image();
@@ -122,6 +122,10 @@ function init () {
 }
 
 function sizeChanged() {
+	if (game_over) {
+		return // dont need to do anything if the game is over
+	}
+
 	$("#image").hide(); // hide the image
 
 	$.each(blockers, function(k,v) { // remove all blockers from the html
@@ -131,13 +135,14 @@ function sizeChanged() {
 
 	$("#image").show(); // show the image again (so blockers can get their sizes)
 
+
+
 	// create blockers
 	for (let r = 0; r < rows; r++) {
 		for (let c = 0; c < cols; c++) {
 			addBlock(r,c)
 		}
 	}
-
 	// reveal blockers already clicked
 	if (revealed_today.length > 0) {
 		$.each(revealed_today, function(k,v) {
@@ -212,7 +217,7 @@ function lostGame() {
 
 		revealAll();
 		$("#guessinput").fadeOut(2000, function() {
-			$("#guessinput").html('<h2 class="failure">Failure.</h2><p>The game was:<br><i>' + game_today + '</i></p>')
+			$("#guessinput").html('<h2 class="failure">Failure.</h2><p>The game was:<br><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
 			$("#guessinput").fadeIn(2000);
 		});	
 }
@@ -245,7 +250,7 @@ function makeGuess() {
 }
 
 function help() {
-	alert("Click a tile to reveal part of a screenshot and guess what game it is.\nEvery wrong guess reveals an additional tile.\nGuessing wrong when everything is revealed means game over.\nPlease avoid changing your browser size.")
+	alert("Click a tile to reveal part of a screenshot and guess what game it is.\n\nEvery wrong guess reveals an additional tile.\n\nGuessing wrong when everything is revealed means game over.")
 }
 
 function saveRevealed() {
