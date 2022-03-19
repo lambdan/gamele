@@ -1,9 +1,3 @@
-var START_DATE = "2022-03-19"
-var SAVE_PREFIX = "screenshotle_dev2_N64_"
-var SITE_URL = "https://lambdan.se/screenle/N64"
-var GAMES_JSON = "n64.json"
-var SCREENS_FOLDER = "n64_screens/"
-
 var todays_image;
 var img = new Image();
 
