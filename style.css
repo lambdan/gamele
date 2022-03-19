@@ -48,11 +48,21 @@ body {
 }
 
 .helpbutton {
-	color:  yellow;
+	color:  white;
+	background-color: #949434;
+	padding: 6px;
+}
+
+.helpbutton:hover {
+	text-decoration: underline;
 }
 
 .sharebutton {
-	padding:  5px;
+	padding:  6px;
 	background-color: green;
 	color: white;
+}
+
+.sharebutton:hover {
+	text-decoration: underline;
 }
