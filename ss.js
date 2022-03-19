@@ -62,7 +62,7 @@ function init () {
 	//r = Math.floor(Math.random() * games.length); // random game for testing
 	
 	game_today = games[r].title
-	todays_image = SCREENS_FOLDER + games[r].image
+	todays_image = games[r].image
 	todays_width = games[r].width
 
 	// set playfield area based on screenshot width

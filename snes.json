@@ -1,3672 +1,3672 @@
 [
     {
         "title": "Metal Warriors",
-        "image": "MetalWarriors.png",
+        "image": "screens/snes/MetalWarriors.png",
         "width": 512
     },
     {
         "title": "Contra III - The Alien Wars",
-        "image": "ContraIIITheAlienWars.png",
+        "image": "screens/snes/ContraIIITheAlienWars.png",
         "width": 512
     },
     {
         "title": "Equinox",
-        "image": "Equinox.png",
+        "image": "screens/snes/Equinox.png",
         "width": 512
     },
     {
         "title": "Pilotwings",
-        "image": "Pilotwings.png",
+        "image": "screens/snes/Pilotwings.png",
         "width": 512
     },
     {
         "title": "Final Fantasy III",
-        "image": "FinalFantasyIII.png",
+        "image": "screens/snes/FinalFantasyIII.png",
         "width": 512
     },
     {
         "title": "Fun 'n Games",
-        "image": "FunnGames.png",
+        "image": "screens/snes/FunnGames.png",
         "width": 512
     },
     {
         "title": "Super Goal! 2",
-        "image": "SuperGoal2.png",
+        "image": "screens/snes/SuperGoal2.png",
         "width": 512
     },
     {
         "title": "F1 ROC - Race of Champions",
-        "image": "F1ROCRaceofChampions.png",
+        "image": "screens/snes/F1ROCRaceofChampions.png",
         "width": 512
     },
     {
         "title": "World Class Service Super Nintendo Tester",
-        "image": "WorldClassServiceSuperNintendoTester.png",
+        "image": "screens/snes/WorldClassServiceSuperNintendoTester.png",
         "width": 512
     },
     {
         "title": "Choplifter III - Rescue-Survive",
-        "image": "ChoplifterIIIRescueSurvive.png",
+        "image": "screens/snes/ChoplifterIIIRescueSurvive.png",
         "width": 512
     },
     {
         "title": "Speed Racer",
-        "image": "SpeedRacer.png",
+        "image": "screens/snes/SpeedRacer.png",
         "width": 512
     },
     {
         "title": "Brett Hull Hockey 95",
-        "image": "BrettHullHockey95.png",
+        "image": "screens/snes/BrettHullHockey95.png",
         "width": 512
     },
     {
         "title": "Top Gear 3000",
-        "image": "TopGear3000.png",
+        "image": "screens/snes/TopGear3000.png",
         "width": 512
     },
     {
         "title": "Prince of Persia 2",
-        "image": "PrinceofPersia2.png",
+        "image": "screens/snes/PrinceofPersia2.png",
         "width": 512
     },
     {
         "title": "Robotrek",
-        "image": "Robotrek.png",
+        "image": "screens/snes/Robotrek.png",
         "width": 512
     },
     {
         "title": "NCAA Basketball",
-        "image": "NCAABasketball.png",
+        "image": "screens/snes/NCAABasketball.png",
         "width": 512
     },
     {
         "title": "NBA Hang Time",
-        "image": "NBAHangTime.png",
+        "image": "screens/snes/NBAHangTime.png",
         "width": 512
     },
     {
         "title": "Mario's Early Years - Fun with Numbers",
-        "image": "MariosEarlyYearsFunwithNumbers.png",
+        "image": "screens/snes/MariosEarlyYearsFunwithNumbers.png",
         "width": 512
     },
     {
         "title": "True Golf Classics - Wicked 18",
-        "image": "TrueGolfClassicsWicked18.png",
+        "image": "screens/snes/TrueGolfClassicsWicked18.png",
         "width": 512
     },
     {
         "title": "Ren _ Stimpy Show, The - Fire Dogs",
-        "image": "RenStimpyShowTheFireDogs.png",
+        "image": "screens/snes/RenStimpyShowTheFireDogs.png",
         "width": 512
     },
     {
         "title": "Home Alone",
-        "image": "HomeAlone.png",
+        "image": "screens/snes/HomeAlone.png",
         "width": 512
     },
     {
         "title": "Tom and Jerry",
-        "image": "TomandJerry.png",
+        "image": "screens/snes/TomandJerry.png",
         "width": 512
     },
     {
         "title": "Bronkie the Bronchiasaurus",
-        "image": "BronkietheBronchiasaurus.png",
+        "image": "screens/snes/BronkietheBronchiasaurus.png",
         "width": 512
     },
     {
         "title": "Lufia",
-        "image": "Lufia.png",
+        "image": "screens/snes/Lufia.png",
         "width": 512
     },
     {
         "title": "Aladdin",
-        "image": "Aladdin.png",
+        "image": "screens/snes/Aladdin.png",
         "width": 512
     },
     {
         "title": "Casper",
-        "image": "Casper.png",
+        "image": "screens/snes/Casper.png",
         "width": 512
     },
     {
         "title": "Castlevania - Dracula X",
-        "image": "CastlevaniaDraculaX.png",
+        "image": "screens/snes/CastlevaniaDraculaX.png",
         "width": 512
     },
     {
         "title": "Virtual Bart",
-        "image": "VirtualBart.png",
+        "image": "screens/snes/VirtualBart.png",
         "width": 512
     },
     {
         "title": "Darius Twin",
-        "image": "DariusTwin.png",
+        "image": "screens/snes/DariusTwin.png",
         "width": 512
     },
     {
         "title": "Pac-Man 2 - The New Adventures",
-        "image": "PacMan2TheNewAdventures.png",
+        "image": "screens/snes/PacMan2TheNewAdventures.png",
         "width": 512
     },
     {
         "title": "Arcana",
-        "image": "Arcana.png",
+        "image": "screens/snes/Arcana.png",
         "width": 512
     },
     {
         "title": "Tetris _ Dr. Mario",
-        "image": "TetrisDr.Mario.png",
+        "image": "screens/snes/TetrisDr.Mario.png",
         "width": 512
     },
     {
         "title": "HyperZone",
-        "image": "HyperZone.png",
+        "image": "screens/snes/HyperZone.png",
         "width": 512
     },
     {
         "title": "Boxing Legends of the Ring",
-        "image": "BoxingLegendsoftheRing.png",
+        "image": "screens/snes/BoxingLegendsoftheRing.png",
         "width": 512
     },
     {
         "title": "Street Racer",
-        "image": "StreetRacer.png",
+        "image": "screens/snes/StreetRacer.png",
         "width": 512
     },
     {
         "title": "Inindo - Way of the Ninja",
-        "image": "InindoWayoftheNinja.png",
+        "image": "screens/snes/InindoWayoftheNinja.png",
         "width": 512
     },
     {
         "title": "Earthworm Jim 2",
-        "image": "EarthwormJim2.png",
+        "image": "screens/snes/EarthwormJim2.png",
         "width": 512
     },
     {
         "title": "Vortex",
-        "image": "Vortex.png",
+        "image": "screens/snes/Vortex.png",
         "width": 512
     },
     {
         "title": "Race Drivin'",
-        "image": "RaceDrivin.png",
+        "image": "screens/snes/RaceDrivin.png",
         "width": 512
     },
     {
         "title": "NBA Give 'n Go",
-        "image": "NBAGivenGo.png",
+        "image": "screens/snes/NBAGivenGo.png",
         "width": 512
     },
     {
         "title": "Wayne's World",
-        "image": "WaynesWorld.png",
+        "image": "screens/snes/WaynesWorld.png",
         "width": 512
     },
     {
         "title": "WWF Royal Rumble",
-        "image": "WWFRoyalRumble.png",
+        "image": "screens/snes/WWFRoyalRumble.png",
         "width": 512
     },
     {
         "title": "Football Fury",
-        "image": "FootballFury.png",
+        "image": "screens/snes/FootballFury.png",
         "width": 512
     },
     {
         "title": "Syndicate",
-        "image": "Syndicate.png",
+        "image": "screens/snes/Syndicate.png",
         "width": 512
     },
     {
         "title": "Barkley Shut Up and Jam!",
-        "image": "BarkleyShutUpandJam.png",
+        "image": "screens/snes/BarkleyShutUpandJam.png",
         "width": 512
     },
     {
         "title": "WarpSpeed",
-        "image": "WarpSpeed.png",
+        "image": "screens/snes/WarpSpeed.png",
         "width": 512
     },
     {
         "title": "Ultimate Fighter",
-        "image": "UltimateFighter.png",
+        "image": "screens/snes/UltimateFighter.png",
         "width": 512
     },
     {
         "title": "On the Ball",
-        "image": "OntheBall.png",
+        "image": "screens/snes/OntheBall.png",
         "width": 512
     },
     {
         "title": "Street Sports - Street Hockey '95",
-        "image": "StreetSportsStreetHockey95.png",
+        "image": "screens/snes/StreetSportsStreetHockey95.png",
         "width": 512
     },
     {
         "title": "Micro Machines",
-        "image": "MicroMachines.png",
+        "image": "screens/snes/MicroMachines.png",
         "width": 512
     },
     {
         "title": "Tiny Toon Adventures - Buster Busts Loose!",
-        "image": "TinyToonAdventuresBusterBustsLoose.png",
+        "image": "screens/snes/TinyToonAdventuresBusterBustsLoose.png",
         "width": 512
     },
     {
         "title": "Super Tennis",
-        "image": "SuperTennis.png",
+        "image": "screens/snes/SuperTennis.png",
         "width": 512
     },
     {
         "title": "Space Ace",
-        "image": "SpaceAce.png",
+        "image": "screens/snes/SpaceAce.png",
         "width": 512
     },
     {
         "title": "Ms. Pac-Man",
-        "image": "Ms.PacMan.png",
+        "image": "screens/snes/Ms.PacMan.png",
         "width": 512
     },
     {
         "title": "Mega Man Soccer",
-        "image": "MegaManSoccer.png",
+        "image": "screens/snes/MegaManSoccer.png",
         "width": 512
     },
     {
         "title": "Suzuka 8 Hours",
-        "image": "Suzuka8Hours.png",
+        "image": "screens/snes/Suzuka8Hours.png",
         "width": 512
     },
     {
         "title": "Ballz 3D - Fighting at Its Ballziest",
-        "image": "Ballz3DFightingatItsBallziest.png",
+        "image": "screens/snes/Ballz3DFightingatItsBallziest.png",
         "width": 512
     },
     {
         "title": "Williams Arcade's Greatest Hits",
-        "image": "WilliamsArcadesGreatestHits.png",
+        "image": "screens/snes/WilliamsArcadesGreatestHits.png",
         "width": 512
     },
     {
         "title": "College Football USA 97",
-        "image": "CollegeFootballUSA97.png",
+        "image": "screens/snes/CollegeFootballUSA97.png",
         "width": 512
     },
     {
         "title": "MechWarrior",
-        "image": "MechWarrior.png",
+        "image": "screens/snes/MechWarrior.png",
         "width": 512
     },
     {
         "title": "Ys III - Wanderers from Ys",
-        "image": "YsIIIWanderersfromYs.png",
+        "image": "screens/snes/YsIIIWanderersfromYs.png",
         "width": 512
     },
     {
         "title": "Olympic Summer Games",
-        "image": "OlympicSummerGames.png",
+        "image": "screens/snes/OlympicSummerGames.png",
         "width": 512
     },
     {
         "title": "Dirt Trax FX",
-        "image": "DirtTraxFX.png",
+        "image": "screens/snes/DirtTraxFX.png",
         "width": 512
     },
     {
         "title": "Jeopardy! - Deluxe Edition",
-        "image": "JeopardyDeluxeEdition.png",
+        "image": "screens/snes/JeopardyDeluxeEdition.png",
         "width": 512
     },
     {
         "title": "Super Scope 6",
-        "image": "SuperScope6.png",
+        "image": "screens/snes/SuperScope6.png",
         "width": 512
     },
     {
         "title": "Super Bomberman",
-        "image": "SuperBomberman.png",
+        "image": "screens/snes/SuperBomberman.png",
         "width": 512
     },
     {
         "title": "NHL Stanley Cup",
-        "image": "NHLStanleyCup.png",
+        "image": "screens/snes/NHLStanleyCup.png",
         "width": 512
     },
     {
         "title": "Adventures of Kid Kleets, The",
-        "image": "AdventuresofKidKleetsThe.png",
+        "image": "screens/snes/AdventuresofKidKleetsThe.png",
         "width": 512
     },
     {
         "title": "Zombies Ate My Neighbors",
-        "image": "ZombiesAteMyNeighbors.png",
+        "image": "screens/snes/ZombiesAteMyNeighbors.png",
         "width": 512
     },
     {
         "title": "Super Ninja Boy",
-        "image": "SuperNinjaBoy.png",
+        "image": "screens/snes/SuperNinjaBoy.png",
         "width": 512
     },
     {
         "title": "Ignition Factor, The",
-        "image": "IgnitionFactorThe.png",
+        "image": "screens/snes/IgnitionFactorThe.png",
         "width": 512
     },
     {
         "title": "Doomsday Warrior",
-        "image": "DoomsdayWarrior.png",
+        "image": "screens/snes/DoomsdayWarrior.png",
         "width": 512
     },
     {
         "title": "Street Sports - Jammit",
-        "image": "StreetSportsJammit.png",
+        "image": "screens/snes/StreetSportsJammit.png",
         "width": 512
     },
     {
         "title": "Time Slip",
-        "image": "TimeSlip.png",
+        "image": "screens/snes/TimeSlip.png",
         "width": 512
     },
     {
         "title": "Rocketeer, The",
-        "image": "RocketeerThe.png",
+        "image": "screens/snes/RocketeerThe.png",
         "width": 512
     },
     {
         "title": "Out to Lunch",
-        "image": "OuttoLunch.png",
+        "image": "screens/snes/OuttoLunch.png",
         "width": 512
     },
     {
         "title": "Sid Meier's Civilization",
-        "image": "SidMeiersCivilization.png",
+        "image": "screens/snes/SidMeiersCivilization.png",
         "width": 512
     },
     {
         "title": "Star Fox 2",
-        "image": "StarFox2.png",
+        "image": "screens/snes/StarFox2.png",
         "width": 512
     },
     {
         "title": "Bonkers",
-        "image": "Bonkers.png",
+        "image": "screens/snes/Bonkers.png",
         "width": 512
     },
     {
         "title": "Michael Andretti's IndyCar Challenge",
-        "image": "MichaelAndrettisIndyCarChallenge.png",
+        "image": "screens/snes/MichaelAndrettisIndyCarChallenge.png",
         "width": 512
     },
     {
         "title": "Miracle Piano Teaching System, The",
-        "image": "MiraclePianoTeachingSystemThe.png",
+        "image": "screens/snes/MiraclePianoTeachingSystemThe.png",
         "width": 512
     },
     {
         "title": "Twisted Tales of Spike McFang, The",
-        "image": "TwistedTalesofSpikeMcFangThe.png",
+        "image": "screens/snes/TwistedTalesofSpikeMcFangThe.png",
         "width": 512
     },
     {
         "title": "CutThroat Island",
-        "image": "CutThroatIsland.png",
+        "image": "screens/snes/CutThroatIsland.png",
         "width": 512
     },
     {
         "title": "Super Black Bass",
-        "image": "SuperBlackBass.png",
+        "image": "screens/snes/SuperBlackBass.png",
         "width": 512
     },
     {
         "title": "Smart Ball",
-        "image": "SmartBall.png",
+        "image": "screens/snes/SmartBall.png",
         "width": 512
     },
     {
         "title": "Super Putty",
-        "image": "SuperPutty.png",
+        "image": "screens/snes/SuperPutty.png",
         "width": 512
     },
     {
         "title": "Super Pinball - Behind the Mask",
-        "image": "SuperPinballBehindtheMask.png",
+        "image": "screens/snes/SuperPinballBehindtheMask.png",
         "width": 512
     },
     {
         "title": "Super Strike Eagle",
-        "image": "SuperStrikeEagle.png",
+        "image": "screens/snes/SuperStrikeEagle.png",
         "width": 512
     },
     {
         "title": "Tecmo Super Baseball",
-        "image": "TecmoSuperBaseball.png",
+        "image": "screens/snes/TecmoSuperBaseball.png",
         "width": 512
     },
     {
         "title": "Might and Magic III - Isles of Terra",
-        "image": "MightandMagicIIIIslesofTerra.png",
+        "image": "screens/snes/MightandMagicIIIIslesofTerra.png",
         "width": 512
     },
     {
         "title": "Aerobiz Supersonic",
-        "image": "AerobizSupersonic.png",
+        "image": "screens/snes/AerobizSupersonic.png",
         "width": 512
     },
     {
         "title": "New Horizons",
-        "image": "NewHorizons.png",
+        "image": "screens/snes/NewHorizons.png",
         "width": 512
     },
     {
         "title": "MechWarrior 3050",
-        "image": "MechWarrior3050.png",
+        "image": "screens/snes/MechWarrior3050.png",
         "width": 512
     },
     {
         "title": "Super Battleship",
-        "image": "SuperBattleship.png",
+        "image": "screens/snes/SuperBattleship.png",
         "width": 512
     },
     {
         "title": "Cyber Spin",
-        "image": "CyberSpin.png",
+        "image": "screens/snes/CyberSpin.png",
         "width": 512
     },
     {
         "title": "War 2410",
-        "image": "War2410.png",
+        "image": "screens/snes/War2410.png",
         "width": 512
     },
     {
         "title": "Brandish",
-        "image": "Brandish.png",
+        "image": "screens/snes/Brandish.png",
         "width": 512
     },
     {
         "title": "Strike Gunner S.T.G",
-        "image": "StrikeGunnerS.T.G.png",
+        "image": "screens/snes/StrikeGunnerS.T.G.png",
         "width": 512
     },
     {
         "title": "NBA All-Star Challenge",
-        "image": "NBAAllStarChallenge.png",
+        "image": "screens/snes/NBAAllStarChallenge.png",
         "width": 512
     },
     {
         "title": "Dragon's Lair",
-        "image": "DragonsLair.png",
+        "image": "screens/snes/DragonsLair.png",
         "width": 512
     },
     {
         "title": "Troy Aikman NFL Football",
-        "image": "TroyAikmanNFLFootball.png",
+        "image": "screens/snes/TroyAikmanNFLFootball.png",
         "width": 512
     },
     {
         "title": "Mighty Morphin Power Rangers",
-        "image": "MightyMorphinPowerRangers.png",
+        "image": "screens/snes/MightyMorphinPowerRangers.png",
         "width": 512
     },
     {
         "title": "FireStriker",
-        "image": "FireStriker.png",
+        "image": "screens/snes/FireStriker.png",
         "width": 512
     },
     {
         "title": "International Superstar Soccer Deluxe",
-        "image": "InternationalSuperstarSoccerDeluxe.png",
+        "image": "screens/snes/InternationalSuperstarSoccerDeluxe.png",
         "width": 512
     },
     {
         "title": "Home Alone 2 - Lost in New York",
-        "image": "HomeAlone2LostinNewYork.png",
+        "image": "screens/snes/HomeAlone2LostinNewYork.png",
         "width": 512
     },
     {
         "title": "Stone Protectors",
-        "image": "StoneProtectors.png",
+        "image": "screens/snes/StoneProtectors.png",
         "width": 512
     },
     {
         "title": "WWF WrestleMania - The Arcade Game",
-        "image": "WWFWrestleManiaTheArcadeGame.png",
+        "image": "screens/snes/WWFWrestleManiaTheArcadeGame.png",
         "width": 512
     },
     {
         "title": "Super Castlevania IV",
-        "image": "SuperCastlevaniaIV.png",
+        "image": "screens/snes/SuperCastlevaniaIV.png",
         "width": 512
     },
     {
         "title": "Liberty or Death",
-        "image": "LibertyorDeath.png",
+        "image": "screens/snes/LibertyorDeath.png",
         "width": 512
     },
     {
         "title": "Outlander",
-        "image": "Outlander.png",
+        "image": "screens/snes/Outlander.png",
         "width": 512
     },
     {
         "title": "NBA Live 97",
-        "image": "NBALive97.png",
+        "image": "screens/snes/NBALive97.png",
         "width": 512
     },
     {
         "title": "ACME Animation Factory",
-        "image": "ACMEAnimationFactory.png",
+        "image": "screens/snes/ACMEAnimationFactory.png",
         "width": 512
     },
     {
         "title": "F1 Pole Position",
-        "image": "F1PolePosition.png",
+        "image": "screens/snes/F1PolePosition.png",
         "width": 512
     },
     {
         "title": "Spider-Man",
-        "image": "SpiderMan.png",
+        "image": "screens/snes/SpiderMan.png",
         "width": 512
     },
     {
         "title": "Mighty Morphin Power Rangers - The Fighting Edition",
-        "image": "MightyMorphinPowerRangersTheFightingEdition.png",
+        "image": "screens/snes/MightyMorphinPowerRangersTheFightingEdition.png",
         "width": 512
     },
     {
         "title": "NBA Live 98",
-        "image": "NBALive98.png",
+        "image": "screens/snes/NBALive98.png",
         "width": 512
     },
     {
         "title": "WWF Raw",
-        "image": "WWFRaw.png",
+        "image": "screens/snes/WWFRaw.png",
         "width": 512
     },
     {
         "title": "FIFA Soccer 96",
-        "image": "FIFASoccer96.png",
+        "image": "screens/snes/FIFASoccer96.png",
         "width": 512
     },
     {
         "title": "Irem Skins Game, The",
-        "image": "IremSkinsGameThe.png",
+        "image": "screens/snes/IremSkinsGameThe.png",
         "width": 512
     },
     {
         "title": "Star Trek - Starfleet Academy - Starship Bridge Simulator",
-        "image": "StarTrekStarfleetAcademyStarshipBridgeSimulator.png",
+        "image": "screens/snes/StarTrekStarfleetAcademyStarshipBridgeSimulator.png",
         "width": 512
     },
     {
         "title": "Barbie Super Model",
-        "image": "BarbieSuperModel.png",
+        "image": "screens/snes/BarbieSuperModel.png",
         "width": 512
     },
     {
         "title": "Brainies, The",
-        "image": "BrainiesThe.png",
+        "image": "screens/snes/BrainiesThe.png",
         "width": 512
     },
     {
         "title": "Fatal Fury",
-        "image": "FatalFury.png",
+        "image": "screens/snes/FatalFury.png",
         "width": 512
     },
     {
         "title": "Vegas Stakes",
-        "image": "VegasStakes.png",
+        "image": "screens/snes/VegasStakes.png",
         "width": 512
     },
     {
         "title": "Teenage Mutant Ninja Turtles - Tournament Fighters",
-        "image": "TeenageMutantNinjaTurtlesTournamentFighters.png",
+        "image": "screens/snes/TeenageMutantNinjaTurtlesTournamentFighters.png",
         "width": 512
     },
     {
         "title": "Kirby's Dream Course",
-        "image": "KirbysDreamCourse.png",
+        "image": "screens/snes/KirbysDreamCourse.png",
         "width": 512
     },
     {
         "title": "Math Blaster - Episode 1",
-        "image": "MathBlasterEpisode1.png",
+        "image": "screens/snes/MathBlasterEpisode1.png",
         "width": 512
     },
     {
         "title": "Shadowrun",
-        "image": "Shadowrun.png",
+        "image": "screens/snes/Shadowrun.png",
         "width": 512
     },
     {
         "title": "Exertainment Mountain Bike Rally",
-        "image": "ExertainmentMountainBikeRally.png",
+        "image": "screens/snes/ExertainmentMountainBikeRally.png",
         "width": 512
     },
     {
         "title": "Super Conflict",
-        "image": "SuperConflict.png",
+        "image": "screens/snes/SuperConflict.png",
         "width": 512
     },
     {
         "title": "Lion King, The",
-        "image": "LionKingThe.png",
+        "image": "screens/snes/LionKingThe.png",
         "width": 512
     },
     {
         "title": "Knights of the Round",
-        "image": "KnightsoftheRound.png",
+        "image": "screens/snes/KnightsoftheRound.png",
         "width": 512
     },
     {
         "title": "Rival Turf!",
-        "image": "RivalTurf.png",
+        "image": "screens/snes/RivalTurf.png",
         "width": 512
     },
     {
         "title": "Space Football - One on One",
-        "image": "SpaceFootballOneonOne.png",
+        "image": "screens/snes/SpaceFootballOneonOne.png",
         "width": 512
     },
     {
         "title": "Foreman for Real",
-        "image": "ForemanforReal.png",
+        "image": "screens/snes/ForemanforReal.png",
         "width": 512
     },
     {
         "title": "Family Feud",
-        "image": "FamilyFeud.png",
+        "image": "screens/snes/FamilyFeud.png",
         "width": 512
     },
     {
         "title": "Jungle Strike",
-        "image": "JungleStrike.png",
+        "image": "screens/snes/JungleStrike.png",
         "width": 512
     },
     {
         "title": "Kirby's Dream Land 3",
-        "image": "KirbysDreamLand3.png",
+        "image": "screens/snes/KirbysDreamLand3.png",
         "width": 512
     },
     {
         "title": "Earth Defense Force",
-        "image": "EarthDefenseForce.png",
+        "image": "screens/snes/EarthDefenseForce.png",
         "width": 512
     },
     {
         "title": "ESPN Sunday Night NFL",
-        "image": "ESPNSundayNightNFL.png",
+        "image": "screens/snes/ESPNSundayNightNFL.png",
         "width": 512
     },
     {
         "title": "XBAND",
-        "image": "XBAND.png",
+        "image": "screens/snes/XBAND.png",
         "width": 512
     },
     {
         "title": "Super Buster Bros.",
-        "image": "SuperBusterBros..png",
+        "image": "screens/snes/SuperBusterBros..png",
         "width": 512
     },
     {
         "title": "Terranigma",
-        "image": "Terranigma.png",
+        "image": "screens/snes/Terranigma.png",
         "width": 512
     },
     {
         "title": "Super Off Road - The Baja",
-        "image": "SuperOffRoadTheBaja.png",
+        "image": "screens/snes/SuperOffRoadTheBaja.png",
         "width": 512
     },
     {
         "title": "PGA Tour 96",
-        "image": "PGATour96.png",
+        "image": "screens/snes/PGATour96.png",
         "width": 512
     },
     {
         "title": "Lost Vikings, The",
-        "image": "LostVikingsThe.png",
+        "image": "screens/snes/LostVikingsThe.png",
         "width": 512
     },
     {
         "title": "Brunswick World Tournament of Champions",
-        "image": "BrunswickWorldTournamentofChampions.png",
+        "image": "screens/snes/BrunswickWorldTournamentofChampions.png",
         "width": 512
     },
     {
         "title": "Super Off Road",
-        "image": "SuperOffRoad.png",
+        "image": "screens/snes/SuperOffRoad.png",
         "width": 512
     },
     {
         "title": "Monopoly",
-        "image": "Monopoly.png",
+        "image": "screens/snes/Monopoly.png",
         "width": 512
     },
     {
         "title": "Madden NFL 98",
-        "image": "MaddenNFL98.png",
+        "image": "screens/snes/MaddenNFL98.png",
         "width": 512
     },
     {
         "title": "MLBPA Baseball",
-        "image": "MLBPABaseball.png",
+        "image": "screens/snes/MLBPABaseball.png",
         "width": 512
     },
     {
         "title": "Power Piggs of the Dark Age",
-        "image": "PowerPiggsoftheDarkAge.png",
+        "image": "screens/snes/PowerPiggsoftheDarkAge.png",
         "width": 512
     },
     {
         "title": "GunForce",
-        "image": "GunForce.png",
+        "image": "screens/snes/GunForce.png",
         "width": 512
     },
     {
         "title": "Beauty and the Beast",
-        "image": "BeautyandtheBeast.png",
+        "image": "screens/snes/BeautyandtheBeast.png",
         "width": 512
     },
     {
         "title": "NFL Quarterback Club",
-        "image": "NFLQuarterbackClub.png",
+        "image": "screens/snes/NFLQuarterbackClub.png",
         "width": 512
     },
     {
         "title": "Final Fight 3",
-        "image": "FinalFight3.png",
+        "image": "screens/snes/FinalFight3.png",
         "width": 512
     },
     {
         "title": "Terminator, The",
-        "image": "TerminatorThe.png",
+        "image": "screens/snes/TerminatorThe.png",
         "width": 512
     },
     {
         "title": "Hagane - The Final Conflict",
-        "image": "HaganeTheFinalConflict.png",
+        "image": "screens/snes/HaganeTheFinalConflict.png",
         "width": 512
     },
     {
         "title": "Alien 3",
-        "image": "Alien3.png",
+        "image": "screens/snes/Alien3.png",
         "width": 512
     },
     {
         "title": "S.O.S - Sink or Swim",
-        "image": "S.O.SSinkorSwim.png",
+        "image": "screens/snes/S.O.SSinkorSwim.png",
         "width": 512
     },
     {
         "title": "James Bond Jr",
-        "image": "JamesBondJr.png",
+        "image": "screens/snes/JamesBondJr.png",
         "width": 512
     },
     {
         "title": "Operation Thunderbolt",
-        "image": "OperationThunderbolt.png",
+        "image": "screens/snes/OperationThunderbolt.png",
         "width": 512
     },
     {
         "title": "NHL 96",
-        "image": "NHL96.png",
+        "image": "screens/snes/NHL96.png",
         "width": 512
     },
     {
         "title": "E.V.O. - Search for Eden",
-        "image": "E.V.O.SearchforEden.png",
+        "image": "screens/snes/E.V.O.SearchforEden.png",
         "width": 512
     },
     {
         "title": "GP-1",
-        "image": "GP1.png",
+        "image": "screens/snes/GP1.png",
         "width": 512
     },
     {
         "title": "M.A.C.S. Basic Rifle Marksmanship",
-        "image": "M.A.C.S.BasicRifleMarksmanship.png",
+        "image": "screens/snes/M.A.C.S.BasicRifleMarksmanship.png",
         "width": 512
     },
     {
         "title": "Untouchables, The",
-        "image": "UntouchablesThe.png",
+        "image": "screens/snes/UntouchablesThe.png",
         "width": 512
     },
     {
         "title": "Chrono Trigger",
-        "image": "ChronoTrigger.png",
+        "image": "screens/snes/ChronoTrigger.png",
         "width": 512
     },
     {
         "title": "Ken Griffey Jr.'s Winning Run",
-        "image": "KenGriffeyJr.sWinningRun.png",
+        "image": "screens/snes/KenGriffeyJr.sWinningRun.png",
         "width": 512
     },
     {
         "title": "Madden NFL 97",
-        "image": "MaddenNFL97.png",
+        "image": "screens/snes/MaddenNFL97.png",
         "width": 512
     },
     {
         "title": "Full Throttle - All-American Racing",
-        "image": "FullThrottleAllAmericanRacing.png",
+        "image": "screens/snes/FullThrottleAllAmericanRacing.png",
         "width": 512
     },
     {
         "title": "Xardion",
-        "image": "Xardion.png",
+        "image": "screens/snes/Xardion.png",
         "width": 512
     },
     {
         "title": "Adventures of Batman _ Robin, The",
-        "image": "AdventuresofBatmanRobinThe.png",
+        "image": "screens/snes/AdventuresofBatmanRobinThe.png",
         "width": 512
     },
     {
         "title": "Taz-Mania",
-        "image": "TazMania.png",
+        "image": "screens/snes/TazMania.png",
         "width": 512
     },
     {
         "title": "Wheel of Fortune - Deluxe Edition",
-        "image": "WheelofFortuneDeluxeEdition.png",
+        "image": "screens/snes/WheelofFortuneDeluxeEdition.png",
         "width": 512
     },
     {
         "title": "Carrier Aces",
-        "image": "CarrierAces.png",
+        "image": "screens/snes/CarrierAces.png",
         "width": 512
     },
     {
         "title": "Mecarobot Golf",
-        "image": "MecarobotGolf.png",
+        "image": "screens/snes/MecarobotGolf.png",
         "width": 512
     },
     {
         "title": "Kirby Super Star",
-        "image": "KirbySuperStar.png",
+        "image": "screens/snes/KirbySuperStar.png",
         "width": 512
     },
     {
         "title": "Home Improvement - Power Tool Pursuit!",
-        "image": "HomeImprovementPowerToolPursuit.png",
+        "image": "screens/snes/HomeImprovementPowerToolPursuit.png",
         "width": 512
     },
     {
         "title": "Tetris 2",
-        "image": "Tetris2.png",
+        "image": "screens/snes/Tetris2.png",
         "width": 512
     },
     {
         "title": "Trials of Mana",
-        "image": "TrialsofMana.png",
+        "image": "screens/snes/TrialsofMana.png",
         "width": 512
     },
     {
         "title": "Art of Fighting",
-        "image": "ArtofFighting.png",
+        "image": "screens/snes/ArtofFighting.png",
         "width": 512
     },
     {
         "title": "Warlock",
-        "image": "Warlock.png",
+        "image": "screens/snes/Warlock.png",
         "width": 512
     },
     {
         "title": "Kyle Petty's No Fear Racing",
-        "image": "KylePettysNoFearRacing.png",
+        "image": "screens/snes/KylePettysNoFearRacing.png",
         "width": 512
     },
     {
         "title": "NBA Live 95",
-        "image": "NBALive95.png",
+        "image": "screens/snes/NBALive95.png",
         "width": 512
     },
     {
         "title": "Mario's Early Years - Fun with Letters",
-        "image": "MariosEarlyYearsFunwithLetters.png",
+        "image": "screens/snes/MariosEarlyYearsFunwithLetters.png",
         "width": 512
     },
     {
         "title": "NBA Live 96",
-        "image": "NBALive96.png",
+        "image": "screens/snes/NBALive96.png",
         "width": 512
     },
     {
         "title": "Radical Rex",
-        "image": "RadicalRex.png",
+        "image": "screens/snes/RadicalRex.png",
         "width": 512
     },
     {
         "title": "PGA Tour Golf",
-        "image": "PGATourGolf.png",
+        "image": "screens/snes/PGATourGolf.png",
         "width": 512
     },
     {
         "title": "Wolfenstein 3-D",
-        "image": "Wolfenstein3D.png",
+        "image": "screens/snes/Wolfenstein3D.png",
         "width": 512
     },
     {
         "title": "Congo's Caper",
-        "image": "CongosCaper.png",
+        "image": "screens/snes/CongosCaper.png",
         "width": 512
     },
     {
         "title": "Timon _ Pumbaa's Jungle Games",
-        "image": "TimonPumbaasJungleGames.png",
+        "image": "screens/snes/TimonPumbaasJungleGames.png",
         "width": 512
     },
     {
         "title": "Pinball Dreams",
-        "image": "PinballDreams.png",
+        "image": "screens/snes/PinballDreams.png",
         "width": 512
     },
     {
         "title": "Clay Fighter",
-        "image": "ClayFighter.png",
+        "image": "screens/snes/ClayFighter.png",
         "width": 512
     },
     {
         "title": "Final Fight 2",
-        "image": "FinalFight2.png",
+        "image": "screens/snes/FinalFight2.png",
         "width": 512
     },
     {
         "title": "Inspector Gadget",
-        "image": "InspectorGadget.png",
+        "image": "screens/snes/InspectorGadget.png",
         "width": 512
     },
     {
         "title": "Madden NFL '94",
-        "image": "MaddenNFL94.png",
+        "image": "screens/snes/MaddenNFL94.png",
         "width": 512
     },
     {
         "title": "Street Fighter Alpha 2",
-        "image": "StreetFighterAlpha2.png",
+        "image": "screens/snes/StreetFighterAlpha2.png",
         "width": 512
     },
     {
         "title": "Super Copa",
-        "image": "SuperCopa.png",
+        "image": "screens/snes/SuperCopa.png",
         "width": 512
     },
     {
         "title": "Tin Star",
-        "image": "TinStar.png",
+        "image": "screens/snes/TinStar.png",
         "width": 512
     },
     {
         "title": "California Games II",
-        "image": "CaliforniaGamesII.png",
+        "image": "screens/snes/CaliforniaGamesII.png",
         "width": 512
     },
     {
         "title": "Flintstones, The",
-        "image": "FlintstonesThe.png",
+        "image": "screens/snes/FlintstonesThe.png",
         "width": 512
     },
     {
         "title": "Sunset Riders",
-        "image": "SunsetRiders.png",
+        "image": "screens/snes/SunsetRiders.png",
         "width": 512
     },
     {
         "title": "Elite Soccer",
-        "image": "EliteSoccer.png",
+        "image": "screens/snes/EliteSoccer.png",
         "width": 512
     },
     {
         "title": "Road Riot 4WD",
-        "image": "RoadRiot4WD.png",
+        "image": "screens/snes/RoadRiot4WD.png",
         "width": 512
     },
     {
         "title": "SeaQuest DSV",
-        "image": "SeaQuestDSV.png",
+        "image": "screens/snes/SeaQuestDSV.png",
         "width": 512
     },
     {
         "title": "Battle Cars",
-        "image": "BattleCars.png",
+        "image": "screens/snes/BattleCars.png",
         "width": 512
     },
     {
         "title": "Bill Laimbeer's Combat Basketball",
-        "image": "BillLaimbeersCombatBasketball.png",
+        "image": "screens/snes/BillLaimbeersCombatBasketball.png",
         "width": 512
     },
     {
         "title": "Lemmings",
-        "image": "Lemmings.png",
+        "image": "screens/snes/Lemmings.png",
         "width": 512
     },
     {
         "title": "Paladin's Quest",
-        "image": "PaladinsQuest.png",
+        "image": "screens/snes/PaladinsQuest.png",
         "width": 512
     },
     {
         "title": "Newman Haas IndyCar featuring Nigel Mansell",
-        "image": "NewmanHaasIndyCarfeaturingNigelMansell.png",
+        "image": "screens/snes/NewmanHaasIndyCarfeaturingNigelMansell.png",
         "width": 512
     },
     {
         "title": "Kid Klown in Crazy Chase",
-        "image": "KidKlowninCrazyChase.png",
+        "image": "screens/snes/KidKlowninCrazyChase.png",
         "width": 512
     },
     {
         "title": "Operation Europe - Path to Victory 1939-45",
-        "image": "OperationEuropePathtoVictory193945.png",
+        "image": "screens/snes/OperationEuropePathtoVictory193945.png",
         "width": 512
     },
     {
         "title": "Super Caesars Palace",
-        "image": "SuperCaesarsPalace.png",
+        "image": "screens/snes/SuperCaesarsPalace.png",
         "width": 512
     },
     {
         "title": "Super Mario World 2 - Yoshi's Island",
-        "image": "SuperMarioWorld2YoshisIsland.png",
+        "image": "screens/snes/SuperMarioWorld2YoshisIsland.png",
         "width": 512
     },
     {
         "title": "Aero the Acro-Bat",
-        "image": "AerotheAcroBat.png",
+        "image": "screens/snes/AerotheAcroBat.png",
         "width": 512
     },
     {
         "title": "Shaq-Fu",
-        "image": "ShaqFu.png",
+        "image": "screens/snes/ShaqFu.png",
         "width": 512
     },
     {
         "title": "Magic Boy",
-        "image": "MagicBoy.png",
+        "image": "screens/snes/MagicBoy.png",
         "width": 512
     },
     {
         "title": "Lufia _ The Fortress of Doom",
-        "image": "LufiaTheFortressofDoom.png",
+        "image": "screens/snes/LufiaTheFortressofDoom.png",
         "width": 512
     },
     {
         "title": "P.T.O. - Pacific Theater of Operations",
-        "image": "P.T.O.PacificTheaterofOperations.png",
+        "image": "screens/snes/P.T.O.PacificTheaterofOperations.png",
         "width": 512
     },
     {
         "title": "Ardy Lightfoot",
-        "image": "ArdyLightfoot.png",
+        "image": "screens/snes/ArdyLightfoot.png",
         "width": 512
     },
     {
         "title": "Wolfchild",
-        "image": "Wolfchild.png",
+        "image": "screens/snes/Wolfchild.png",
         "width": 512
     },
     {
         "title": "Steel Talons",
-        "image": "SteelTalons.png",
+        "image": "screens/snes/SteelTalons.png",
         "width": 512
     },
     {
         "title": "Mortal Kombat II",
-        "image": "MortalKombatII.png",
+        "image": "screens/snes/MortalKombatII.png",
         "width": 512
     },
     {
         "title": "Capcom's MVP Football",
-        "image": "CapcomsMVPFootball.png",
+        "image": "screens/snes/CapcomsMVPFootball.png",
         "width": 512
     },
     {
         "title": "Super Star Wars",
-        "image": "SuperStarWars.png",
+        "image": "screens/snes/SuperStarWars.png",
         "width": 512
     },
     {
         "title": "Adventures of Rocky and Bullwinkle and Friends, The",
-        "image": "AdventuresofRockyandBullwinkleandFriendsThe.png",
+        "image": "screens/snes/AdventuresofRockyandBullwinkleandFriendsThe.png",
         "width": 512
     },
     {
         "title": "Super Turrican 2",
-        "image": "SuperTurrican2.png",
+        "image": "screens/snes/SuperTurrican2.png",
         "width": 512
     },
     {
         "title": "Relief Pitcher",
-        "image": "ReliefPitcher.png",
+        "image": "screens/snes/ReliefPitcher.png",
         "width": 512
     },
     {
         "title": "Toy Story",
-        "image": "ToyStory.png",
+        "image": "screens/snes/ToyStory.png",
         "width": 512
     },
     {
         "title": "Brawl Brothers",
-        "image": "BrawlBrothers.png",
+        "image": "screens/snes/BrawlBrothers.png",
         "width": 512
     },
     {
         "title": "Urban Strike",
-        "image": "UrbanStrike.png",
+        "image": "screens/snes/UrbanStrike.png",
         "width": 512
     },
     {
         "title": "Breath of Fire",
-        "image": "BreathofFire.png",
+        "image": "screens/snes/BreathofFire.png",
         "width": 512
     },
     {
         "title": "Pieces",
-        "image": "Pieces.png",
+        "image": "screens/snes/Pieces.png",
         "width": 512
     },
     {
         "title": "Ka-blooey",
-        "image": "Kablooey.png",
+        "image": "screens/snes/Kablooey.png",
         "width": 512
     },
     {
         "title": "Tetris Attack",
-        "image": "TetrisAttack.png",
+        "image": "screens/snes/TetrisAttack.png",
         "width": 512
     },
     {
         "title": "Battle Clash",
-        "image": "BattleClash.png",
+        "image": "screens/snes/BattleClash.png",
         "width": 512
     },
     {
         "title": "Super R-Type",
-        "image": "SuperRType.png",
+        "image": "screens/snes/SuperRType.png",
         "width": 512
     },
     {
         "title": "Flintstones, The - The Treasure of Sierra Madrock",
-        "image": "FlintstonesTheTheTreasureofSierraMadrock.png",
+        "image": "screens/snes/FlintstonesTheTheTreasureofSierraMadrock.png",
         "width": 512
     },
     {
         "title": "Garry Kitchen's Super Battletank - War in the Gulf",
-        "image": "GarryKitchensSuperBattletankWarintheGulf.png",
+        "image": "screens/snes/GarryKitchensSuperBattletankWarintheGulf.png",
         "width": 512
     },
     {
         "title": "Super Turrican",
-        "image": "SuperTurrican.png",
+        "image": "screens/snes/SuperTurrican.png",
         "width": 512
     },
     {
         "title": "Ren _ Stimpy Show, The - Veediots!",
-        "image": "RenStimpyShowTheVeediots.png",
+        "image": "screens/snes/RenStimpyShowTheVeediots.png",
         "width": 512
     },
     {
         "title": "Super Adventure Island",
-        "image": "SuperAdventureIsland.png",
+        "image": "screens/snes/SuperAdventureIsland.png",
         "width": 512
     },
     {
         "title": "Aero Fighters",
-        "image": "AeroFighters.png",
+        "image": "screens/snes/AeroFighters.png",
         "width": 512
     },
     {
         "title": "Lagoon",
-        "image": "Lagoon.png",
+        "image": "screens/snes/Lagoon.png",
         "width": 512
     },
     {
         "title": "Ninjawarriors",
-        "image": "Ninjawarriors.png",
+        "image": "screens/snes/Ninjawarriors.png",
         "width": 512
     },
     {
         "title": "Champions - World Class Soccer",
-        "image": "ChampionsWorldClassSoccer.png",
+        "image": "screens/snes/ChampionsWorldClassSoccer.png",
         "width": 512
     },
     {
         "title": "Space Megaforce",
-        "image": "SpaceMegaforce.png",
+        "image": "screens/snes/SpaceMegaforce.png",
         "width": 512
     },
     {
         "title": "Ghoul Patrol",
-        "image": "GhoulPatrol.png",
+        "image": "screens/snes/GhoulPatrol.png",
         "width": 512
     },
     {
         "title": "Cal Ripken Jr. Baseball",
-        "image": "CalRipkenJr.Baseball.png",
+        "image": "screens/snes/CalRipkenJr.Baseball.png",
         "width": 512
     },
     {
         "title": "Zool - Ninja of the 'Nth' Dimension",
-        "image": "ZoolNinjaoftheNthDimension.png",
+        "image": "screens/snes/ZoolNinjaoftheNthDimension.png",
         "width": 512
     },
     {
         "title": "Super Ghouls 'N Ghosts",
-        "image": "SuperGhoulsNGhosts.png",
+        "image": "screens/snes/SuperGhoulsNGhosts.png",
         "width": 512
     },
     {
         "title": "Fatal Fury 2",
-        "image": "FatalFury2.png",
+        "image": "screens/snes/FatalFury2.png",
         "width": 512
     },
     {
         "title": "Samurai Shodown",
-        "image": "SamuraiShodown.png",
+        "image": "screens/snes/SamuraiShodown.png",
         "width": 512
     },
     {
         "title": "Spindizzy Worlds",
-        "image": "SpindizzyWorlds.png",
+        "image": "screens/snes/SpindizzyWorlds.png",
         "width": 512
     },
     {
         "title": "Pirates of Dark Water, The",
-        "image": "PiratesofDarkWaterThe.png",
+        "image": "screens/snes/PiratesofDarkWaterThe.png",
         "width": 512
     },
     {
         "title": "We're Back! - A Dinosaur's Story",
-        "image": "WereBackADinosaursStory.png",
+        "image": "screens/snes/WereBackADinosaursStory.png",
         "width": 512
     },
     {
         "title": "Jetsons, The - Invasion of the Planet Pirates",
-        "image": "JetsonsTheInvasionofthePlanetPirates.png",
+        "image": "screens/snes/JetsonsTheInvasionofthePlanetPirates.png",
         "width": 512
     },
     {
         "title": "Firepower 2000",
-        "image": "Firepower2000.png",
+        "image": "screens/snes/Firepower2000.png",
         "width": 512
     },
     {
         "title": "Mortal Kombat 3",
-        "image": "MortalKombat3.png",
+        "image": "screens/snes/MortalKombat3.png",
         "width": 512
     },
     {
         "title": "Radical Psycho Machine Racing",
-        "image": "RadicalPsychoMachineRacing.png",
+        "image": "screens/snes/RadicalPsychoMachineRacing.png",
         "width": 512
     },
     {
         "title": "Super Bases Loaded",
-        "image": "SuperBasesLoaded.png",
+        "image": "screens/snes/SuperBasesLoaded.png",
         "width": 512
     },
     {
         "title": "Donkey Kong Country 2 - Diddy's Kong Quest",
-        "image": "DonkeyKongCountry2DiddysKongQuest.png",
+        "image": "screens/snes/DonkeyKongCountry2DiddysKongQuest.png",
         "width": 512
     },
     {
         "title": "Cybernator",
-        "image": "Cybernator.png",
+        "image": "screens/snes/Cybernator.png",
         "width": 512
     },
     {
         "title": "Mega Man X2",
-        "image": "MegaManX2.png",
+        "image": "screens/snes/MegaManX2.png",
         "width": 512
     },
     {
         "title": "Final Fight Guy",
-        "image": "FinalFightGuy.png",
+        "image": "screens/snes/FinalFightGuy.png",
         "width": 512
     },
     {
         "title": "Beethoven - The Ultimate Canine Caper!",
-        "image": "BeethovenTheUltimateCanineCaper.png",
+        "image": "screens/snes/BeethovenTheUltimateCanineCaper.png",
         "width": 512
     },
     {
         "title": "Populous",
-        "image": "Populous.png",
+        "image": "screens/snes/Populous.png",
         "width": 512
     },
     {
         "title": "World League Soccer",
-        "image": "WorldLeagueSoccer.png",
+        "image": "screens/snes/WorldLeagueSoccer.png",
         "width": 512
     },
     {
         "title": "Faceball 2000",
-        "image": "Faceball2000.png",
+        "image": "screens/snes/Faceball2000.png",
         "width": 512
     },
     {
         "title": "Nobunaga's Ambition",
-        "image": "NobunagasAmbition.png",
+        "image": "screens/snes/NobunagasAmbition.png",
         "width": 512
     },
     {
         "title": "Secret of Mana",
-        "image": "SecretofMana.png",
+        "image": "screens/snes/SecretofMana.png",
         "width": 512
     },
     {
         "title": "F-Zero",
-        "image": "FZero.png",
+        "image": "screens/snes/FZero.png",
         "width": 512
     },
     {
         "title": "Clue",
-        "image": "Clue.png",
+        "image": "screens/snes/Clue.png",
         "width": 512
     },
     {
         "title": "Great Circus Mystery Starring Mickey _ Minnie, The",
-        "image": "GreatCircusMysteryStarringMickeyMinnieThe.png",
+        "image": "screens/snes/GreatCircusMysteryStarringMickeyMinnieThe.png",
         "width": 512
     },
     {
         "title": "Hyper V-Ball",
-        "image": "HyperVBall.png",
+        "image": "screens/snes/HyperVBall.png",
         "width": 512
     },
     {
         "title": "Boogerman - A Pick and Flick Adventure",
-        "image": "BoogermanAPickandFlickAdventure.png",
+        "image": "screens/snes/BoogermanAPickandFlickAdventure.png",
         "width": 512
     },
     {
         "title": "Super Mario RPG - Legend of the Seven Stars",
-        "image": "SuperMarioRPGLegendoftheSevenStars.png",
+        "image": "screens/snes/SuperMarioRPGLegendoftheSevenStars.png",
         "width": 512
     },
     {
         "title": "Dragon - The Bruce Lee Story",
-        "image": "DragonTheBruceLeeStory.png",
+        "image": "screens/snes/DragonTheBruceLeeStory.png",
         "width": 512
     },
     {
         "title": "Super Godzilla",
-        "image": "SuperGodzilla.png",
+        "image": "screens/snes/SuperGodzilla.png",
         "width": 512
     },
     {
         "title": "Super High Impact",
-        "image": "SuperHighImpact.png",
+        "image": "screens/snes/SuperHighImpact.png",
         "width": 512
     },
     {
         "title": "Natsume Championship Wrestling",
-        "image": "NatsumeChampionshipWrestling.png",
+        "image": "screens/snes/NatsumeChampionshipWrestling.png",
         "width": 512
     },
     {
         "title": "Snow White in Happily Ever After",
-        "image": "SnowWhiteinHappilyEverAfter.png",
+        "image": "screens/snes/SnowWhiteinHappilyEverAfter.png",
         "width": 512
     },
     {
         "title": "Legend of the Mystical Ninja, The",
-        "image": "LegendoftheMysticalNinjaThe.png",
+        "image": "screens/snes/LegendoftheMysticalNinjaThe.png",
         "width": 512
     },
     {
         "title": "Dragon Ball Z - Chomutujeon",
-        "image": "DragonBallZChomutujeon.png",
+        "image": "screens/snes/DragonBallZChomutujeon.png",
         "width": 512
     },
     {
         "title": "Super James Pond",
-        "image": "SuperJamesPond.png",
+        "image": "screens/snes/SuperJamesPond.png",
         "width": 512
     },
     {
         "title": "Shanghai II - Dragon's Eye",
-        "image": "ShanghaiIIDragonsEye.png",
+        "image": "screens/snes/ShanghaiIIDragonsEye.png",
         "width": 512
     },
     {
         "title": "Prehistorik Man",
-        "image": "PrehistorikMan.png",
+        "image": "screens/snes/PrehistorikMan.png",
         "width": 512
     },
     {
         "title": "David Crane's Amazing Tennis",
-        "image": "DavidCranesAmazingTennis.png",
+        "image": "screens/snes/DavidCranesAmazingTennis.png",
         "width": 512
     },
     {
         "title": "B.O.B.",
-        "image": "B.O.B..png",
+        "image": "screens/snes/B.O.B..png",
         "width": 512
     },
     {
         "title": "Captain America and the Avengers",
-        "image": "CaptainAmericaandtheAvengers.png",
+        "image": "screens/snes/CaptainAmericaandtheAvengers.png",
         "width": 512
     },
     {
         "title": "King of the Monsters",
-        "image": "KingoftheMonsters.png",
+        "image": "screens/snes/KingoftheMonsters.png",
         "width": 512
     },
     {
         "title": "Run Saber",
-        "image": "RunSaber.png",
+        "image": "screens/snes/RunSaber.png",
         "width": 512
     },
     {
         "title": "Top Gear 2",
-        "image": "TopGear2.png",
+        "image": "screens/snes/TopGear2.png",
         "width": 512
     },
     {
         "title": "Blues Brothers, The",
-        "image": "BluesBrothersThe.png",
+        "image": "screens/snes/BluesBrothersThe.png",
         "width": 512
     },
     {
         "title": "Ren _ Stimpy Show, The - Buckeroo$!",
-        "image": "RenStimpyShowTheBuckeroo.png",
+        "image": "screens/snes/RenStimpyShowTheBuckeroo.png",
         "width": 512
     },
     {
         "title": "Wizard of Oz, The",
-        "image": "WizardofOzThe.png",
+        "image": "screens/snes/WizardofOzThe.png",
         "width": 512
     },
     {
         "title": "Adventures of Yogi Bear",
-        "image": "AdventuresofYogiBear.png",
+        "image": "screens/snes/AdventuresofYogiBear.png",
         "width": 512
     },
     {
         "title": "Simpsons, The - Bart's Nightmare",
-        "image": "SimpsonsTheBartsNightmare.png",
+        "image": "screens/snes/SimpsonsTheBartsNightmare.png",
         "width": 512
     },
     {
         "title": "TNN Bass Tournament of Champions",
-        "image": "TNNBassTournamentofChampions.png",
+        "image": "screens/snes/TNNBassTournamentofChampions.png",
         "width": 512
     },
     {
         "title": "Family Dog",
-        "image": "FamilyDog.png",
+        "image": "screens/snes/FamilyDog.png",
         "width": 512
     },
     {
         "title": "Hurricanes",
-        "image": "Hurricanes.png",
+        "image": "screens/snes/Hurricanes.png",
         "width": 512
     },
     {
         "title": "Desert Strike - Return to the Gulf",
-        "image": "DesertStrikeReturntotheGulf.png",
+        "image": "screens/snes/DesertStrikeReturntotheGulf.png",
         "width": 512
     },
     {
         "title": "Ultima - Runes of Virtue II",
-        "image": "UltimaRunesofVirtueII.png",
+        "image": "screens/snes/UltimaRunesofVirtueII.png",
         "width": 512
     },
     {
         "title": "Tecmo Super NBA Basketball",
-        "image": "TecmoSuperNBABasketball.png",
+        "image": "screens/snes/TecmoSuperNBABasketball.png",
         "width": 512
     },
     {
         "title": "Chavez",
-        "image": "Chavez.png",
+        "image": "screens/snes/Chavez.png",
         "width": 512
     },
     {
         "title": "Rock N' Roll Racing",
-        "image": "RockNRollRacing.png",
+        "image": "screens/snes/RockNRollRacing.png",
         "width": 512
     },
     {
         "title": "Last Action Hero",
-        "image": "LastActionHero.png",
+        "image": "screens/snes/LastActionHero.png",
         "width": 512
     },
     {
         "title": "Super Bowling",
-        "image": "SuperBowling.png",
+        "image": "screens/snes/SuperBowling.png",
         "width": 512
     },
     {
         "title": "Tony Meola's Sidekicks Soccer",
-        "image": "TonyMeolasSidekicksSoccer.png",
+        "image": "screens/snes/TonyMeolasSidekicksSoccer.png",
         "width": 512
     },
     {
         "title": "World Cup USA 94",
-        "image": "WorldCupUSA94.png",
+        "image": "screens/snes/WorldCupUSA94.png",
         "width": 512
     },
     {
         "title": "Andre Agassi Tennis",
-        "image": "AndreAgassiTennis.png",
+        "image": "screens/snes/AndreAgassiTennis.png",
         "width": 512
     },
     {
         "title": "Daffy Duck - The Marvin Missions",
-        "image": "DaffyDuckTheMarvinMissions.png",
+        "image": "screens/snes/DaffyDuckTheMarvinMissions.png",
         "width": 512
     },
     {
         "title": "Metal Marines",
-        "image": "MetalMarines.png",
+        "image": "screens/snes/MetalMarines.png",
         "width": 512
     },
     {
         "title": "Jeopardy!",
-        "image": "Jeopardy.png",
+        "image": "screens/snes/Jeopardy.png",
         "width": 512
     },
     {
         "title": "Speedy Gonzales - Los Gatos Bandidos",
-        "image": "SpeedyGonzalesLosGatosBandidos.png",
+        "image": "screens/snes/SpeedyGonzalesLosGatosBandidos.png",
         "width": 512
     },
     {
         "title": "Illusion of Gaia",
-        "image": "IllusionofGaia.png",
+        "image": "screens/snes/IllusionofGaia.png",
         "width": 512
     },
     {
         "title": "Addams Family, The - Pugsley's Scavenger Hunt",
-        "image": "AddamsFamilyThePugsleysScavengerHunt.png",
+        "image": "screens/snes/AddamsFamilyThePugsleysScavengerHunt.png",
         "width": 512
     },
     {
         "title": "Battle Blaze",
-        "image": "BattleBlaze.png",
+        "image": "screens/snes/BattleBlaze.png",
         "width": 512
     },
     {
         "title": "Maui Mallard in Cold Shadow",
-        "image": "MauiMallardinColdShadow.png",
+        "image": "screens/snes/MauiMallardinColdShadow.png",
         "width": 512
     },
     {
         "title": "John Madden Football '93",
-        "image": "JohnMaddenFootball93.png",
+        "image": "screens/snes/JohnMaddenFootball93.png",
         "width": 512
     },
     {
         "title": "Alien vs Predator",
-        "image": "AlienvsPredator.png",
+        "image": "screens/snes/AlienvsPredator.png",
         "width": 512
     },
     {
         "title": "Pinball Fantasies",
-        "image": "PinballFantasies.png",
+        "image": "screens/snes/PinballFantasies.png",
         "width": 512
     },
     {
         "title": "Thomas the Tank Engine _ Friends",
-        "image": "ThomastheTankEngineFriends.png",
+        "image": "screens/snes/ThomastheTankEngineFriends.png",
         "width": 512
     },
     {
         "title": "True Lies",
-        "image": "TrueLies.png",
+        "image": "screens/snes/TrueLies.png",
         "width": 512
     },
     {
         "title": "College Slam",
-        "image": "CollegeSlam.png",
+        "image": "screens/snes/CollegeSlam.png",
         "width": 512
     },
     {
         "title": "Incantation",
-        "image": "Incantation.png",
+        "image": "screens/snes/Incantation.png",
         "width": 512
     },
     {
         "title": "Wario's Woods",
-        "image": "WariosWoods.png",
+        "image": "screens/snes/WariosWoods.png",
         "width": 512
     },
     {
         "title": "Super Mario World",
-        "image": "SuperMarioWorld.png",
+        "image": "screens/snes/SuperMarioWorld.png",
         "width": 512
     },
     {
         "title": "Ogre Battle - The March of the Black Queen",
-        "image": "OgreBattleTheMarchoftheBlackQueen.png",
+        "image": "screens/snes/OgreBattleTheMarchoftheBlackQueen.png",
         "width": 512
     },
     {
         "title": "Pinocchio",
-        "image": "Pinocchio.png",
+        "image": "screens/snes/Pinocchio.png",
         "width": 512
     },
     {
         "title": "Sporting News Baseball, The",
-        "image": "SportingNewsBaseballThe.png",
+        "image": "screens/snes/SportingNewsBaseballThe.png",
         "width": 512
     },
     {
         "title": "Power Instinct",
-        "image": "PowerInstinct.png",
+        "image": "screens/snes/PowerInstinct.png",
         "width": 512
     },
     {
         "title": "Peace Keepers, The",
-        "image": "PeaceKeepersThe.png",
+        "image": "screens/snes/PeaceKeepersThe.png",
         "width": 512
     },
     {
         "title": "Doom Troopers - Mutant Chronicles",
-        "image": "DoomTroopersMutantChronicles.png",
+        "image": "screens/snes/DoomTroopersMutantChronicles.png",
         "width": 512
     },
     {
         "title": "T2 - The Arcade Game",
-        "image": "T2TheArcadeGame.png",
+        "image": "screens/snes/T2TheArcadeGame.png",
         "width": 512
     },
     {
         "title": "Tommy Moe's Winter Extreme - Skiing and Snowboarding",
-        "image": "TommyMoesWinterExtremeSkiingandSnowboarding.png",
+        "image": "screens/snes/TommyMoesWinterExtremeSkiingandSnowboarding.png",
         "width": 512
     },
     {
         "title": "U.N. Squadron",
-        "image": "U.N.Squadron.png",
+        "image": "screens/snes/U.N.Squadron.png",
         "width": 512
     },
     {
         "title": "ESPN National Hockey Night",
-        "image": "ESPNNationalHockeyNight.png",
+        "image": "screens/snes/ESPNNationalHockeyNight.png",
         "width": 512
     },
     {
         "title": "Musya - The Classic Japanese Tale of Horror",
-        "image": "MusyaTheClassicJapaneseTaleofHorror.png",
+        "image": "screens/snes/MusyaTheClassicJapaneseTaleofHorror.png",
         "width": 512
     },
     {
         "title": "Redline F-1 Racer",
-        "image": "RedlineF1Racer.png",
+        "image": "screens/snes/RedlineF1Racer.png",
         "width": 512
     },
     {
         "title": "First Samurai",
-        "image": "FirstSamurai.png",
+        "image": "screens/snes/FirstSamurai.png",
         "width": 512
     },
     {
         "title": "Blackthorne",
-        "image": "Blackthorne.png",
+        "image": "screens/snes/Blackthorne.png",
         "width": 512
     },
     {
         "title": "Joe _ Mac 2 - Lost in the Tropics",
-        "image": "JoeMac2LostintheTropics.png",
+        "image": "screens/snes/JoeMac2LostintheTropics.png",
         "width": 512
     },
     {
         "title": "Super Play Action Football",
-        "image": "SuperPlayActionFootball.png",
+        "image": "screens/snes/SuperPlayActionFootball.png",
         "width": 512
     },
     {
         "title": "Jim Lee's WildC.A.T.S - Covert-Action-Teams",
-        "image": "JimLeesWildC.A.T.SCovertActionTeams.png",
+        "image": "screens/snes/JimLeesWildC.A.T.SCovertActionTeams.png",
         "width": 512
     },
     {
         "title": "Super Troll Islands",
-        "image": "SuperTrollIslands.png",
+        "image": "screens/snes/SuperTrollIslands.png",
         "width": 512
     },
     {
         "title": "NCAA Final Four Basketball",
-        "image": "NCAAFinalFourBasketball.png",
+        "image": "screens/snes/NCAAFinalFourBasketball.png",
         "width": 512
     },
     {
         "title": "Krusty's Super Fun House",
-        "image": "KrustysSuperFunHouse.png",
+        "image": "screens/snes/KrustysSuperFunHouse.png",
         "width": 512
     },
     {
         "title": "Jimmy Connors Pro Tennis Tour",
-        "image": "JimmyConnorsProTennisTour.png",
+        "image": "screens/snes/JimmyConnorsProTennisTour.png",
         "width": 512
     },
     {
         "title": "Pocky _ Rocky 2",
-        "image": "PockyRocky2.png",
+        "image": "screens/snes/PockyRocky2.png",
         "width": 512
     },
     {
         "title": "Sonic Blast Man II",
-        "image": "SonicBlastManII.png",
+        "image": "screens/snes/SonicBlastManII.png",
         "width": 512
     },
     {
         "title": "Shien's Revenge",
-        "image": "ShiensRevenge.png",
+        "image": "screens/snes/ShiensRevenge.png",
         "width": 512
     },
     {
         "title": "Spider-Man - X-Men - Arcade's Revenge",
-        "image": "SpiderManXMenArcadesRevenge.png",
+        "image": "screens/snes/SpiderManXMenArcadesRevenge.png",
         "width": 512
     },
     {
         "title": "Arcade's Greatest Hits - The Atari Collection 1",
-        "image": "ArcadesGreatestHitsTheAtariCollection1.png",
+        "image": "screens/snes/ArcadesGreatestHitsTheAtariCollection1.png",
         "width": 512
     },
     {
         "title": "Extra Innings",
-        "image": "ExtraInnings.png",
+        "image": "screens/snes/ExtraInnings.png",
         "width": 512
     },
     {
         "title": "Kendo Rage",
-        "image": "KendoRage.png",
+        "image": "screens/snes/KendoRage.png",
         "width": 512
     },
     {
         "title": "Magical Quest Starring Mickey Mouse, The",
-        "image": "MagicalQuestStarringMickeyMouseThe.png",
+        "image": "screens/snes/MagicalQuestStarringMickeyMouseThe.png",
         "width": 512
     },
     {
         "title": "GP-1 - Part II",
-        "image": "GP1PartII.png",
+        "image": "screens/snes/GP1PartII.png",
         "width": 512
     },
     {
         "title": "Super Mario All-Stars",
-        "image": "SuperMarioAllStars.png",
+        "image": "screens/snes/SuperMarioAllStars.png",
         "width": 512
     },
     {
         "title": "Packy _ Marlon",
-        "image": "PackyMarlon.png",
+        "image": "screens/snes/PackyMarlon.png",
         "width": 512
     },
     {
         "title": "World Soccer 94 - Road to Glory",
-        "image": "WorldSoccer94RoadtoGlory.png",
+        "image": "screens/snes/WorldSoccer94RoadtoGlory.png",
         "width": 512
     },
     {
         "title": "War 3010 - The Revolution",
-        "image": "War3010TheRevolution.png",
+        "image": "screens/snes/War3010TheRevolution.png",
         "width": 512
     },
     {
         "title": "Pocky _ Rocky",
-        "image": "PockyRocky.png",
+        "image": "screens/snes/PockyRocky.png",
         "width": 512
     },
     {
         "title": "Nigel Mansell's World Championship Racing",
-        "image": "NigelMansellsWorldChampionshipRacing.png",
+        "image": "screens/snes/NigelMansellsWorldChampionshipRacing.png",
         "width": 512
     },
     {
         "title": "George Foreman's KO Boxing",
-        "image": "GeorgeForemansKOBoxing.png",
+        "image": "screens/snes/GeorgeForemansKOBoxing.png",
         "width": 512
     },
     {
         "title": "Chester Cheetah - Wild Wild Quest",
-        "image": "ChesterCheetahWildWildQuest.png",
+        "image": "screens/snes/ChesterCheetahWildWildQuest.png",
         "width": 512
     },
     {
         "title": "Super Bonk",
-        "image": "SuperBonk.png",
+        "image": "screens/snes/SuperBonk.png",
         "width": 512
     },
     {
         "title": "Cool Spot",
-        "image": "CoolSpot.png",
+        "image": "screens/snes/CoolSpot.png",
         "width": 512
     },
     {
         "title": "Out of This World",
-        "image": "OutofThisWorld.png",
+        "image": "screens/snes/OutofThisWorld.png",
         "width": 512
     },
     {
         "title": "Death and Return of Superman, The",
-        "image": "DeathandReturnofSupermanThe.png",
+        "image": "screens/snes/DeathandReturnofSupermanThe.png",
         "width": 512
     },
     {
         "title": "Marvel Super Heroes in War of the Gems",
-        "image": "MarvelSuperHeroesinWaroftheGems.png",
+        "image": "screens/snes/MarvelSuperHeroesinWaroftheGems.png",
         "width": 512
     },
     {
         "title": "Ren _ Stimpy Show, The - Time Warp",
-        "image": "RenStimpyShowTheTimeWarp.png",
+        "image": "screens/snes/RenStimpyShowTheTimeWarp.png",
         "width": 512
     },
     {
         "title": "Mega Man X3",
-        "image": "MegaManX3.png",
+        "image": "screens/snes/MegaManX3.png",
         "width": 512
     },
     {
         "title": "Eek! The Cat",
-        "image": "EekTheCat.png",
+        "image": "screens/snes/EekTheCat.png",
         "width": 512
     },
     {
         "title": "Bubsy in - Claws Encounters of the Furred Kind",
-        "image": "BubsyinClawsEncountersoftheFurredKind.png",
+        "image": "screens/snes/BubsyinClawsEncountersoftheFurredKind.png",
         "width": 512
     },
     {
         "title": "NHL 97",
-        "image": "NHL97.png",
+        "image": "screens/snes/NHL97.png",
         "width": 512
     },
     {
         "title": "Beavis and Butt-Head",
-        "image": "BeavisandButtHead.png",
+        "image": "screens/snes/BeavisandButtHead.png",
         "width": 512
     },
     {
         "title": "Super Soccer",
-        "image": "SuperSoccer.png",
+        "image": "screens/snes/SuperSoccer.png",
         "width": 512
     },
     {
         "title": "Madden NFL 96",
-        "image": "MaddenNFL96.png",
+        "image": "screens/snes/MaddenNFL96.png",
         "width": 512
     },
     {
         "title": "Venom - Spider-Man - Separation Anxiety",
-        "image": "VenomSpiderManSeparationAnxiety.png",
+        "image": "screens/snes/VenomSpiderManSeparationAnxiety.png",
         "width": 512
     },
     {
         "title": "Flashback - The Quest for Identity",
-        "image": "FlashbackTheQuestforIdentity.png",
+        "image": "screens/snes/FlashbackTheQuestforIdentity.png",
         "width": 512
     },
     {
         "title": "DinoCity",
-        "image": "DinoCity.png",
+        "image": "screens/snes/DinoCity.png",
         "width": 512
     },
     {
         "title": "Dungeon Master",
-        "image": "DungeonMaster.png",
+        "image": "screens/snes/DungeonMaster.png",
         "width": 512
     },
     {
         "title": "Bazooka Blitzkrieg",
-        "image": "BazookaBlitzkrieg.png",
+        "image": "screens/snes/BazookaBlitzkrieg.png",
         "width": 512
     },
     {
         "title": "Super Mario All-Stars + Super Mario World",
-        "image": "SuperMarioAllStarsSuperMarioWorld.png",
+        "image": "screens/snes/SuperMarioAllStarsSuperMarioWorld.png",
         "width": 512
     },
     {
         "title": "Legend",
-        "image": "Legend.png",
+        "image": "screens/snes/Legend.png",
         "width": 512
     },
     {
         "title": "Jurassic Park",
-        "image": "JurassicPark.png",
+        "image": "screens/snes/JurassicPark.png",
         "width": 512
     },
     {
         "title": "Spider-Man - Venom - Maximum Carnage",
-        "image": "SpiderManVenomMaximumCarnage.png",
+        "image": "screens/snes/SpiderManVenomMaximumCarnage.png",
         "width": 512
     },
     {
         "title": "Mighty Morphin Power Rangers - The Movie",
-        "image": "MightyMorphinPowerRangersTheMovie.png",
+        "image": "screens/snes/MightyMorphinPowerRangersTheMovie.png",
         "width": 512
     },
     {
         "title": "Addams Family Values",
-        "image": "AddamsFamilyValues.png",
+        "image": "screens/snes/AddamsFamilyValues.png",
         "width": 512
     },
     {
         "title": "RoboCop versus The Terminator",
-        "image": "RoboCopversusTheTerminator.png",
+        "image": "screens/snes/RoboCopversusTheTerminator.png",
         "width": 512
     },
     {
         "title": "A.S.P. - Air Strike Patrol",
-        "image": "A.S.P.AirStrikePatrol.png",
+        "image": "screens/snes/A.S.P.AirStrikePatrol.png",
         "width": 512
     },
     {
         "title": "King Arthur's World",
-        "image": "KingArthursWorld.png",
+        "image": "screens/snes/KingArthursWorld.png",
         "width": 512
     },
     {
         "title": "Dig _ Spike Volleyball",
-        "image": "DigSpikeVolleyball.png",
+        "image": "screens/snes/DigSpikeVolleyball.png",
         "width": 512
     },
     {
         "title": "Donkey Kong Country 3 - Dixie Kong's Double Trouble!",
-        "image": "DonkeyKongCountry3DixieKongsDoubleTrouble.png",
+        "image": "screens/snes/DonkeyKongCountry3DixieKongsDoubleTrouble.png",
         "width": 512
     },
     {
         "title": "Super Batter Up",
-        "image": "SuperBatterUp.png",
+        "image": "screens/snes/SuperBatterUp.png",
         "width": 512
     },
     {
         "title": "Super Star Wars - The Empire Strikes Back",
-        "image": "SuperStarWarsTheEmpireStrikesBack.png",
+        "image": "screens/snes/SuperStarWarsTheEmpireStrikesBack.png",
         "width": 512
     },
     {
         "title": "American Tail, An - Fievel Goes West",
-        "image": "AmericanTailAnFievelGoesWest.png",
+        "image": "screens/snes/AmericanTailAnFievelGoesWest.png",
         "width": 512
     },
     {
         "title": "Harvest Moon",
-        "image": "HarvestMoon.png",
+        "image": "screens/snes/HarvestMoon.png",
         "width": 512
     },
     {
         "title": "Zero the Kamikaze Squirrel",
-        "image": "ZerotheKamikazeSquirrel.png",
+        "image": "screens/snes/ZerotheKamikazeSquirrel.png",
         "width": 512
     },
     {
         "title": "Wayne Gretzky and the NHLPA All-Stars",
-        "image": "WayneGretzkyandtheNHLPAAllStars.png",
+        "image": "screens/snes/WayneGretzkyandtheNHLPAAllStars.png",
         "width": 512
     },
     {
         "title": "Jeopardy! - Sports Edition",
-        "image": "JeopardySportsEdition.png",
+        "image": "screens/snes/JeopardySportsEdition.png",
         "width": 512
     },
     {
         "title": "Big Sky Trooper",
-        "image": "BigSkyTrooper.png",
+        "image": "screens/snes/BigSkyTrooper.png",
         "width": 512
     },
     {
         "title": "Earthworm Jim",
-        "image": "EarthwormJim.png",
+        "image": "screens/snes/EarthwormJim.png",
         "width": 512
     },
     {
         "title": "Sparkster",
-        "image": "Sparkster.png",
+        "image": "screens/snes/Sparkster.png",
         "width": 512
     },
     {
         "title": "WCW Super Brawl Wrestling",
-        "image": "WCWSuperBrawlWrestling.png",
+        "image": "screens/snes/WCWSuperBrawlWrestling.png",
         "width": 512
     },
     {
         "title": "Drakkhen",
-        "image": "Drakkhen.png",
+        "image": "screens/snes/Drakkhen.png",
         "width": 512
     },
     {
         "title": "Wolverine - Adamantium Rage",
-        "image": "WolverineAdamantiumRage.png",
+        "image": "screens/snes/WolverineAdamantiumRage.png",
         "width": 512
     },
     {
         "title": "BASS Masters Classic - Pro Edition",
-        "image": "BASSMastersClassicProEdition.png",
+        "image": "screens/snes/BASSMastersClassicProEdition.png",
         "width": 512
     },
     {
         "title": "Jim Power - The Lost Dimension in 3D",
-        "image": "JimPowerTheLostDimensionin3D.png",
+        "image": "screens/snes/JimPowerTheLostDimensionin3D.png",
         "width": 512
     },
     {
         "title": "SimEarth - The Living Planet",
-        "image": "SimEarthTheLivingPlanet.png",
+        "image": "screens/snes/SimEarthTheLivingPlanet.png",
         "width": 512
     },
     {
         "title": "Madden NFL 95",
-        "image": "MaddenNFL95.png",
+        "image": "screens/snes/MaddenNFL95.png",
         "width": 512
     },
     {
         "title": "Cacoma Knight in Bizyland",
-        "image": "CacomaKnightinBizyland.png",
+        "image": "screens/snes/CacomaKnightinBizyland.png",
         "width": 512
     },
     {
         "title": "Lester the Unlikely",
-        "image": "LestertheUnlikely.png",
+        "image": "screens/snes/LestertheUnlikely.png",
         "width": 512
     },
     {
         "title": "Combatribes, The",
-        "image": "CombatribesThe.png",
+        "image": "screens/snes/CombatribesThe.png",
         "width": 512
     },
     {
         "title": "Utopia - The Creation of a Nation",
-        "image": "UtopiaTheCreationofaNation.png",
+        "image": "screens/snes/UtopiaTheCreationofaNation.png",
         "width": 512
     },
     {
         "title": "7th Saga, The",
-        "image": "7thSagaThe.png",
+        "image": "screens/snes/7thSagaThe.png",
         "width": 512
     },
     {
         "title": "Captain Novolin",
-        "image": "CaptainNovolin.png",
+        "image": "screens/snes/CaptainNovolin.png",
         "width": 512
     },
     {
         "title": "X-Kaliber 2097",
-        "image": "XKaliber2097.png",
+        "image": "screens/snes/XKaliber2097.png",
         "width": 512
     },
     {
         "title": "Super R.B.I. Baseball",
-        "image": "SuperR.B.I.Baseball.png",
+        "image": "screens/snes/SuperR.B.I.Baseball.png",
         "width": 512
     },
     {
         "title": "Lemmings 2 - The Tribes",
-        "image": "Lemmings2TheTribes.png",
+        "image": "screens/snes/Lemmings2TheTribes.png",
         "width": 512
     },
     {
         "title": "Where in Time Is Carmen Sandiego",
-        "image": "WhereinTimeIsCarmenSandiego.png",
+        "image": "screens/snes/WhereinTimeIsCarmenSandiego.png",
         "width": 512
     },
     {
         "title": "Championship Pool",
-        "image": "ChampionshipPool.png",
+        "image": "screens/snes/ChampionshipPool.png",
         "width": 512
     },
     {
         "title": "Super Valis IV",
-        "image": "SuperValisIV.png",
+        "image": "screens/snes/SuperValisIV.png",
         "width": 512
     },
     {
         "title": "Championship Soccer '94",
-        "image": "ChampionshipSoccer94.png",
+        "image": "screens/snes/ChampionshipSoccer94.png",
         "width": 512
     },
     {
         "title": "Rampart",
-        "image": "Rampart.png",
+        "image": "screens/snes/Rampart.png",
         "width": 512
     },
     {
         "title": "EarthBound",
-        "image": "EarthBound.png",
+        "image": "screens/snes/EarthBound.png",
         "width": 512
     },
     {
         "title": "Uncharted Waters",
-        "image": "UnchartedWaters.png",
+        "image": "screens/snes/UnchartedWaters.png",
         "width": 512
     },
     {
         "title": "Super Battletank 2",
-        "image": "SuperBattletank2.png",
+        "image": "screens/snes/SuperBattletank2.png",
         "width": 512
     },
     {
         "title": "Mario's Time Machine",
-        "image": "MariosTimeMachine.png",
+        "image": "screens/snes/MariosTimeMachine.png",
         "width": 512
     },
     {
         "title": "Mr. Do!",
-        "image": "Mr.Do.png",
+        "image": "screens/snes/Mr.Do.png",
         "width": 512
     },
     {
         "title": "Axelay",
-        "image": "Axelay.png",
+        "image": "screens/snes/Axelay.png",
         "width": 512
     },
     {
         "title": "Zoop",
-        "image": "Zoop.png",
+        "image": "screens/snes/Zoop.png",
         "width": 512
     },
     {
         "title": "Wheel of Fortune",
-        "image": "WheelofFortune.png",
+        "image": "screens/snes/WheelofFortune.png",
         "width": 512
     },
     {
         "title": "Sonic Blast Man",
-        "image": "SonicBlastMan.png",
+        "image": "screens/snes/SonicBlastMan.png",
         "width": 512
     },
     {
         "title": "Battletoads-Double Dragon",
-        "image": "BattletoadsDoubleDragon.png",
+        "image": "screens/snes/BattletoadsDoubleDragon.png",
         "width": 512
     },
     {
         "title": "Bulls vs Blazers and the NBA Playoffs",
-        "image": "BullsvsBlazersandtheNBAPlayoffs.png",
+        "image": "screens/snes/BullsvsBlazersandtheNBAPlayoffs.png",
         "width": 512
     },
     {
         "title": "Chester Cheetah - Too Cool to Fool",
-        "image": "ChesterCheetahTooCooltoFool.png",
+        "image": "screens/snes/ChesterCheetahTooCooltoFool.png",
         "width": 512
     },
     {
         "title": "Tiny Toon Adventures - Wacky Sports Challenge",
-        "image": "TinyToonAdventuresWackySportsChallenge.png",
+        "image": "screens/snes/TinyToonAdventuresWackySportsChallenge.png",
         "width": 512
     },
     {
         "title": "Total Carnage",
-        "image": "TotalCarnage.png",
+        "image": "screens/snes/TotalCarnage.png",
         "width": 512
     },
     {
         "title": "Battletoads in Battlemaniacs",
-        "image": "BattletoadsinBattlemaniacs.png",
+        "image": "screens/snes/BattletoadsinBattlemaniacs.png",
         "width": 512
     },
     {
         "title": "Super Solitaire",
-        "image": "SuperSolitaire.png",
+        "image": "screens/snes/SuperSolitaire.png",
         "width": 512
     },
     {
         "title": "Wing Commander - The Secret Missions",
-        "image": "WingCommanderTheSecretMissions.png",
+        "image": "screens/snes/WingCommanderTheSecretMissions.png",
         "width": 512
     },
     {
         "title": "P.T.O. II - Pacific Theater of Operations",
-        "image": "P.T.O.IIPacificTheaterofOperations.png",
+        "image": "screens/snes/P.T.O.IIPacificTheaterofOperations.png",
         "width": 512
     },
     {
         "title": "Final Fantasy - Mystic Quest",
-        "image": "FinalFantasyMysticQuest.png",
+        "image": "screens/snes/FinalFantasyMysticQuest.png",
         "width": 512
     },
     {
         "title": "Mickey Mania - The Timeless Adventures of Mickey Mouse",
-        "image": "MickeyManiaTheTimelessAdventuresofMickeyMouse.png",
+        "image": "screens/snes/MickeyManiaTheTimelessAdventuresofMickeyMouse.png",
         "width": 512
     },
     {
         "title": "Pac-in-Time",
-        "image": "PacinTime.png",
+        "image": "screens/snes/PacinTime.png",
         "width": 512
     },
     {
         "title": "Rocky Rodent",
-        "image": "RockyRodent.png",
+        "image": "screens/snes/RockyRodent.png",
         "width": 512
     },
     {
         "title": "True Golf Classics - Pebble Beach Golf Links",
-        "image": "TrueGolfClassicsPebbleBeachGolfLinks.png",
+        "image": "screens/snes/TrueGolfClassicsPebbleBeachGolfLinks.png",
         "width": 512
     },
     {
         "title": "Head-On Soccer",
-        "image": "HeadOnSoccer.png",
+        "image": "screens/snes/HeadOnSoccer.png",
         "width": 512
     },
     {
         "title": "Super Alfred Chicken",
-        "image": "SuperAlfredChicken.png",
+        "image": "screens/snes/SuperAlfredChicken.png",
         "width": 512
     },
     {
         "title": "World Heroes",
-        "image": "WorldHeroes.png",
+        "image": "screens/snes/WorldHeroes.png",
         "width": 512
     },
     {
         "title": "Lord of Darkness",
-        "image": "LordofDarkness.png",
+        "image": "screens/snes/LordofDarkness.png",
         "width": 512
     },
     {
         "title": "Super Adventure Island II",
-        "image": "SuperAdventureIslandII.png",
+        "image": "screens/snes/SuperAdventureIslandII.png",
         "width": 512
     },
     {
         "title": "Lock On",
-        "image": "LockOn.png",
+        "image": "screens/snes/LockOn.png",
         "width": 512
     },
     {
         "title": "Rex Ronan - Experimental Surgeon",
-        "image": "RexRonanExperimentalSurgeon.png",
+        "image": "screens/snes/RexRonanExperimentalSurgeon.png",
         "width": 512
     },
     {
         "title": "Mary Shelley's Frankenstein",
-        "image": "MaryShelleysFrankenstein.png",
+        "image": "screens/snes/MaryShelleysFrankenstein.png",
         "width": 512
     },
     {
         "title": "Brain Lord",
-        "image": "BrainLord.png",
+        "image": "screens/snes/BrainLord.png",
         "width": 512
     },
     {
         "title": "Dragon View",
-        "image": "DragonView.png",
+        "image": "screens/snes/DragonView.png",
         "width": 512
     },
     {
         "title": "Phalanx",
-        "image": "Phalanx.png",
+        "image": "screens/snes/Phalanx.png",
         "width": 512
     },
     {
         "title": "Bust-A-Move",
-        "image": "BustAMove.png",
+        "image": "screens/snes/BustAMove.png",
         "width": 512
     },
     {
         "title": "Super Bases Loaded 2",
-        "image": "SuperBasesLoaded2.png",
+        "image": "screens/snes/SuperBasesLoaded2.png",
         "width": 512
     },
     {
         "title": "Sports Illustrated Championship Football _ Baseball",
-        "image": "SportsIllustratedChampionshipFootballBaseball.png",
+        "image": "screens/snes/SportsIllustratedChampionshipFootballBaseball.png",
         "width": 512
     },
     {
         "title": "F1-ROC II - Race of Champions",
-        "image": "F1ROCIIRaceofChampions.png",
+        "image": "screens/snes/F1ROCIIRaceofChampions.png",
         "width": 512
     },
     {
         "title": "Dennis the Menace",
-        "image": "DennistheMenace.png",
+        "image": "screens/snes/DennistheMenace.png",
         "width": 512
     },
     {
         "title": "Super Chase H.Q.",
-        "image": "SuperChaseH.Q..png",
+        "image": "screens/snes/SuperChaseH.Q..png",
         "width": 512
     },
     {
         "title": "Timeslip",
-        "image": "Timeslip.png",
+        "image": "screens/snes/Timeslip.png",
         "width": 512
     },
     {
         "title": "HAL's Hole in One Golf",
-        "image": "HALsHoleinOneGolf.png",
+        "image": "screens/snes/HALsHoleinOneGolf.png",
         "width": 512
     },
     {
         "title": "2020 Super Baseball",
-        "image": "2020SuperBaseball.png",
+        "image": "screens/snes/2020SuperBaseball.png",
         "width": 512
     },
     {
         "title": "Oscar",
-        "image": "Oscar.png",
+        "image": "screens/snes/Oscar.png",
         "width": 512
     },
     {
         "title": "Mario Is Missing!",
-        "image": "MarioIsMissing.png",
+        "image": "screens/snes/MarioIsMissing.png",
         "width": 512
     },
     {
         "title": "Nickelodeon GUTS",
-        "image": "NickelodeonGUTS.png",
+        "image": "screens/snes/NickelodeonGUTS.png",
         "width": 512
     },
     {
         "title": "Frank Thomas Big Hurt Baseball",
-        "image": "FrankThomasBigHurtBaseball.png",
+        "image": "screens/snes/FrankThomasBigHurtBaseball.png",
         "width": 512
     },
     {
         "title": "R-Type III",
-        "image": "RTypeIII.png",
+        "image": "screens/snes/RTypeIII.png",
         "width": 512
     },
     {
         "title": "Frogger",
-        "image": "Frogger.png",
+        "image": "screens/snes/Frogger.png",
         "width": 512
     },
     {
         "title": "Adventures of Dr. Franken, The",
-        "image": "AdventuresofDr.FrankenThe.png",
+        "image": "screens/snes/AdventuresofDr.FrankenThe.png",
         "width": 512
     },
     {
         "title": "Incredible Hulk, The",
-        "image": "IncredibleHulkThe.png",
+        "image": "screens/snes/IncredibleHulkThe.png",
         "width": 512
     },
     {
         "title": "Donkey Kong Country - Competition Cartridge",
-        "image": "DonkeyKongCountryCompetitionCartridge.png",
+        "image": "screens/snes/DonkeyKongCountryCompetitionCartridge.png",
         "width": 512
     },
     {
         "title": "Uniracers",
-        "image": "Uniracers.png",
+        "image": "screens/snes/Uniracers.png",
         "width": 512
     },
     {
         "title": "ESPN Baseball Tonight",
-        "image": "ESPNBaseballTonight.png",
+        "image": "screens/snes/ESPNBaseballTonight.png",
         "width": 512
     },
     {
         "title": "Young Merlin",
-        "image": "YoungMerlin.png",
+        "image": "screens/snes/YoungMerlin.png",
         "width": 512
     },
     {
         "title": "SimCity",
-        "image": "SimCity.png",
+        "image": "screens/snes/SimCity.png",
         "width": 512
     },
     {
         "title": "Judge Dredd",
-        "image": "JudgeDredd.png",
+        "image": "screens/snes/JudgeDredd.png",
         "width": 512
     },
     {
         "title": "Super Bomberman 2",
-        "image": "SuperBomberman2.png",
+        "image": "screens/snes/SuperBomberman2.png",
         "width": 512
     },
     {
         "title": "Time Trax",
-        "image": "TimeTrax.png",
+        "image": "screens/snes/TimeTrax.png",
         "width": 512
     },
     {
         "title": "Road Runner's Death Valley Rally",
-        "image": "RoadRunnersDeathValleyRally.png",
+        "image": "screens/snes/RoadRunnersDeathValleyRally.png",
         "width": 512
     },
     {
         "title": "Bram Stoker's Dracula",
-        "image": "BramStokersDracula.png",
+        "image": "screens/snes/BramStokersDracula.png",
         "width": 512
     },
     {
         "title": "Dream T.V.",
-        "image": "DreamT.V..png",
+        "image": "screens/snes/DreamT.V..png",
         "width": 512
     },
     {
         "title": "NFL Football",
-        "image": "NFLFootball.png",
+        "image": "screens/snes/NFLFootball.png",
         "width": 512
     },
     {
         "title": "Ultima - The Black Gate",
-        "image": "UltimaTheBlackGate.png",
+        "image": "screens/snes/UltimaTheBlackGate.png",
         "width": 512
     },
     {
         "title": "Sangokushi III",
-        "image": "SangokushiIII.png",
+        "image": "screens/snes/SangokushiIII.png",
         "width": 512
     },
     {
         "title": "NBA Jam",
-        "image": "NBAJam.png",
+        "image": "screens/snes/NBAJam.png",
         "width": 512
     },
     {
         "title": "John Madden Football",
-        "image": "JohnMaddenFootball.png",
+        "image": "screens/snes/JohnMaddenFootball.png",
         "width": 512
     },
     {
         "title": "ActRaiser",
-        "image": "ActRaiser.png",
+        "image": "screens/snes/ActRaiser.png",
         "width": 512
     },
     {
         "title": "Pro Quarterback",
-        "image": "ProQuarterback.png",
+        "image": "screens/snes/ProQuarterback.png",
         "width": 512
     },
     {
         "title": "Yoshi's Cookie",
-        "image": "YoshisCookie.png",
+        "image": "screens/snes/YoshisCookie.png",
         "width": 512
     },
     {
         "title": "Whizz",
-        "image": "Whizz.png",
+        "image": "screens/snes/Whizz.png",
         "width": 512
     },
     {
         "title": "Mohawk _ Headphone Jack",
-        "image": "MohawkHeadphoneJack.png",
+        "image": "screens/snes/MohawkHeadphoneJack.png",
         "width": 512
     },
     {
         "title": "Final Fantasy II",
-        "image": "FinalFantasyII.png",
+        "image": "screens/snes/FinalFantasyII.png",
         "width": 512
     },
     {
         "title": "Brutal - Paws of Fury",
-        "image": "BrutalPawsofFury.png",
+        "image": "screens/snes/BrutalPawsofFury.png",
         "width": 512
     },
     {
         "title": "Donkey Kong Country",
-        "image": "DonkeyKongCountry.png",
+        "image": "screens/snes/DonkeyKongCountry.png",
         "width": 512
     },
     {
         "title": "Super Soccer Champ",
-        "image": "SuperSoccerChamp.png",
+        "image": "screens/snes/SuperSoccerChamp.png",
         "width": 512
     },
     {
         "title": "Aero the Acro-Bat 2",
-        "image": "AerotheAcroBat2.png",
+        "image": "screens/snes/AerotheAcroBat2.png",
         "width": 512
     },
     {
         "title": "Itchy _ Scratchy Game, The",
-        "image": "ItchyScratchyGameThe.png",
+        "image": "screens/snes/ItchyScratchyGameThe.png",
         "width": 512
     },
     {
         "title": "Romance of the Three Kingdoms IV - Wall of Fire",
-        "image": "RomanceoftheThreeKingdomsIVWallofFire.png",
+        "image": "screens/snes/RomanceoftheThreeKingdomsIVWallofFire.png",
         "width": 512
     },
     {
         "title": "Kawasaki Caribbean Challenge",
-        "image": "KawasakiCaribbeanChallenge.png",
+        "image": "screens/snes/KawasakiCaribbeanChallenge.png",
         "width": 512
     },
     {
         "title": "Clay Fighter - Tournament Edition",
-        "image": "ClayFighterTournamentEdition.png",
+        "image": "screens/snes/ClayFighterTournamentEdition.png",
         "width": 512
     },
     {
         "title": "Illusion of Time",
-        "image": "IllusionofTime.png",
+        "image": "screens/snes/IllusionofTime.png",
         "width": 512
     },
     {
         "title": "Skuljagger - Revolt of the Westicans",
-        "image": "SkuljaggerRevoltoftheWesticans.png",
+        "image": "screens/snes/SkuljaggerRevoltoftheWesticans.png",
         "width": 512
     },
     {
         "title": "NFL Quarterback Club 96",
-        "image": "NFLQuarterbackClub96.png",
+        "image": "screens/snes/NFLQuarterbackClub96.png",
         "width": 512
     },
     {
         "title": "Jurassic Park Part 2 - The Chaos Continues",
-        "image": "JurassicParkPart2TheChaosContinues.png",
+        "image": "screens/snes/JurassicParkPart2TheChaosContinues.png",
         "width": 512
     },
     {
         "title": "Clay Fighter 2 - Judgment Clay",
-        "image": "ClayFighter2JudgmentClay.png",
+        "image": "screens/snes/ClayFighter2JudgmentClay.png",
         "width": 512
     },
     {
         "title": "Cliffhanger",
-        "image": "Cliffhanger.png",
+        "image": "screens/snes/Cliffhanger.png",
         "width": 512
     },
     {
         "title": "Mighty Max",
-        "image": "MightyMax.png",
+        "image": "screens/snes/MightyMax.png",
         "width": 512
     },
     {
         "title": "Teenage Mutant Ninja Turtles IV - Turtles in Time",
-        "image": "TeenageMutantNinjaTurtlesIVTurtlesinTime.png",
+        "image": "screens/snes/TeenageMutantNinjaTurtlesIVTurtlesinTime.png",
         "width": 512
     },
     {
         "title": "Chavez II",
-        "image": "ChavezII.png",
+        "image": "screens/snes/ChavezII.png",
         "width": 512
     },
     {
         "title": "Nosferatu",
-        "image": "Nosferatu.png",
+        "image": "screens/snes/Nosferatu.png",
         "width": 512
     },
     {
         "title": "Pac-Attack",
-        "image": "PacAttack.png",
+        "image": "screens/snes/PacAttack.png",
         "width": 512
     },
     {
         "title": "Michael Jordan - Chaos in the Windy City",
-        "image": "MichaelJordanChaosintheWindyCity.png",
+        "image": "screens/snes/MichaelJordanChaosintheWindyCity.png",
         "width": 512
     },
     {
         "title": "Izzy's Quest for the Olympic Rings",
-        "image": "IzzysQuestfortheOlympicRings.png",
+        "image": "screens/snes/IzzysQuestfortheOlympicRings.png",
         "width": 512
     },
     {
         "title": "Pagemaster, The",
-        "image": "PagemasterThe.png",
+        "image": "screens/snes/PagemasterThe.png",
         "width": 512
     },
     {
         "title": "Romance of the Three Kingdoms II",
-        "image": "RomanceoftheThreeKingdomsII.png",
+        "image": "screens/snes/RomanceoftheThreeKingdomsII.png",
         "width": 512
     },
     {
         "title": "Turn and Burn - No-Fly Zone",
-        "image": "TurnandBurnNoFlyZone.png",
+        "image": "screens/snes/TurnandBurnNoFlyZone.png",
         "width": 512
     },
     {
         "title": "Ninja Gaiden Trilogy",
-        "image": "NinjaGaidenTrilogy.png",
+        "image": "screens/snes/NinjaGaidenTrilogy.png",
         "width": 512
     },
     {
         "title": "Hanguk Pro Yagu",
-        "image": "HangukProYagu.png",
+        "image": "screens/snes/HangukProYagu.png",
         "width": 512
     },
     {
         "title": "Phantom 2040",
-        "image": "Phantom2040.png",
+        "image": "screens/snes/Phantom2040.png",
         "width": 512
     },
     {
         "title": "BASS Masters Classic",
-        "image": "BASSMastersClassic.png",
+        "image": "screens/snes/BASSMastersClassic.png",
         "width": 512
     },
     {
         "title": "Fatal Fury Special",
-        "image": "FatalFurySpecial.png",
+        "image": "screens/snes/FatalFurySpecial.png",
         "width": 512
     },
     {
         "title": "Arkanoid - Doh It Again",
-        "image": "ArkanoidDohItAgain.png",
+        "image": "screens/snes/ArkanoidDohItAgain.png",
         "width": 512
     },
     {
         "title": "Double Dragon V - The Shadow Falls",
-        "image": "DoubleDragonVTheShadowFalls.png",
+        "image": "screens/snes/DoubleDragonVTheShadowFalls.png",
         "width": 512
     },
     {
         "title": "Push-Over",
-        "image": "PushOver.png",
+        "image": "screens/snes/PushOver.png",
         "width": 512
     },
     {
         "title": "Revolution X",
-        "image": "RevolutionX.png",
+        "image": "screens/snes/RevolutionX.png",
         "width": 512
     },
     {
         "title": "Super Widget",
-        "image": "SuperWidget.png",
+        "image": "screens/snes/SuperWidget.png",
         "width": 512
     },
     {
         "title": "NBA Jam - Tournament Edition",
-        "image": "NBAJamTournamentEdition.png",
+        "image": "screens/snes/NBAJamTournamentEdition.png",
         "width": 512
     },
     {
         "title": "Hit the Ice - VHL - The Official Video Hockey League",
-        "image": "HittheIceVHLTheOfficialVideoHockeyLeague.png",
+        "image": "screens/snes/HittheIceVHLTheOfficialVideoHockeyLeague.png",
         "width": 512
     },
     {
         "title": "Lethal Weapon",
-        "image": "LethalWeapon.png",
+        "image": "screens/snes/LethalWeapon.png",
         "width": 512
     },
     {
         "title": "Air Cavalry",
-        "image": "AirCavalry.png",
+        "image": "screens/snes/AirCavalry.png",
         "width": 512
     },
     {
         "title": "Rise of the Robots",
-        "image": "RiseoftheRobots.png",
+        "image": "screens/snes/RiseoftheRobots.png",
         "width": 512
     },
     {
         "title": "Lufia II - Rise of the Sinistrals",
-        "image": "LufiaIIRiseoftheSinistrals.png",
+        "image": "screens/snes/LufiaIIRiseoftheSinistrals.png",
         "width": 512
     },
     {
         "title": "Demolition Man",
-        "image": "DemolitionMan.png",
+        "image": "screens/snes/DemolitionMan.png",
         "width": 512
     },
     {
         "title": "Harley's Humongous Adventure",
-        "image": "HarleysHumongousAdventure.png",
+        "image": "screens/snes/HarleysHumongousAdventure.png",
         "width": 512
     },
     {
         "title": "HardBall III",
-        "image": "HardBallIII.png",
+        "image": "screens/snes/HardBallIII.png",
         "width": 512
     },
     {
         "title": "Jungle Book, The",
-        "image": "JungleBookThe.png",
+        "image": "screens/snes/JungleBookThe.png",
         "width": 512
     },
     {
         "title": "Super Bases Loaded 3 - License to Steal",
-        "image": "SuperBasesLoaded3LicensetoSteal.png",
+        "image": "screens/snes/SuperBasesLoaded3LicensetoSteal.png",
         "width": 512
     },
     {
         "title": "J.R.R. Tolkien's The Lord of the Rings - Volume 1",
-        "image": "J.R.R.TolkiensTheLordoftheRingsVolume1.png",
+        "image": "screens/snes/J.R.R.TolkiensTheLordoftheRingsVolume1.png",
         "width": 512
     },
     {
         "title": "Wing Commander",
-        "image": "WingCommander.png",
+        "image": "screens/snes/WingCommander.png",
         "width": 512
     },
     {
         "title": "Magic Sword",
-        "image": "MagicSword.png",
+        "image": "screens/snes/MagicSword.png",
         "width": 512
     },
     {
         "title": "Pink Goes to Hollywood",
-        "image": "PinkGoestoHollywood.png",
+        "image": "screens/snes/PinkGoestoHollywood.png",
         "width": 512
     },
     {
         "title": "Wild Guns",
-        "image": "WildGuns.png",
+        "image": "screens/snes/WildGuns.png",
         "width": 512
     },
     {
         "title": "Street Combat",
-        "image": "StreetCombat.png",
+        "image": "screens/snes/StreetCombat.png",
         "width": 512
     },
     {
         "title": "Super Double Dragon",
-        "image": "SuperDoubleDragon.png",
+        "image": "screens/snes/SuperDoubleDragon.png",
         "width": 512
     },
     {
         "title": "Gradius III",
-        "image": "GradiusIII.png",
+        "image": "screens/snes/GradiusIII.png",
         "width": 512
     },
     {
         "title": "Justice League Task Force",
-        "image": "JusticeLeagueTaskForce.png",
+        "image": "screens/snes/JusticeLeagueTaskForce.png",
         "width": 512
     },
     {
         "title": "Emmitt Smith Football",
-        "image": "EmmittSmithFootball.png",
+        "image": "screens/snes/EmmittSmithFootball.png",
         "width": 512
     },
     {
         "title": "Plok",
-        "image": "Plok.png",
+        "image": "screens/snes/Plok.png",
         "width": 512
     },
     {
         "title": "NHL 95",
-        "image": "NHL95.png",
+        "image": "screens/snes/NHL95.png",
         "width": 512
     },
     {
         "title": "Lamborghini - American Challenge",
-        "image": "LamborghiniAmericanChallenge.png",
+        "image": "screens/snes/LamborghiniAmericanChallenge.png",
         "width": 512
     },
     {
         "title": "Roger Clemens' MVP Baseball",
-        "image": "RogerClemensMVPBaseball.png",
+        "image": "screens/snes/RogerClemensMVPBaseball.png",
         "width": 512
     },
     {
         "title": "Wordtris",
-        "image": "Wordtris.png",
+        "image": "screens/snes/Wordtris.png",
         "width": 512
     },
     {
         "title": "PGA European Tour",
-        "image": "PGAEuropeanTour.png",
+        "image": "screens/snes/PGAEuropeanTour.png",
         "width": 512
     },
     {
         "title": "Jimmy Houston's Bass Tournament U.S.A.",
-        "image": "JimmyHoustonsBassTournamentU.S.A..png",
+        "image": "screens/snes/JimmyHoustonsBassTournamentU.S.A..png",
         "width": 512
     },
     {
         "title": "Genghis Khan II - Clan of the Gray Wolf",
-        "image": "GenghisKhanIIClanoftheGrayWolf.png",
+        "image": "screens/snes/GenghisKhanIIClanoftheGrayWolf.png",
         "width": 512
     },
     {
         "title": "Street Fighter II",
-        "image": "StreetFighterII.png",
+        "image": "screens/snes/StreetFighterII.png",
         "width": 512
     },
     {
         "title": "Spectre",
-        "image": "Spectre.png",
+        "image": "screens/snes/Spectre.png",
         "width": 512
     },
     {
         "title": "Ken Griffey Jr. Presents Major League Baseball",
-        "image": "KenGriffeyJr.PresentsMajorLeagueBaseball.png",
+        "image": "screens/snes/KenGriffeyJr.PresentsMajorLeagueBaseball.png",
         "width": 512
     },
     {
         "title": "WeaponLord",
-        "image": "WeaponLord.png",
+        "image": "screens/snes/WeaponLord.png",
         "width": 512
     },
     {
         "title": "ESPN Speedworld",
-        "image": "ESPNSpeedworld.png",
+        "image": "screens/snes/ESPNSpeedworld.png",
         "width": 512
     },
     {
         "title": "Mega Man 7",
-        "image": "MegaMan7.png",
+        "image": "screens/snes/MegaMan7.png",
         "width": 512
     },
     {
         "title": "Looney Tunes B-Ball",
-        "image": "LooneyTunesBBall.png",
+        "image": "screens/snes/LooneyTunesBBall.png",
         "width": 512
     },
     {
         "title": "Wizardry V - Heart of the Maelstrom",
-        "image": "WizardryVHeartoftheMaelstrom.png",
+        "image": "screens/snes/WizardryVHeartoftheMaelstrom.png",
         "width": 512
     },
     {
         "title": "Rocko's Modern Life - Spunky's Dangerous Day",
-        "image": "RockosModernLifeSpunkysDangerousDay.png",
+        "image": "screens/snes/RockosModernLifeSpunkysDangerousDay.png",
         "width": 512
     },
     {
         "title": "ABC Monday Night Football",
-        "image": "ABCMondayNightFootball.png",
+        "image": "screens/snes/ABCMondayNightFootball.png",
         "width": 512
     },
     {
         "title": "Tecmo Super Bowl II - Special Edition",
-        "image": "TecmoSuperBowlIISpecialEdition.png",
+        "image": "screens/snes/TecmoSuperBowlIISpecialEdition.png",
         "width": 512
     },
     {
         "title": "NHL '94",
-        "image": "NHL94.png",
+        "image": "screens/snes/NHL94.png",
         "width": 512
     },
     {
         "title": "Arcade's Greatest Hits",
-        "image": "ArcadesGreatestHits.png",
+        "image": "screens/snes/ArcadesGreatestHits.png",
         "width": 512
     },
     {
         "title": "Aerobiz",
-        "image": "Aerobiz.png",
+        "image": "screens/snes/Aerobiz.png",
         "width": 512
     },
     {
         "title": "Pitfall - The Mayan Adventure",
-        "image": "PitfallTheMayanAdventure.png",
+        "image": "screens/snes/PitfallTheMayanAdventure.png",
         "width": 512
     },
     {
         "title": "D-Force",
-        "image": "DForce.png",
+        "image": "screens/snes/DForce.png",
         "width": 512
     },
     {
         "title": "Goal!",
-        "image": "Goal.png",
+        "image": "screens/snes/Goal.png",
         "width": 512
     },
     {
         "title": "BreakThru!",
-        "image": "BreakThru.png",
+        "image": "screens/snes/BreakThru.png",
         "width": 512
     },
     {
         "title": "Q-bert 3",
-        "image": "Qbert3.png",
+        "image": "screens/snes/Qbert3.png",
         "width": 512
     },
     {
         "title": "Super Slam Dunk",
-        "image": "SuperSlamDunk.png",
+        "image": "screens/snes/SuperSlamDunk.png",
         "width": 512
     },
     {
         "title": "Space Invaders",
-        "image": "SpaceInvaders.png",
+        "image": "screens/snes/SpaceInvaders.png",
         "width": 512
     },
     {
         "title": "Bassin's Black Bass",
-        "image": "BassinsBlackBass.png",
+        "image": "screens/snes/BassinsBlackBass.png",
         "width": 512
     },
     {
         "title": "Ranma 1-2 - Hard Battle",
-        "image": "Ranma12HardBattle.png",
+        "image": "screens/snes/Ranma12HardBattle.png",
         "width": 512
     },
     {
         "title": "Thunder Spirits",
-        "image": "ThunderSpirits.png",
+        "image": "screens/snes/ThunderSpirits.png",
         "width": 512
     },
     {
         "title": "SOS",
-        "image": "SOS.png",
+        "image": "screens/snes/SOS.png",
         "width": 512
     },
     {
         "title": "Bugs Bunny - Rabbit Rampage",
-        "image": "BugsBunnyRabbitRampage.png",
+        "image": "screens/snes/BugsBunnyRabbitRampage.png",
         "width": 512
     },
     {
         "title": "Tecmo Super Bowl III - Final Edition",
-        "image": "TecmoSuperBowlIIIFinalEdition.png",
+        "image": "screens/snes/TecmoSuperBowlIIIFinalEdition.png",
         "width": 512
     },
     {
         "title": "BioMetal",
-        "image": "BioMetal.png",
+        "image": "screens/snes/BioMetal.png",
         "width": 512
     },
     {
         "title": "SimCity 2000 - The Ultimate City Simulator",
-        "image": "SimCity2000TheUltimateCitySimulator.png",
+        "image": "screens/snes/SimCity2000TheUltimateCitySimulator.png",
         "width": 512
     },
     {
         "title": "Secret of Evermore",
-        "image": "SecretofEvermore.png",
+        "image": "screens/snes/SecretofEvermore.png",
         "width": 512
     },
     {
         "title": "Lawnmower Man, The",
-        "image": "LawnmowerManThe.png",
+        "image": "screens/snes/LawnmowerManThe.png",
         "width": 512
     },
     {
         "title": "Primal Rage",
-        "image": "PrimalRage.png",
+        "image": "screens/snes/PrimalRage.png",
         "width": 512
     },
     {
         "title": "Tecmo Super Bowl",
-        "image": "TecmoSuperBowl.png",
+        "image": "screens/snes/TecmoSuperBowl.png",
         "width": 512
     },
     {
         "title": "SWAT Kats - The Radical Squadron",
-        "image": "SWATKatsTheRadicalSquadron.png",
+        "image": "screens/snes/SWATKatsTheRadicalSquadron.png",
         "width": 512
     },
     {
         "title": "Soul Blazer",
-        "image": "SoulBlazer.png",
+        "image": "screens/snes/SoulBlazer.png",
         "width": 512
     },
     {
         "title": "NHLPA Hockey 93",
-        "image": "NHLPAHockey93.png",
+        "image": "screens/snes/NHLPAHockey93.png",
         "width": 512
     },
     {
         "title": "Wild Snake",
-        "image": "WildSnake.png",
+        "image": "screens/snes/WildSnake.png",
         "width": 512
     },
     {
         "title": "X-Men - Mutant Apocalypse",
-        "image": "XMenMutantApocalypse.png",
+        "image": "screens/snes/XMenMutantApocalypse.png",
         "width": 512
     },
     {
         "title": "Super Star Wars - Return of the Jedi",
-        "image": "SuperStarWarsReturnoftheJedi.png",
+        "image": "screens/snes/SuperStarWarsReturnoftheJedi.png",
         "width": 512
     },
     {
         "title": "American Gladiators",
-        "image": "AmericanGladiators.png",
+        "image": "screens/snes/AmericanGladiators.png",
         "width": 512
     },
     {
         "title": "Jack Nicklaus Golf",
-        "image": "JackNicklausGolf.png",
+        "image": "screens/snes/JackNicklausGolf.png",
         "width": 512
     },
     {
         "title": "Super Street Fighter II",
-        "image": "SuperStreetFighterII.png",
+        "image": "screens/snes/SuperStreetFighterII.png",
         "width": 512
     },
     {
         "title": "Indiana Jones' Greatest Adventures",
-        "image": "IndianaJonesGreatestAdventures.png",
+        "image": "screens/snes/IndianaJonesGreatestAdventures.png",
         "width": 512
     },
     {
         "title": "Sterling Sharpe - End 2 End",
-        "image": "SterlingSharpeEnd2End.png",
+        "image": "screens/snes/SterlingSharpeEnd2End.png",
         "width": 512
     },
     {
         "title": "Todd McFarlane's Spawn - The Video Game",
-        "image": "ToddMcFarlanesSpawnTheVideoGame.png",
+        "image": "screens/snes/ToddMcFarlanesSpawnTheVideoGame.png",
         "width": 512
     },
     {
         "title": "Chuck Rock",
-        "image": "ChuckRock.png",
+        "image": "screens/snes/ChuckRock.png",
         "width": 512
     },
     {
         "title": "Power Moves",
-        "image": "PowerMoves.png",
+        "image": "screens/snes/PowerMoves.png",
         "width": 512
     },
     {
         "title": "Cool World",
-        "image": "CoolWorld.png",
+        "image": "screens/snes/CoolWorld.png",
         "width": 512
     },
     {
         "title": "World Heroes 2",
-        "image": "WorldHeroes2.png",
+        "image": "screens/snes/WorldHeroes2.png",
         "width": 512
     },
     {
         "title": "Operation Logic Bomb - The Ultimate Search _ Destroy",
-        "image": "OperationLogicBombTheUltimateSearchDestroy.png",
+        "image": "screens/snes/OperationLogicBombTheUltimateSearchDestroy.png",
         "width": 512
     },
     {
         "title": "NBA Showdown",
-        "image": "NBAShowdown.png",
+        "image": "screens/snes/NBAShowdown.png",
         "width": 512
     },
     {
         "title": "Realm",
-        "image": "Realm.png",
+        "image": "screens/snes/Realm.png",
         "width": 512
     },
     {
         "title": "Wings 2 - Aces High",
-        "image": "Wings2AcesHigh.png",
+        "image": "screens/snes/Wings2AcesHigh.png",
         "width": 512
     },
     {
         "title": "Lamborghini American Challenge",
-        "image": "LamborghiniAmericanChallenge.png",
+        "image": "screens/snes/LamborghiniAmericanChallenge.png",
         "width": 512
     },
     {
         "title": "Speed Racer in My Most Dangerous Adventures",
-        "image": "SpeedRacerinMyMostDangerousAdventures.png",
+        "image": "screens/snes/SpeedRacerinMyMostDangerousAdventures.png",
         "width": 512
     },
     {
         "title": "Kirby's Avalanche",
-        "image": "KirbysAvalanche.png",
+        "image": "screens/snes/KirbysAvalanche.png",
         "width": 512
     },
     {
         "title": "Demon's Crest",
-        "image": "DemonsCrest.png",
+        "image": "screens/snes/DemonsCrest.png",
         "width": 512
     },
     {
         "title": "Hook",
-        "image": "Hook.png",
+        "image": "screens/snes/Hook.png",
         "width": 512
     },
     {
         "title": "Ultraman",
-        "image": "Ultraman.png",
+        "image": "screens/snes/Ultraman.png",
         "width": 512
     },
     {
         "title": "Street Fighter II Turbo",
-        "image": "StreetFighterIITurbo.png",
+        "image": "screens/snes/StreetFighterIITurbo.png",
         "width": 512
     },
     {
         "title": "Super Punch-Out!!",
-        "image": "SuperPunchOut.png",
+        "image": "screens/snes/SuperPunchOut.png",
         "width": 512
     },
     {
         "title": "Pro Sport Hockey",
-        "image": "ProSportHockey.png",
+        "image": "screens/snes/ProSportHockey.png",
         "width": 512
     },
     {
         "title": "3 Ninjas Kick Back",
-        "image": "3NinjasKickBack.png",
+        "image": "screens/snes/3NinjasKickBack.png",
         "width": 512
     },
     {
         "title": "Lost Vikings 2",
-        "image": "LostVikings2.png",
+        "image": "screens/snes/LostVikings2.png",
         "width": 512
     },
     {
         "title": "International Tennis Tour",
-        "image": "InternationalTennisTour.png",
+        "image": "screens/snes/InternationalTennisTour.png",
         "width": 512
     },
     {
         "title": "Side Pocket",
-        "image": "SidePocket.png",
+        "image": "screens/snes/SidePocket.png",
         "width": 512
     },
     {
         "title": "Ultima - The False Prophet",
-        "image": "UltimaTheFalseProphet.png",
+        "image": "screens/snes/UltimaTheFalseProphet.png",
         "width": 512
     },
     {
         "title": "Imperium",
-        "image": "Imperium.png",
+        "image": "screens/snes/Imperium.png",
         "width": 512
     },
     {
         "title": "Captain Commando",
-        "image": "CaptainCommando.png",
+        "image": "screens/snes/CaptainCommando.png",
         "width": 512
     },
     {
         "title": "Super Mario Kart",
-        "image": "SuperMarioKart.png",
+        "image": "screens/snes/SuperMarioKart.png",
         "width": 512
     },
     {
         "title": "Addams Family, The",
-        "image": "AddamsFamilyThe.png",
+        "image": "screens/snes/AddamsFamilyThe.png",
         "width": 512
     },
     {
         "title": "Advanced Dungeons _ Dragons - Eye of the Beholder",
-        "image": "AdvancedDungeonsDragonsEyeoftheBeholder.png",
+        "image": "screens/snes/AdvancedDungeonsDragonsEyeoftheBeholder.png",
         "width": 512
     },
     {
         "title": "Bill Walsh College Football",
-        "image": "BillWalshCollegeFootball.png",
+        "image": "screens/snes/BillWalshCollegeFootball.png",
         "width": 512
     },
     {
         "title": "Spanky's Quest",
-        "image": "SpankysQuest.png",
+        "image": "screens/snes/SpankysQuest.png",
         "width": 512
     },
     {
         "title": "Pit-Fighter",
-        "image": "PitFighter.png",
+        "image": "screens/snes/PitFighter.png",
         "width": 512
     },
     {
         "title": "Mark Davis' The Fishing Master",
-        "image": "MarkDavisTheFishingMaster.png",
+        "image": "screens/snes/MarkDavisTheFishingMaster.png",
         "width": 512
     },
     {
         "title": "Al Unser Jr.'s Road to the Top",
-        "image": "AlUnserJr.sRoadtotheTop.png",
+        "image": "screens/snes/AlUnserJr.sRoadtotheTop.png",
         "width": 512
     },
     {
         "title": "TKO Super Championship Boxing",
-        "image": "TKOSuperChampionshipBoxing.png",
+        "image": "screens/snes/TKOSuperChampionshipBoxing.png",
         "width": 512
     },
     {
         "title": "Star Trek - Deep Space Nine - Crossroads of Time",
-        "image": "StarTrekDeepSpaceNineCrossroadsofTime.png",
+        "image": "screens/snes/StarTrekDeepSpaceNineCrossroadsofTime.png",
         "width": 512
     },
     {
         "title": "Claymates",
-        "image": "Claymates.png",
+        "image": "screens/snes/Claymates.png",
         "width": 512
     },
     {
         "title": "King Arthur _ The Knights of Justice",
-        "image": "KingArthurTheKnightsofJustice.png",
+        "image": "screens/snes/KingArthurTheKnightsofJustice.png",
         "width": 512
     },
     {
         "title": "Porky Pig's Haunted Holiday",
-        "image": "PorkyPigsHauntedHoliday.png",
+        "image": "screens/snes/PorkyPigsHauntedHoliday.png",
         "width": 512
     },
     {
         "title": "Mega Man X",
-        "image": "MegaManX.png",
+        "image": "screens/snes/MegaManX.png",
         "width": 512
     },
     {
         "title": "Tecmo Secret of the Stars",
-        "image": "TecmoSecretoftheStars.png",
+        "image": "screens/snes/TecmoSecretoftheStars.png",
         "width": 512
     },
     {
         "title": "Star Fox",
-        "image": "StarFox.png",
+        "image": "screens/snes/StarFox.png",
         "width": 512
     },
     {
         "title": "RoboCop 3",
-        "image": "RoboCop3.png",
+        "image": "screens/snes/RoboCop3.png",
         "width": 512
     },
     {
         "title": "Rise of the Phoenix",
-        "image": "RiseofthePhoenix.png",
+        "image": "screens/snes/RiseofthePhoenix.png",
         "width": 512
     },
     {
         "title": "Tick, The",
-        "image": "TickThe.png",
+        "image": "screens/snes/TickThe.png",
         "width": 512
     },
     {
         "title": "Joe _ Mac",
-        "image": "JoeMac.png",
+        "image": "screens/snes/JoeMac.png",
         "width": 512
     },
     {
         "title": "Mortal Kombat",
-        "image": "MortalKombat.png",
+        "image": "screens/snes/MortalKombat.png",
         "width": 512
     },
     {
         "title": "Bebe's Kids",
-        "image": "BebesKids.png",
+        "image": "screens/snes/BebesKids.png",
         "width": 512
     },
     {
         "title": "Mask, The",
-        "image": "MaskThe.png",
+        "image": "screens/snes/MaskThe.png",
         "width": 512
     },
     {
         "title": "Kawasaki Superbike Challenge",
-        "image": "KawasakiSuperbikeChallenge.png",
+        "image": "screens/snes/KawasakiSuperbikeChallenge.png",
         "width": 512
     },
     {
         "title": "No Escape",
-        "image": "NoEscape.png",
+        "image": "screens/snes/NoEscape.png",
         "width": 512
     },
     {
         "title": "SimAnt - The Electronic Ant Colony",
-        "image": "SimAntTheElectronicAntColony.png",
+        "image": "screens/snes/SimAntTheElectronicAntColony.png",
         "width": 512
     },
     {
         "title": "Legend of Zelda, The - A Link to the Past",
-        "image": "LegendofZeldaTheALinktothePast.png",
+        "image": "screens/snes/LegendofZeldaTheALinktothePast.png",
         "width": 512
     },
     {
         "title": "Mr. Nutz",
-        "image": "Mr.Nutz.png",
+        "image": "screens/snes/Mr.Nutz.png",
         "width": 512
     },
     {
         "title": "Terminator 2 - Judgment Day",
-        "image": "Terminator2JudgmentDay.png",
+        "image": "screens/snes/Terminator2JudgmentDay.png",
         "width": 512
     },
     {
         "title": "BlaZeon - The Bio-Cyborg Challenge",
-        "image": "BlaZeonTheBioCyborgChallenge.png",
+        "image": "screens/snes/BlaZeonTheBioCyborgChallenge.png",
         "width": 512
     },
     {
         "title": "Aaahh!!! Real Monsters",
-        "image": "AaahhRealMonsters.png",
+        "image": "screens/snes/AaahhRealMonsters.png",
         "width": 512
     },
     {
         "title": "Riddick Bowe Boxing",
-        "image": "RiddickBoweBoxing.png",
+        "image": "screens/snes/RiddickBoweBoxing.png",
         "width": 512
     },
     {
         "title": "Hunt for Red October, The",
-        "image": "HuntforRedOctoberThe.png",
+        "image": "screens/snes/HuntforRedOctoberThe.png",
         "width": 512
     },
     {
         "title": "Chessmaster, The",
-        "image": "ChessmasterThe.png",
+        "image": "screens/snes/ChessmasterThe.png",
         "width": 512
     },
     {
         "title": "Killer Instinct",
-        "image": "KillerInstinct.png",
+        "image": "screens/snes/KillerInstinct.png",
         "width": 512
     },
     {
         "title": "Yoshi's Safari",
-        "image": "YoshisSafari.png",
+        "image": "screens/snes/YoshisSafari.png",
         "width": 512
     },
     {
         "title": "Metal Morph",
-        "image": "MetalMorph.png",
+        "image": "screens/snes/MetalMorph.png",
         "width": 512
     },
     {
         "title": "Biker Mice from Mars",
-        "image": "BikerMicefromMars.png",
+        "image": "screens/snes/BikerMicefromMars.png",
         "width": 512
     },
     {
         "title": "Frantic Flea",
-        "image": "FranticFlea.png",
+        "image": "screens/snes/FranticFlea.png",
         "width": 512
     },
     {
         "title": "Super Star Fox Weekend",
-        "image": "SuperStarFoxWeekend.png",
+        "image": "screens/snes/SuperStarFoxWeekend.png",
         "width": 512
     },
     {
         "title": "ActRaiser 2",
-        "image": "ActRaiser2.png",
+        "image": "screens/snes/ActRaiser2.png",
         "width": 512
     },
     {
         "title": "True Golf Classics - Waialae Country Club",
-        "image": "TrueGolfClassicsWaialaeCountryClub.png",
+        "image": "screens/snes/TrueGolfClassicsWaialaeCountryClub.png",
         "width": 512
     },
     {
         "title": "Prince of Persia",
-        "image": "PrinceofPersia.png",
+        "image": "screens/snes/PrinceofPersia.png",
         "width": 512
     },
     {
         "title": "Skyblazer",
-        "image": "Skyblazer.png",
+        "image": "screens/snes/Skyblazer.png",
         "width": 512
     },
     {
         "title": "Top Gear",
-        "image": "TopGear.png",
+        "image": "screens/snes/TopGear.png",
         "width": 512
     },
     {
         "title": "Duel, The - Test Drive II",
-        "image": "DuelTheTestDriveII.png",
+        "image": "screens/snes/DuelTheTestDriveII.png",
         "width": 512
     },
     {
         "title": "Lethal Enforcers",
-        "image": "LethalEnforcers.png",
+        "image": "screens/snes/LethalEnforcers.png",
         "width": 512
     },
     {
         "title": "Incredible Crash Dummies, The",
-        "image": "IncredibleCrashDummiesThe.png",
+        "image": "screens/snes/IncredibleCrashDummiesThe.png",
         "width": 512
     },
     {
         "title": "Winter Olympic Games - Lillehammer '94",
-        "image": "WinterOlympicGamesLillehammer94.png",
+        "image": "screens/snes/WinterOlympicGamesLillehammer94.png",
         "width": 512
     },
     {
         "title": "Super Aquatic Games Starring the Aquabats, The",
-        "image": "SuperAquaticGamesStarringtheAquabatsThe.png",
+        "image": "screens/snes/SuperAquaticGamesStarringtheAquabatsThe.png",
         "width": 512
     },
     {
         "title": "Troddlers",
-        "image": "Troddlers.png",
+        "image": "screens/snes/Troddlers.png",
         "width": 512
     },
     {
         "title": "Paperboy 2",
-        "image": "Paperboy2.png",
+        "image": "screens/snes/Paperboy2.png",
         "width": 512
     },
     {
         "title": "Super Nova",
-        "image": "SuperNova.png",
+        "image": "screens/snes/SuperNova.png",
         "width": 512
     },
     {
         "title": "WWF Super WrestleMania",
-        "image": "WWFSuperWrestleMania.png",
+        "image": "screens/snes/WWFSuperWrestleMania.png",
         "width": 512
     },
     {
         "title": "Metal Combat - Falcon's Revenge",
-        "image": "MetalCombatFalconsRevenge.png",
+        "image": "screens/snes/MetalCombatFalconsRevenge.png",
         "width": 512
     },
     {
         "title": "Rap Jam - Volume One",
-        "image": "RapJamVolumeOne.png",
+        "image": "screens/snes/RapJamVolumeOne.png",
         "width": 512
     },
     {
         "title": "Gods",
-        "image": "Gods.png",
+        "image": "screens/snes/Gods.png",
         "width": 512
     },
     {
         "title": "Doom",
-        "image": "Doom.png",
+        "image": "screens/snes/Doom.png",
         "width": 512
     },
     {
         "title": "Capcom's Soccer Shootout",
-        "image": "CapcomsSoccerShootout.png",
+        "image": "screens/snes/CapcomsSoccerShootout.png",
         "width": 512
     },
     {
         "title": "Goof Troop",
-        "image": "GoofTroop.png",
+        "image": "screens/snes/GoofTroop.png",
         "width": 512
     },
     {
         "title": "Mario's Early Years - Preschool Fun",
-        "image": "MariosEarlyYearsPreschoolFun.png",
+        "image": "screens/snes/MariosEarlyYearsPreschoolFun.png",
         "width": 512
     },
     {
         "title": "Great Waldo Search, The",
-        "image": "GreatWaldoSearchThe.png",
+        "image": "screens/snes/GreatWaldoSearchThe.png",
         "width": 512
     },
     {
         "title": "Where in the World Is Carmen Sandiego",
-        "image": "WhereintheWorldIsCarmenSandiego.png",
+        "image": "screens/snes/WhereintheWorldIsCarmenSandiego.png",
         "width": 512
     },
     {
         "title": "Animaniacs",
-        "image": "Animaniacs.png",
+        "image": "screens/snes/Animaniacs.png",
         "width": 512
     },
     {
         "title": "Obitus",
-        "image": "Obitus.png",
+        "image": "screens/snes/Obitus.png",
         "width": 512
     },
     {
         "title": "Exertainment Mountain Bike Rally + Speed Racer",
-        "image": "ExertainmentMountainBikeRallySpeedRacer.png",
+        "image": "screens/snes/ExertainmentMountainBikeRallySpeedRacer.png",
         "width": 512
     },
     {
         "title": "Super Baseball Simulator 1.000",
-        "image": "SuperBaseballSimulator1.000.png",
+        "image": "screens/snes/SuperBaseballSimulator1.000.png",
         "width": 512
     },
     {
         "title": "Timecop",
-        "image": "Timecop.png",
+        "image": "screens/snes/Timecop.png",
         "width": 512
     },
     {
         "title": "Gemfire",
-        "image": "Gemfire.png",
+        "image": "screens/snes/Gemfire.png",
         "width": 512
     },
     {
         "title": "Mickey's Ultimate Challenge",
-        "image": "MickeysUltimateChallenge.png",
+        "image": "screens/snes/MickeysUltimateChallenge.png",
         "width": 512
     },
     {
         "title": "NHL 98",
-        "image": "NHL98.png",
+        "image": "screens/snes/NHL98.png",
         "width": 512
     },
     {
         "title": "Super Smash T.V.",
-        "image": "SuperSmashT.V..png",
+        "image": "screens/snes/SuperSmashT.V..png",
         "width": 512
     },
     {
         "title": "Battle Grand Prix",
-        "image": "BattleGrandPrix.png",
+        "image": "screens/snes/BattleGrandPrix.png",
         "width": 512
     },
     {
         "title": "Cannondale Cup",
-        "image": "CannondaleCup.png",
+        "image": "screens/snes/CannondaleCup.png",
         "width": 512
     },
     {
         "title": "FIFA Soccer 97",
-        "image": "FIFASoccer97.png",
+        "image": "screens/snes/FIFASoccer97.png",
         "width": 512
     },
     {
         "title": "Taekwon-Do",
-        "image": "TaekwonDo.png",
+        "image": "screens/snes/TaekwonDo.png",
         "width": 512
     },
     {
         "title": "Romance of the Three Kingdoms III - Dragon of Destiny",
-        "image": "RomanceoftheThreeKingdomsIIIDragonofDestiny.png",
+        "image": "screens/snes/RomanceoftheThreeKingdomsIIIDragonofDestiny.png",
         "width": 512
     },
     {
         "title": "King of the Monsters 2",
-        "image": "KingoftheMonsters2.png",
+        "image": "screens/snes/KingoftheMonsters2.png",
         "width": 512
     },
     {
         "title": "Raiden Trad",
-        "image": "RaidenTrad.png",
+        "image": "screens/snes/RaidenTrad.png",
         "width": 512
     },
     {
         "title": "Brett Hull Hockey",
-        "image": "BrettHullHockey.png",
+        "image": "screens/snes/BrettHullHockey.png",
         "width": 512
     },
     {
         "title": "FIFA International Soccer",
-        "image": "FIFAInternationalSoccer.png",
+        "image": "screens/snes/FIFAInternationalSoccer.png",
         "width": 512
     },
     {
         "title": "Batman Forever",
-        "image": "BatmanForever.png",
+        "image": "screens/snes/BatmanForever.png",
         "width": 512
     },
     {
         "title": "Power Rangers Zeo - Battle Racers",
-        "image": "PowerRangersZeoBattleRacers.png",
+        "image": "screens/snes/PowerRangersZeoBattleRacers.png",
         "width": 512
     },
     {
         "title": "Super Slap Shot",
-        "image": "SuperSlapShot.png",
+        "image": "screens/snes/SuperSlapShot.png",
         "width": 512
     },
     {
         "title": "Star Trek - The Next Generation - Future's Past",
-        "image": "StarTrekTheNextGenerationFuturesPast.png",
+        "image": "screens/snes/StarTrekTheNextGenerationFuturesPast.png",
         "width": 512
     },
     {
         "title": "Tuff E Nuff",
-        "image": "TuffENuff.png",
+        "image": "screens/snes/TuffENuff.png",
         "width": 512
     },
     {
         "title": "NCAA Football",
-        "image": "NCAAFootball.png",
+        "image": "screens/snes/NCAAFootball.png",
         "width": 512
     },
     {
         "title": "Best of the Best - Championship Karate",
-        "image": "BestoftheBestChampionshipKarate.png",
+        "image": "screens/snes/BestoftheBestChampionshipKarate.png",
         "width": 512
     },
     {
         "title": "King of Dragons",
-        "image": "KingofDragons.png",
+        "image": "screens/snes/KingofDragons.png",
         "width": 512
     },
     {
         "title": "Batman Returns",
-        "image": "BatmanReturns.png",
+        "image": "screens/snes/BatmanReturns.png",
         "width": 512
     },
     {
         "title": "Final Fight",
-        "image": "FinalFight.png",
+        "image": "screens/snes/FinalFight.png",
         "width": 512
     },
     {
         "title": "Stargate",
-        "image": "Stargate.png",
+        "image": "screens/snes/Stargate.png",
         "width": 512
     },
     {
         "title": "International Superstar Soccer",
-        "image": "InternationalSuperstarSoccer.png",
+        "image": "screens/snes/InternationalSuperstarSoccer.png",
         "width": 512
     },
     {
         "title": "Breath of Fire II",
-        "image": "BreathofFireII.png",
+        "image": "screens/snes/BreathofFireII.png",
         "width": 512
     },
     {
         "title": "Scooby-Doo Mystery",
-        "image": "ScoobyDooMystery.png",
+        "image": "screens/snes/ScoobyDooMystery.png",
         "width": 512
     },
     {
         "title": "Ultimate Mortal Kombat 3",
-        "image": "UltimateMortalKombat3.png",
+        "image": "screens/snes/UltimateMortalKombat3.png",
         "width": 512
     },
     {
         "title": "Hammer Lock Wrestling",
-        "image": "HammerLockWrestling.png",
+        "image": "screens/snes/HammerLockWrestling.png",
         "width": 512
     },
     {
         "title": "Bubsy II",
-        "image": "BubsyII.png",
+        "image": "screens/snes/BubsyII.png",
         "width": 512
     },
     {
         "title": "Saturday Night Slam Masters",
-        "image": "SaturdayNightSlamMasters.png",
+        "image": "screens/snes/SaturdayNightSlamMasters.png",
         "width": 512
     },
     {
         "title": "Toys - Let the Toy Wars begin!",
-        "image": "ToysLettheToyWarsbegin.png",
+        "image": "screens/snes/ToysLettheToyWarsbegin.png",
         "width": 512
     },
     {
         "title": "Soldiers of Fortune",
-        "image": "SoldiersofFortune.png",
+        "image": "screens/snes/SoldiersofFortune.png",
         "width": 512
     },
     {
         "title": "Nolan Ryan's Baseball",
-        "image": "NolanRyansBaseball.png",
+        "image": "screens/snes/NolanRyansBaseball.png",
         "width": 512
     }
 ]
