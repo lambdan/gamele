@@ -52,7 +52,7 @@ function init () {
 	// read and parse games.json
 	$.each(gamesjson, function(k,v) {
 		games.push(v);
-		game_titles.push(v.title + " (" + v.year + ")");
+		game_titles.push(v.title);
 	});
 
 	// push sorted list of games to the input box ("datalist")
@@ -64,7 +64,7 @@ function init () {
 	r = daysSinceStart()
 	//r = Math.floor(Math.random() * games.length); // random game for testing
 	
-	game_today = games[r].title + " (" + games[r].year + ")"
+	game_today = games[r].title
 	todays_image = "screens/" + games[r].image
 	todays_aspect = games[r].aspect
 
