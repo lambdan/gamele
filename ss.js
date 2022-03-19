@@ -1,6 +1,6 @@
-var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev35_"
-var SITE_NAME = "NESscreenle"
+var START_DATE = "2022-03-19"
+var SAVE_PREFIX = "screenshotle_public1_NES_"
+var SITE_URL = "https://lambdan.se/screenle/NES"
 var GAMES_JSON = "nes.json"
 
 var todays_image;
@@ -356,7 +356,7 @@ function showStats() {
 }
 
 function share() {
-	var res = SITE_NAME + " " + daysSinceStart() + "\n";
+	var res = SITE_URL + " " + daysSinceStart() + "\n";
 
 	var squares = [["","","","",""], ["","","","",""]]
 
