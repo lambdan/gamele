@@ -1,5 +1,5 @@
 var START_DATE = "2022-03-18"
-var SAVE_PREFIX = "screenshotle_dev30_"
+var SAVE_PREFIX = "screenshotle_dev32_"
 
 var todays_image;
 var img = new Image();
@@ -119,6 +119,33 @@ function init () {
 	}
 
 	img.src = todays_image // yes, src is set after the above onload... very weird
+}
+
+function sizeChanged() {
+	$("#image").hide(); // hide the image
+
+	$.each(blockers, function(k,v) { // remove all blockers from the html
+		$("#" + v.id).remove();
+	});
+	blockers = []; // wipe the blockers array (as it will be filled by addBlock() again)
+
+	$("#image").show(); // show the image again (so blockers can get their sizes)
+
+	// create blockers
+	for (let r = 0; r < rows; r++) {
+		for (let c = 0; c < cols; c++) {
+			addBlock(r,c)
+		}
+	}
+
+	// reveal blockers already clicked
+	if (revealed_today.length > 0) {
+		$.each(revealed_today, function(k,v) {
+			console.log("revealing", v)
+			$("#" + v).hide();
+		});
+	}
+
 }
 
 function addBlock(row,col) {
@@ -403,7 +430,8 @@ var wwidth = $(window).width();
 $(window).on('resize', function() {
   if ($(this).width() !== wwidth) {
     wwidth = $(this).width();
-    $("#playfield").hide();
-    $("#guessfield").html("<p>Browser size changed. Please reload page. (Progress is saved)</p>")
+    //$("#playfield").hide();
+    //$("#guessfield").html("<p>Browser size changed. Please reload page. (Progress is saved)</p>")
+    sizeChanged();
   }
 });
