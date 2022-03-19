@@ -1,7 +1,8 @@
 var START_DATE = "2022-03-19"
-var SAVE_PREFIX = "screenshotle_public1_NES_"
-var SITE_URL = "https://lambdan.se/screenle/NES"
-var GAMES_JSON = "nes.json"
+var SAVE_PREFIX = "screenshotle_dev2_N64_"
+var SITE_URL = "https://lambdan.se/screenle/N64"
+var GAMES_JSON = "n64.json"
+var SCREENS_FOLDER = "n64_screens/"
 
 var todays_image;
 var img = new Image();
@@ -67,14 +68,11 @@ function init () {
 	//r = Math.floor(Math.random() * games.length); // random game for testing
 	
 	game_today = games[r].title
-	todays_image = "screens/" + games[r].image
-	todays_aspect = games[r].aspect
+	todays_image = SCREENS_FOLDER + games[r].image
+	todays_width = games[r].width
 
-	// calculate playfield area based on what aspect todays game is
-	playfield_max_width = "1280px"
-	if (todays_aspect != "16:9") {
-		playfield_max_width = "600px"
-	}
+	// set playfield area based on screenshot width
+	playfield_max_width = String(todays_width) + "px"
 
 	$("#playfield").css({
 		"max-width": playfield_max_width
