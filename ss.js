@@ -119,28 +119,6 @@ function init () {
 	img.src = todays_image // yes, src is set after the above onload... very weird
 }
 
-function regenPlayfield() {
-	console.log("regenPlayfield")
-	$("#image").html("<p>Shit</p>")
-
-	$.each(blockers, function(k,v) {
-		$(v.id).remove();
-	});
-
-	// setup the image and create blockers
-	img.src = todays_image
-	img.onload = function() {
-		// create blockers
-		for (let r = 0; r < rows; r++) {
-			for (let c = 0; c < cols; c++) {
-			addBlock(r,c)
-		}
-		}	
-	}
-	$("#image").html(img)
-
-}
-
 function addBlock(row,col) {
 	w = img.width/cols
 	h = img.height/rows
