@@ -48,6 +48,7 @@ function init () {
 	$("#perfect-letters").html(today_userdata.perfect.join(""));
 	$("#correct-letters").html(today_userdata.correct.join(""));
 	$("#wrong-letters").html(today_userdata.wrong.join(""));
+	updateGuessesRemaining();
 
 	// read and parse games.json
 	$.each(gamesjson, function(k,v) {
@@ -162,8 +163,21 @@ function addBlock(row,col) {
 	blockers.push({"id": name, "active": true})
 }
 
+function guessesRemaining() {
+	var remain = max_guesses - (today_userdata.revealed.length + today_userdata.guesses.length)
+	return remain
+}
+
+function updateGuessesRemaining() {
+	$("#guesses-remaining").html("Guesses/Reveals Remaining: " + guessesRemaining())
+}
+
 function clickedBlocker(id) {
 	revealSquare(id);
+
+	if (guessesRemaining() <= 0) {
+		lostGame();
+	}
 }
 
 function revealSquare(id) {
@@ -179,6 +193,7 @@ function revealSquare(id) {
 		}
 	});
 
+	updateGuessesRemaining();
 	$("#" + id).fadeOut(2000, function() {
 		// animation done
 		return true
@@ -198,6 +213,13 @@ function wonGame() {
 		game_won = true;
 		game_over = true;
 
+		if (!user_stats.played_days.includes(dateToday())) {
+			today_userdata.result = "win";
+			user_stats.wins[today_userdata.revealed.length]++;
+			user_stats.played_days.push(dateToday());
+			saveStats();
+		}
+
 		revealAll();
 		$("#guessinput").fadeOut(2000, function() {
 			$("#guessinput").html('<h2 class="winner">Winner!</h2><p><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
@@ -208,6 +230,13 @@ function wonGame() {
 function lostGame() {
 		game_won = false;
 		game_over = true;
+
+		if (!user_stats.played_days.includes(dateToday())) {
+			today_userdata.result = "fail";
+			user_stats.fails++;
+			user_stats.played_days.push(dateToday());
+			saveStats();
+		}
 
 		revealAll();
 		$("#guessinput").fadeOut(2000, function() {
@@ -228,6 +257,7 @@ function makeGuess() {
 		return
 	} else {
 		today_userdata.guesses.push(guess);
+		updateGuessesRemaining();
 	}
 	
 	
@@ -246,14 +276,8 @@ function makeGuess() {
 			for (var h=0; h < target.length; h++) {
 				if (target[h] == stripped[h]) {
 					today_userdata.perfect[h] = stripped[h];
-
-					if (h > 0) { // if the previous letter is nothing, make it a _
-						for (var w = h; w >= 0; w--) {
-							if (!today_userdata.perfect[w]) {
-								today_userdata.perfect[w] = "_";
-							}
-						}
-					}
+				} else if (!today_userdata.perfect[h]) {
+					today_userdata.perfect[h] = "_";
 				}
 			}
 
@@ -271,36 +295,12 @@ function makeGuess() {
 
 	if (guess == game_today) { // winner!
 		wonGame();
-		today_userdata.result = "win";
-		user_stats.wins[today_userdata.revealed.length]++;
 
-		if (!user_stats.played_days.includes(dateToday())) {
-			user_stats.played_days.push(dateToday());
-		}
-
-		saveStats();
-
-	} else if (today_userdata.revealed.length == max_guesses) { // failure
+	} else if (guessesRemaining() <= 0) { // failure
+		$("#playfield").effect("shake");
 		lostGame();
-		today_userdata.result = "fail";
-		user_stats.fails++;
-		if (!user_stats.played_days.includes(dateToday())) {
-			user_stats.played_days.push(dateToday());
-		}
-
-		saveStats();
-
 	} else { // just wrong guess
 		$("#playfield").effect("shake");
-		
-		// reveal one random tile
-		r = Math.floor(Math.random() * blockers.length)
-		while (blockers[r].active == false) {
-			//console.log("oop, that one was already revealed")
-			r = Math.floor(Math.random() * blockers.length)
-		}
-		revealSquare(blockers[r].id)
-
 	}
 
 	saveTodayUserdata();
@@ -391,7 +391,7 @@ function share() {
 		res += "❌"
 	}
 
-	res += " " + today_userdata.revealed.length + "/" + (rows*cols) + "\n"
+	res += " " + (max_guesses - guessesRemaining()) + "/" + (rows*cols) + "\n"
 	
 	// put out the number emojis
 	$.each(today_userdata.revealed, function(k,v) {

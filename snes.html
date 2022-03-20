@@ -35,6 +35,7 @@ var GAMES_JSON = "snes.json"
   <div id="guessfield">
 
     <div id="guessinput">
+
       <label for="guess">The game is:</label>
       <input list="games" name="guess" id="guess">
       <datalist id="games">
@@ -43,12 +44,12 @@ var GAMES_JSON = "snes.json"
       <input type="button" value="Guess" onclick="makeGuess()">
     </div>
 
-    <!--<p>Guesses: <span id="guesses-count">0</span></p> -->
-
     <br>
     <div id="perfect-letters"></div>
     <div id="correct-letters"></div>
     <div id="wrong-letters"></div>
+    <div id="guesses-remaining"></div>
+    
 
   </div>
 
