@@ -19,10 +19,14 @@ var game_won = false;
 
 var session_date;
 var revealed_today = []
+var guesses_today = [];
 
 var user_stats;
 var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
+var perfect_chars = [];
+var correct_chars = [];
+var wrong_chars = [];
 
 function dateToday() {
 	const d = new Date();
@@ -220,7 +224,47 @@ function makeGuess() {
 	if (game_over) {
 		return // game is over, do nothing
 	}
+
 	var guess = $('#guess').val();
+
+	if (guesses_today.includes(guess)) {
+		alert("You've already guessed that game today!");
+		return
+	} else {
+		guesses_today.push(guess);
+	}
+	
+	
+	stripped = guess.replace(/[^0-9a-z]/gi, '').toUpperCase() // strip non-alphanumeric
+	target = game_today.toUpperCase().replace(/[^0-9a-z]/gi, '') //todays game (alphanumeric and uppercase)
+
+	for (var c = 0; c < stripped.length; c++) { // iterate the (stripped) guess
+		chr = stripped.charAt(c)
+
+		if (target.includes(chr)) { // char is in todays game
+
+			if (!correct_chars.includes(chr)) { // push to correct (yellow) letters if not already there
+				correct_chars.push(chr);
+			}
+
+			for (var h=0; h < target.length; h++) {
+				if (target[h] == stripped[h]) {
+					perfect_chars[h] = stripped[h];
+				}
+			}
+
+		} else {
+			if (!wrong_chars.includes(chr)) {
+				wrong_chars.push(chr);
+			}
+		}
+	}
+
+	$("#perfect-letters").html(perfect_chars.join(""));
+	$("#correct-letters").html(correct_chars.join(""));
+	$("#wrong-letters").html(wrong_chars.join(""));
+
+
 	if (guess == game_today) { // winner!
 		wonGame();
 		saveTodaysResult("win");

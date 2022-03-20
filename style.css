@@ -76,3 +76,18 @@ body {
 #guessinput {
 	display: none; /* hidden by default as its shown by the script if needed */
 }
+
+#perfect-letters {
+	font-family: monospace;
+	color: green;
+}
+
+#correct-letters {
+	font-family: monospace;
+	color:#949434;
+}
+
+#wrong-letters {
+	font-family: monospace;
+	color: red;
+}
