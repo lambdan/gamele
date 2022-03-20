@@ -95,7 +95,7 @@
         "width": 512
     },
     {
-        "title": "Ren _ Stimpy Show, The - Fire Dogs",
+        "title": "Ren & Stimpy Show, The - Fire Dogs",
         "image": "screens/snes/RenStimpyShowTheFireDogs.png",
         "width": 512
     },
@@ -155,7 +155,7 @@
         "width": 512
     },
     {
-        "title": "Tetris _ Dr. Mario",
+        "title": "Tetris & Dr. Mario",
         "image": "screens/snes/TetrisDr.Mario.png",
         "width": 512
     },
@@ -860,7 +860,7 @@
         "width": 512
     },
     {
-        "title": "Adventures of Batman _ Robin, The",
+        "title": "Adventures of Batman & Robin, The",
         "image": "screens/snes/AdventuresofBatmanRobinThe.png",
         "width": 512
     },
@@ -955,7 +955,7 @@
         "width": 512
     },
     {
-        "title": "Timon _ Pumbaa's Jungle Games",
+        "title": "Timon & Pumbaa's Jungle Games",
         "image": "screens/snes/TimonPumbaasJungleGames.png",
         "width": 512
     },
@@ -1090,7 +1090,7 @@
         "width": 512
     },
     {
-        "title": "Lufia _ The Fortress of Doom",
+        "title": "Lufia & The Fortress of Doom",
         "image": "screens/snes/LufiaTheFortressofDoom.png",
         "width": 512
     },
@@ -1205,7 +1205,7 @@
         "width": 512
     },
     {
-        "title": "Ren _ Stimpy Show, The - Veediots!",
+        "title": "Ren & Stimpy Show, The - Veediots!",
         "image": "screens/snes/RenStimpyShowTheVeediots.png",
         "width": 512
     },
@@ -1370,7 +1370,7 @@
         "width": 512
     },
     {
-        "title": "Great Circus Mystery Starring Mickey _ Minnie, The",
+        "title": "Great Circus Mystery Starring Mickey & Minnie, The",
         "image": "screens/snes/GreatCircusMysteryStarringMickeyMinnieThe.png",
         "width": 512
     },
@@ -1475,7 +1475,7 @@
         "width": 512
     },
     {
-        "title": "Ren _ Stimpy Show, The - Buckeroo$!",
+        "title": "Ren & Stimpy Show, The - Buckeroo$!",
         "image": "screens/snes/RenStimpyShowTheBuckeroo.png",
         "width": 512
     },
@@ -1615,7 +1615,7 @@
         "width": 512
     },
     {
-        "title": "Thomas the Tank Engine _ Friends",
+        "title": "Thomas the Tank Engine & Friends",
         "image": "screens/snes/ThomastheTankEngineFriends.png",
         "width": 512
     },
@@ -1715,7 +1715,7 @@
         "width": 512
     },
     {
-        "title": "Joe _ Mac 2 - Lost in the Tropics",
+        "title": "Joe & Mac 2 - Lost in the Tropics",
         "image": "screens/snes/JoeMac2LostintheTropics.png",
         "width": 512
     },
@@ -1750,7 +1750,7 @@
         "width": 512
     },
     {
-        "title": "Pocky _ Rocky 2",
+        "title": "Pocky & Rocky 2",
         "image": "screens/snes/PockyRocky2.png",
         "width": 512
     },
@@ -1800,7 +1800,7 @@
         "width": 512
     },
     {
-        "title": "Packy _ Marlon",
+        "title": "Packy & Marlon",
         "image": "screens/snes/PackyMarlon.png",
         "width": 512
     },
@@ -1815,7 +1815,7 @@
         "width": 512
     },
     {
-        "title": "Pocky _ Rocky",
+        "title": "Pocky & Rocky",
         "image": "screens/snes/PockyRocky.png",
         "width": 512
     },
@@ -1860,7 +1860,7 @@
         "width": 512
     },
     {
-        "title": "Ren _ Stimpy Show, The - Time Warp",
+        "title": "Ren & Stimpy Show, The - Time Warp",
         "image": "screens/snes/RenStimpyShowTheTimeWarp.png",
         "width": 512
     },
@@ -1970,7 +1970,7 @@
         "width": 512
     },
     {
-        "title": "Dig _ Spike Volleyball",
+        "title": "Dig & Spike Volleyball",
         "image": "screens/snes/DigSpikeVolleyball.png",
         "width": 512
     },
@@ -2315,7 +2315,7 @@
         "width": 512
     },
     {
-        "title": "Sports Illustrated Championship Football _ Baseball",
+        "title": "Sports Illustrated Championship Football & Baseball",
         "image": "screens/snes/SportsIllustratedChampionshipFootballBaseball.png",
         "width": 512
     },
@@ -2387,11 +2387,6 @@
     {
         "title": "Incredible Hulk, The",
         "image": "screens/snes/IncredibleHulkThe.png",
-        "width": 512
-    },
-    {
-        "title": "Donkey Kong Country - Competition Cartridge",
-        "image": "screens/snes/DonkeyKongCountryCompetitionCartridge.png",
         "width": 512
     },
     {
@@ -2490,7 +2485,7 @@
         "width": 512
     },
     {
-        "title": "Mohawk _ Headphone Jack",
+        "title": "Mohawk & Headphone Jack",
         "image": "screens/snes/MohawkHeadphoneJack.png",
         "width": 512
     },
@@ -2520,7 +2515,7 @@
         "width": 512
     },
     {
-        "title": "Itchy _ Scratchy Game, The",
+        "title": "Itchy & Scratchy Game, The",
         "image": "screens/snes/ItchyScratchyGameThe.png",
         "width": 512
     },
@@ -3060,7 +3055,7 @@
         "width": 512
     },
     {
-        "title": "Operation Logic Bomb - The Ultimate Search _ Destroy",
+        "title": "Operation Logic Bomb - The Ultimate Search & Destroy",
         "image": "screens/snes/OperationLogicBombTheUltimateSearchDestroy.png",
         "width": 512
     },
@@ -3170,7 +3165,7 @@
         "width": 512
     },
     {
-        "title": "Advanced Dungeons _ Dragons - Eye of the Beholder",
+        "title": "Advanced Dungeons & Dragons - Eye of the Beholder",
         "image": "screens/snes/AdvancedDungeonsDragonsEyeoftheBeholder.png",
         "width": 512
     },
@@ -3215,7 +3210,7 @@
         "width": 512
     },
     {
-        "title": "King Arthur _ The Knights of Justice",
+        "title": "King Arthur & The Knights of Justice",
         "image": "screens/snes/KingArthurTheKnightsofJustice.png",
         "width": 512
     },
@@ -3255,7 +3250,7 @@
         "width": 512
     },
     {
-        "title": "Joe _ Mac",
+        "title": "Joe & Mac",
         "image": "screens/snes/JoeMac.png",
         "width": 512
     },
