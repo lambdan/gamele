@@ -44,7 +44,6 @@ function init () {
 	// load "save files"
 	today_userdata = loadTodayUserdata();
 	user_stats = loadStats();
-	loadedTodayResults = loadTodaysResult();
 
 	$("#perfect-letters").html(today_userdata.perfect.join(""));
 	$("#correct-letters").html(today_userdata.correct.join(""));
@@ -96,14 +95,12 @@ function init () {
 			}
 		}
 
-		if (loadedTodayResults) { // check if game over today
-			if (loadedTodayResults == "win") {
-				wonGame();
-			} else {
-				lostGame();
-			}
-		} else {
+		if (today_userdata.result == "incomplete") {
 			$("#guessinput").fadeIn();
+		} else if (today_userdata.result == "win") {
+			wonGame();
+		} else if (today_userdata.result == "fail") {
+			lostGame();
 		}
 
 			if (today_userdata.revealed.length > 0) {
@@ -266,11 +263,24 @@ function makeGuess() {
 
 	if (guess == game_today) { // winner!
 		wonGame();
-		saveTodaysResult("win");
+		today_userdata.result = "win";
+		user_stats.wins[today_userdata.revealed.length]++;
+
+		if (!user_stats.played_days.includes(dateToday())) {
+			user_stats.played_days.push(dateToday());
+		}
+
+		saveStats();
 
 	} else if (today_userdata.revealed.length == max_guesses) { // failure
 		lostGame();
-		saveTodaysResult("fail");
+		today_userdata.result = "fail";
+		user_stats.fails++;
+		if (!user_stats.played_days.includes(dateToday())) {
+			user_stats.played_days.push(dateToday());
+		}
+
+		saveStats();
 
 	} else { // just wrong guess
 		$("#playfield").effect("shake");
@@ -305,6 +315,7 @@ function loadTodayUserdata() {
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved
 		return {
+			"result": "incomplete",
 			"revealed": [],
 			"guesses": [],
 			"perfect": [],
@@ -313,37 +324,6 @@ function loadTodayUserdata() {
 		}
 	} else {
 		return JSON.parse(localStorage.getItem(save_name))
-	}
-}
-
-function saveTodaysResult(result) {
-	save_name = SAVE_PREFIX + "result_" + session_date
-	localStorage.setItem(save_name, result)
-	console.log("saved result", save_name)
-
-	// save stats
-	if (user_stats.played_days.includes(dateToday())) {
-		console.log("today was in stats already")
-	} else {
-		console.log("today was not in stats")
-		user_stats.played_days.push(dateToday())
-		if (result == "win") {
-			user_stats.wins[today_userdata.revealed.length]++;
-		} else {
-			user_stats.fails++;
-		}
-		saveStats();
-	}
-}
-
-function loadTodaysResult() {
-	console.log("loading todays results")
-	save_name = SAVE_PREFIX + "result_" + session_date
-	if (localStorage.getItem(save_name) == null) {
-		// nothing is saved
-		return false
-	} else {
-		return localStorage.getItem(save_name)
 	}
 }
 
