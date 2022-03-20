@@ -4,7 +4,7 @@ var img = new Image();
 
 var rows = 1;
 var cols = 5;
-var max_guesses = rows*cols;
+var max_guesses = (rows*cols) + 1;
 
 var lastclicked = ""; // for double click prevention
 var blockers = [];
@@ -218,6 +218,7 @@ function wonGame() {
 
 		if (!user_stats.played_days.includes(dateToday())) {
 			today_userdata.result = "win";
+
 			user_stats.wins[today_userdata.revealed.length + today_userdata.guesses.length]++;
 			user_stats.played_days.push(dateToday());
 			saveStats();
@@ -359,7 +360,11 @@ function loadStats() {
 		}
 	} else {
 		//console.log("found stats")
-		return JSON.parse(localStorage.getItem(save_name))
+		var s = JSON.parse(localStorage.getItem(save_name))
+		if (s.wins.length <= max_guesses) {
+			s.wins.push(0); // we changed max_guesses so we need to extend the stats array
+		}
+		return s
 	}
 }
 
@@ -390,11 +395,11 @@ function share() {
 
 	if (game_won) {
 		res += "✅" 
+		res += " " + (today_userdata.revealed.length + today_userdata.guesses.length) + "/" + (max_guesses) + "\n"
 	} else {
 		res += "❌"
+		res += " X/" + (max_guesses) + "\n"
 	}
-
-	res += " " + (max_guesses - guessesRemaining()) + "/" + (rows*cols) + "\n"
 	
 	// put out the number emojis
 	$.each(today_userdata.revealed, function(k,v) {
