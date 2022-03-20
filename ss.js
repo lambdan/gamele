@@ -307,7 +307,7 @@ function makeGuess() {
 }
 
 function help() {
-	alert("Click a tile to reveal part of a screenshot and guess what game it is.\n\nEvery wrong guess reveals an additional tile.\n\nGuessing wrong when everything is revealed means game over.")
+	alert("Click a tile to reveal part of a screenshot and try to guess what game it is.\n\n")
 }
 
 function saveTodayUserdata() {
