@@ -2,10 +2,10 @@ var todays_image;
 var img = new Image();
 
 
-var rows = 2;
+var rows = 1;
 var cols = 5;
-
 var max_guesses = rows*cols;
+
 var lastclicked = ""; // for double click prevention
 var blockers = [];
 
@@ -215,7 +215,7 @@ function wonGame() {
 
 		if (!user_stats.played_days.includes(dateToday())) {
 			today_userdata.result = "win";
-			user_stats.wins[today_userdata.revealed.length]++;
+			user_stats.wins[today_userdata.revealed.length + today_userdata.guesses.length]++;
 			user_stats.played_days.push(dateToday());
 			saveStats();
 		}
@@ -351,7 +351,7 @@ function loadStats() {
 			"first_played": dateToday(),
 			"last_played": dateToday(),
 			"played_days": [],
-			"wins": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+			"wins": Array(max_guesses + 1).fill(0), // +1 so we can start the showStats at 1
 			"fails": 0
 		}
 	} else {
@@ -364,17 +364,10 @@ function showStats() {
 	var s = "First played: " + user_stats.first_played + "\n"
 	s += "Played days: " + user_stats.played_days.length + "\n"
 	s += "\n"
-	s += "Wins (0 revealed): " + user_stats.wins[0] + "\n"
-	s += "Wins (1 revealed): " + user_stats.wins[1] + "\n"
-	s += "Wins (2 revealed): " + user_stats.wins[2] + "\n"
-	s += "Wins (3 revealed): " + user_stats.wins[3] + "\n"
-	s += "Wins (4 revealed): " + user_stats.wins[4] + "\n"
-	s += "Wins (5 revealed): " + user_stats.wins[5] + "\n"
-	s += "Wins (6 revealed): " + user_stats.wins[6] + "\n"
-	s += "Wins (7 revealed): " + user_stats.wins[7] + "\n"
-	s += "Wins (8 revealed): " + user_stats.wins[8] + "\n"
-	s += "Wins (9 revealed): " + user_stats.wins[9] + "\n"
-	s += "Wins (10 revealed): " + user_stats.wins[10] + "\n"
+
+	for (var g = 1; g <= max_guesses; g++) {
+		s += "Wins (" + (g) + "): " + user_stats.wins[g] + "\n"
+	}
 	s += "\n"
 	s += "Fails: " + user_stats.fails + "\n"
 	alert(s)
@@ -383,7 +376,14 @@ function showStats() {
 function share() {
 	var res = SITE_URL + " " + daysSinceStart() + "\n";
 
-	var squares = [["","","","",""], ["","","","",""]]
+	var squares = [];
+
+	for (var r = 0; r < rows; r++) {
+		squares[r] = [];
+		for (var c = 0; c < cols; c++) {
+			squares[r][c] = "";
+		}
+	}
 
 	if (game_won) {
 		res += "✅" 
