@@ -173,6 +173,11 @@ function updateGuessesRemaining() {
 }
 
 function clickedBlocker(id) {
+	today_userdata.revealed.push(id)
+	saveTodayUserdata();
+	
+	updateGuessesRemaining();
+
 	revealSquare(id);
 
 	if (guessesRemaining() <= 0) {
@@ -185,15 +190,13 @@ function revealSquare(id) {
 		if (v.id == id) {
 			if (v.active) {
 				blockers[k].active = false
-				today_userdata.revealed.push(id)
-				saveTodayUserdata()
+
 			} else {
 				return false // blocker was not active
 			}
 		}
 	});
 
-	updateGuessesRemaining();
 	$("#" + id).fadeOut(2000, function() {
 		// animation done
 		return true
