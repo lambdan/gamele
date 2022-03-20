@@ -246,6 +246,14 @@ function makeGuess() {
 			for (var h=0; h < target.length; h++) {
 				if (target[h] == stripped[h]) {
 					today_userdata.perfect[h] = stripped[h];
+
+					if (h > 0) { // if the previous letter is nothing, make it a _
+						for (var w = h; w >= 0; w--) {
+							if (!today_userdata.perfect[w]) {
+								today_userdata.perfect[w] = "_";
+							}
+						}
+					}
 				}
 			}
 
