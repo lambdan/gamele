@@ -277,7 +277,7 @@ function makeGuess() {
 				if (target[h] == stripped[h]) {
 					today_userdata.perfect[h] = stripped[h];
 				} else if (!today_userdata.perfect[h]) {
-					today_userdata.perfect[h] = "_";
+					today_userdata.perfect[h] = "*";
 				}
 			}
 
