@@ -18,15 +18,11 @@ var game_over = false;
 var game_won = false;
 
 var session_date;
-var revealed_today = []
-var guesses_today = [];
 
 var user_stats;
 var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
-var perfect_chars = [];
-var correct_chars = [];
-var wrong_chars = [];
+var today_userdata;
 
 function dateToday() {
 	const d = new Date();
@@ -46,9 +42,13 @@ function init () {
 	session_date = dateToday()
 
 	// load "save files"
-	revealed_today = loadRevealed();
+	today_userdata = loadTodayUserdata();
 	user_stats = loadStats();
 	loadedTodayResults = loadTodaysResult();
+
+	$("#perfect-letters").html(today_userdata.perfect.join(""));
+	$("#correct-letters").html(today_userdata.correct.join(""));
+	$("#wrong-letters").html(today_userdata.wrong.join(""));
 
 	// read and parse games.json
 	$.each(gamesjson, function(k,v) {
@@ -96,8 +96,7 @@ function init () {
 			}
 		}
 
-		if (loadedTodayResults) {
-			//$("#guessinput").hide();
+		if (loadedTodayResults) { // check if game over today
 			if (loadedTodayResults == "win") {
 				wonGame();
 			} else {
@@ -107,8 +106,8 @@ function init () {
 			$("#guessinput").fadeIn();
 		}
 
-			if (revealed_today.length > 0) {
-				$.each(revealed_today, function(k,v) {
+			if (today_userdata.revealed.length > 0) {
+				$.each(today_userdata.revealed, function(k,v) {
 					console.log("revealing", v)
 					$("#" + v).fadeOut();
 				});
@@ -142,8 +141,8 @@ function sizeChanged() {
 		}
 	}
 	// reveal blockers already clicked
-	if (revealed_today.length > 0) {
-		$.each(revealed_today, function(k,v) {
+	if (today_userdata.revealed.length > 0) {
+		$.each(today_userdata.revealed, function(k,v) {
 			console.log("revealing", v)
 			$("#" + v).hide();
 		});
@@ -175,8 +174,8 @@ function revealSquare(id) {
 		if (v.id == id) {
 			if (v.active) {
 				blockers[k].active = false
-				revealed_today.push(id)
-				saveRevealed()
+				today_userdata.revealed.push(id)
+				saveTodayUserdata()
 			} else {
 				return false // blocker was not active
 			}
@@ -227,11 +226,11 @@ function makeGuess() {
 
 	var guess = $('#guess').val();
 
-	if (guesses_today.includes(guess)) {
+	if (today_userdata.guesses.includes(guess)) {
 		alert("You've already guessed that game today!");
 		return
 	} else {
-		guesses_today.push(guess);
+		today_userdata.guesses.push(guess);
 	}
 	
 	
@@ -243,33 +242,33 @@ function makeGuess() {
 
 		if (target.includes(chr)) { // char is in todays game
 
-			if (!correct_chars.includes(chr)) { // push to correct (yellow) letters if not already there
-				correct_chars.push(chr);
+			if (!today_userdata.correct.includes(chr)) { // push to correct (yellow) letters if not already there
+				today_userdata.correct.push(chr);
 			}
 
 			for (var h=0; h < target.length; h++) {
 				if (target[h] == stripped[h]) {
-					perfect_chars[h] = stripped[h];
+					today_userdata.perfect[h] = stripped[h];
 				}
 			}
 
 		} else {
-			if (!wrong_chars.includes(chr)) {
-				wrong_chars.push(chr);
+			if (!today_userdata.wrong.includes(chr)) {
+				today_userdata.wrong.push(chr);
 			}
 		}
 	}
 
-	$("#perfect-letters").html(perfect_chars.join(""));
-	$("#correct-letters").html(correct_chars.join(""));
-	$("#wrong-letters").html(wrong_chars.join(""));
+	$("#perfect-letters").html(today_userdata.perfect.join(""));
+	$("#correct-letters").html(today_userdata.correct.join(""));
+	$("#wrong-letters").html(today_userdata.wrong.join(""));
 
 
 	if (guess == game_today) { // winner!
 		wonGame();
 		saveTodaysResult("win");
 
-	} else if (revealed_today.length == max_guesses) { // failure
+	} else if (today_userdata.revealed.length == max_guesses) { // failure
 		lostGame();
 		saveTodaysResult("fail");
 
@@ -285,34 +284,36 @@ function makeGuess() {
 		revealSquare(blockers[r].id)
 
 	}
+
+	saveTodayUserdata();
 }
 
 function help() {
 	alert("Click a tile to reveal part of a screenshot and guess what game it is.\n\nEvery wrong guess reveals an additional tile.\n\nGuessing wrong when everything is revealed means game over.")
 }
 
-function saveRevealed() {
-	save_name = SAVE_PREFIX + "revealed_" + session_date
-	localStorage.setItem(save_name, JSON.stringify(revealed_today))
-	console.log("saved revealed:", JSON.stringify(revealed_today))
+function saveTodayUserdata() {
+	save_name = SAVE_PREFIX + "userdata_" + session_date
+	localStorage.setItem(save_name, JSON.stringify(today_userdata))
+	console.log("saved today userdata:", JSON.stringify(today_userdata))
 }
 
-function loadRevealed() {
-	console.log("loading revealed")
-	save_name = SAVE_PREFIX + "revealed_" + session_date
+function loadTodayUserdata() {
+	console.log("loading todays userdata")
+	save_name = SAVE_PREFIX + "userdata_" + session_date
 	//console.log("load:", save_name)
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved
-		return []
+		return {
+			"revealed": [],
+			"guesses": [],
+			"perfect": [],
+			"correct": [],
+			"wrong": []
+		}
 	} else {
 		return JSON.parse(localStorage.getItem(save_name))
 	}
-}
-
-function wipeTodaysReveals() {
-	revealed_today = []
-	saveRevealed()
-	alert("OK reload page")
 }
 
 function saveTodaysResult(result) {
@@ -327,7 +328,7 @@ function saveTodaysResult(result) {
 		console.log("today was not in stats")
 		user_stats.played_days.push(dateToday())
 		if (result == "win") {
-			user_stats.wins[revealed_today.length]++;
+			user_stats.wins[today_userdata.revealed.length]++;
 		} else {
 			user_stats.fails++;
 		}
@@ -402,10 +403,10 @@ function share() {
 		res += "❌"
 	}
 
-	res += " " + revealed_today.length + "/" + (rows*cols) + "\n"
+	res += " " + today_userdata.revealed.length + "/" + (rows*cols) + "\n"
 	
 	// put out the number emojis
-	$.each(revealed_today, function(k,v) {
+	$.each(today_userdata.revealed, function(k,v) {
 		splits = v.split("-")
 		squares[splits[1]][splits[2]] = num_emoji[k]
 		//console.log(splits)
