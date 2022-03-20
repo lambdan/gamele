@@ -1,0 +1,3072 @@
+[
+    {
+        "title": "Mani 4 in 1",
+        "image": "screens/gb/Mani4in1.png",
+        "width": 640
+    },
+    {
+        "title": "Foreman for Real",
+        "image": "screens/gb/ForemanforReal.png",
+        "width": 640
+    },
+    {
+        "title": "Hercules",
+        "image": "screens/gb/Hercules.png",
+        "width": 640
+    },
+    {
+        "title": "Bionic Battler",
+        "image": "screens/gb/BionicBattler.png",
+        "width": 640
+    },
+    {
+        "title": "Championship Pool",
+        "image": "screens/gb/ChampionshipPool.png",
+        "width": 640
+    },
+    {
+        "title": "Mega Man - Dr. Wily's Revenge",
+        "image": "screens/gb/MegaManDr.WilysRevenge.png",
+        "width": 640
+    },
+    {
+        "title": "Bust-A-Move 2 - Arcade Edition",
+        "image": "screens/gb/BustAMove2ArcadeEdition.png",
+        "width": 640
+    },
+    {
+        "title": "Micro Machines",
+        "image": "screens/gb/MicroMachines.png",
+        "width": 640
+    },
+    {
+        "title": "Pac-Panic",
+        "image": "screens/gb/PacPanic.png",
+        "width": 640
+    },
+    {
+        "title": "Pit Fighter",
+        "image": "screens/gb/PitFighter.png",
+        "width": 640
+    },
+    {
+        "title": "Sword of Hope II, The",
+        "image": "screens/gb/SwordofHopeIIThe.png",
+        "width": 640
+    },
+    {
+        "title": "Mysterium",
+        "image": "screens/gb/Mysterium.png",
+        "width": 640
+    },
+    {
+        "title": "George Foreman's KO Boxing",
+        "image": "screens/gb/GeorgeForemansKOBoxing.png",
+        "width": 640
+    },
+    {
+        "title": "NBA All Star Challenge 2",
+        "image": "screens/gb/NBAAllStarChallenge2.png",
+        "width": 640
+    },
+    {
+        "title": "Quarth",
+        "image": "screens/gb/Quarth.png",
+        "width": 640
+    },
+    {
+        "title": "Cool Hand",
+        "image": "screens/gb/CoolHand.png",
+        "width": 640
+    },
+    {
+        "title": "Mega Man III",
+        "image": "screens/gb/MegaManIII.png",
+        "width": 640
+    },
+    {
+        "title": "Yoshi",
+        "image": "screens/gb/Yoshi.png",
+        "width": 640
+    },
+    {
+        "title": "NFL Quarterback Club",
+        "image": "screens/gb/NFLQuarterbackClub.png",
+        "width": 640
+    },
+    {
+        "title": "Otto's Ottifanten - Baby Bruno's Alptraum",
+        "image": "screens/gb/OttosOttifantenBabyBrunosAlptraum.png",
+        "width": 640
+    },
+    {
+        "title": "TaleSpin",
+        "image": "screens/gb/TaleSpin.png",
+        "width": 640
+    },
+    {
+        "title": "FIFA Soccer '97",
+        "image": "screens/gb/FIFASoccer97.png",
+        "width": 640
+    },
+    {
+        "title": "Chase H.Q.",
+        "image": "screens/gb/ChaseH.Q..png",
+        "width": 640
+    },
+    {
+        "title": "Castlevania II - Belmont's Revenge",
+        "image": "screens/gb/CastlevaniaIIBelmontsRevenge.png",
+        "width": 640
+    },
+    {
+        "title": "Small Soldiers",
+        "image": "screens/gb/SmallSoldiers.png",
+        "width": 640
+    },
+    {
+        "title": "Blues Brothers, The",
+        "image": "screens/gb/BluesBrothersThe.png",
+        "width": 640
+    },
+    {
+        "title": "Mortal Kombat 3",
+        "image": "screens/gb/MortalKombat3.png",
+        "width": 640
+    },
+    {
+        "title": "King of Fighters '95, The",
+        "image": "screens/gb/KingofFighters95The.png",
+        "width": 640
+    },
+    {
+        "title": "Incredible Crash Dummies, The",
+        "image": "screens/gb/IncredibleCrashDummiesThe.png",
+        "width": 640
+    },
+    {
+        "title": "Captain America and the Avengers",
+        "image": "screens/gb/CaptainAmericaandtheAvengers.png",
+        "width": 640
+    },
+    {
+        "title": "Street Fighter II",
+        "image": "screens/gb/StreetFighterII.png",
+        "width": 640
+    },
+    {
+        "title": "Fidgetts, The",
+        "image": "screens/gb/FidgettsThe.png",
+        "width": 640
+    },
+    {
+        "title": "DuckTales",
+        "image": "screens/gb/DuckTales.png",
+        "width": 640
+    },
+    {
+        "title": "Nigel Mansell's World Championship Racing",
+        "image": "screens/gb/NigelMansellsWorldChampionshipRacing.png",
+        "width": 640
+    },
+    {
+        "title": "Lucky Luke",
+        "image": "screens/gb/LuckyLuke.png",
+        "width": 640
+    },
+    {
+        "title": "Micro Machines 2 - Turbo Tournament",
+        "image": "screens/gb/MicroMachines2TurboTournament.png",
+        "width": 640
+    },
+    {
+        "title": "RoboCop vs. The Terminator",
+        "image": "screens/gb/RoboCopvs.TheTerminator.png",
+        "width": 640
+    },
+    {
+        "title": "Hook",
+        "image": "screens/gb/Hook.png",
+        "width": 640
+    },
+    {
+        "title": "Tetris Plus",
+        "image": "screens/gb/TetrisPlus.png",
+        "width": 640
+    },
+    {
+        "title": "Bionic Commando",
+        "image": "screens/gb/BionicCommando.png",
+        "width": 640
+    },
+    {
+        "title": "F-1 Race",
+        "image": "screens/gb/F1Race.png",
+        "width": 640
+    },
+    {
+        "title": "Mickey Mouse - Magic Wands!",
+        "image": "screens/gb/MickeyMouseMagicWands.png",
+        "width": 640
+    },
+    {
+        "title": "Castlevania Legends",
+        "image": "screens/gb/CastlevaniaLegends.png",
+        "width": 640
+    },
+    {
+        "title": "Bubble Bobble",
+        "image": "screens/gb/BubbleBobble.png",
+        "width": 640
+    },
+    {
+        "title": "Simpsons, The - Bart & the Beanstalk",
+        "image": "screens/gb/SimpsonsTheBarttheBeanstalk.png",
+        "width": 640
+    },
+    {
+        "title": "Roger Clemens' MVP Baseball",
+        "image": "screens/gb/RogerClemensMVPBaseball.png",
+        "width": 640
+    },
+    {
+        "title": "Burai Fighter Deluxe",
+        "image": "screens/gb/BuraiFighterDeluxe.png",
+        "width": 640
+    },
+    {
+        "title": "Hunt for Red October, The",
+        "image": "screens/gb/HuntforRedOctoberThe.png",
+        "width": 640
+    },
+    {
+        "title": "Mickey Mouse",
+        "image": "screens/gb/MickeyMouse.png",
+        "width": 640
+    },
+    {
+        "title": "Daffy Duck",
+        "image": "screens/gb/DaffyDuck.png",
+        "width": 640
+    },
+    {
+        "title": "Populous",
+        "image": "screens/gb/Populous.png",
+        "width": 640
+    },
+    {
+        "title": "Felix the Cat",
+        "image": "screens/gb/FelixtheCat.png",
+        "width": 640
+    },
+    {
+        "title": "Play Action Football",
+        "image": "screens/gb/PlayActionFootball.png",
+        "width": 640
+    },
+    {
+        "title": "Super Mario Land 2 - 6 Golden Coins",
+        "image": "screens/gb/SuperMarioLand26GoldenCoins.png",
+        "width": 640
+    },
+    {
+        "title": "International Superstar Soccer",
+        "image": "screens/gb/InternationalSuperstarSoccer.png",
+        "width": 640
+    },
+    {
+        "title": "Parodius",
+        "image": "screens/gb/Parodius.png",
+        "width": 640
+    },
+    {
+        "title": "Bill & Ted's Excellent Game Boy Adventure",
+        "image": "screens/gb/BillTedsExcellentGameBoyAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Hammerin' Harry - Ghost Building Company",
+        "image": "screens/gb/HammerinHarryGhostBuildingCompany.png",
+        "width": 640
+    },
+    {
+        "title": "Jurassic Park Part 2 - The Chaos Continues",
+        "image": "screens/gb/JurassicParkPart2TheChaosContinues.png",
+        "width": 640
+    },
+    {
+        "title": "Star Trek - 25th Anniversary",
+        "image": "screens/gb/StarTrek25thAnniversary.png",
+        "width": 640
+    },
+    {
+        "title": "Superman",
+        "image": "screens/gb/Superman.png",
+        "width": 640
+    },
+    {
+        "title": "Atomic Punk",
+        "image": "screens/gb/AtomicPunk.png",
+        "width": 640
+    },
+    {
+        "title": "Mouse Trap Hotel",
+        "image": "screens/gb/MouseTrapHotel.png",
+        "width": 640
+    },
+    {
+        "title": "Heiankyo Alien",
+        "image": "screens/gb/HeiankyoAlien.png",
+        "width": 640
+    },
+    {
+        "title": "Madden '96",
+        "image": "screens/gb/Madden96.png",
+        "width": 640
+    },
+    {
+        "title": "Universal Soldier",
+        "image": "screens/gb/UniversalSoldier.png",
+        "width": 640
+    },
+    {
+        "title": "Nobunaga's Ambition",
+        "image": "screens/gb/NobunagasAmbition.png",
+        "width": 640
+    },
+    {
+        "title": "Blaster Master Jr.",
+        "image": "screens/gb/BlasterMasterJr..png",
+        "width": 640
+    },
+    {
+        "title": "Top Gun - Guts & Glory",
+        "image": "screens/gb/TopGunGutsGlory.png",
+        "width": 640
+    },
+    {
+        "title": "Metroid II - Return of Samus",
+        "image": "screens/gb/MetroidIIReturnofSamus.png",
+        "width": 640
+    },
+    {
+        "title": "WWF Superstars 2",
+        "image": "screens/gb/WWFSuperstars2.png",
+        "width": 640
+    },
+    {
+        "title": "R-Type",
+        "image": "screens/gb/RType.png",
+        "width": 640
+    },
+    {
+        "title": "Game of Harmony, The",
+        "image": "screens/gb/GameofHarmonyThe.png",
+        "width": 640
+    },
+    {
+        "title": "Boggle Plus",
+        "image": "screens/gb/BogglePlus.png",
+        "width": 640
+    },
+    {
+        "title": "Power Racer",
+        "image": "screens/gb/PowerRacer.png",
+        "width": 640
+    },
+    {
+        "title": "Metal Masters",
+        "image": "screens/gb/MetalMasters.png",
+        "width": 640
+    },
+    {
+        "title": "WCW Main Event",
+        "image": "screens/gb/WCWMainEvent.png",
+        "width": 640
+    },
+    {
+        "title": "Palamedes",
+        "image": "screens/gb/Palamedes.png",
+        "width": 640
+    },
+    {
+        "title": "Kirby's Dream Land 2",
+        "image": "screens/gb/KirbysDreamLand2.png",
+        "width": 640
+    },
+    {
+        "title": "Maus, Die",
+        "image": "screens/gb/MausDie.png",
+        "width": 640
+    },
+    {
+        "title": "Jack Nicklaus Golf",
+        "image": "screens/gb/JackNicklausGolf.png",
+        "width": 640
+    },
+    {
+        "title": "Pinball Deluxe",
+        "image": "screens/gb/PinballDeluxe.png",
+        "width": 640
+    },
+    {
+        "title": "Super R.C. Pro-Am",
+        "image": "screens/gb/SuperR.C.ProAm.png",
+        "width": 640
+    },
+    {
+        "title": "InfoGenius Productivity Pak - Berlitz Spanish Translator",
+        "image": "screens/gb/InfoGeniusProductivityPakBerlitzSpanishTranslator.png",
+        "width": 640
+    },
+    {
+        "title": "Madden '95",
+        "image": "screens/gb/Madden95.png",
+        "width": 640
+    },
+    {
+        "title": "Iron Man X-O Manowar in Heavy Metal",
+        "image": "screens/gb/IronManXOManowarinHeavyMetal.png",
+        "width": 640
+    },
+    {
+        "title": "Total Carnage",
+        "image": "screens/gb/TotalCarnage.png",
+        "width": 640
+    },
+    {
+        "title": "Sumo Fighter",
+        "image": "screens/gb/SumoFighter.png",
+        "width": 640
+    },
+    {
+        "title": "Caesars Palace",
+        "image": "screens/gb/CaesarsPalace.png",
+        "width": 640
+    },
+    {
+        "title": "Sunsoft Grand Prix",
+        "image": "screens/gb/SunsoftGrandPrix.png",
+        "width": 640
+    },
+    {
+        "title": "Legend of Zelda, The - Link's Awakening",
+        "image": "screens/gb/LegendofZeldaTheLinksAwakening.png",
+        "width": 640
+    },
+    {
+        "title": "Wizards & Warriors Chapter X - The Fortress of Fear",
+        "image": "screens/gb/WizardsWarriorsChapterXTheFortressofFear.png",
+        "width": 640
+    },
+    {
+        "title": "Skate or Die - Bad 'N Rad",
+        "image": "screens/gb/SkateorDieBadNRad.png",
+        "width": 640
+    },
+    {
+        "title": "Titus the Fox to Marrakech and Back",
+        "image": "screens/gb/TitustheFoxtoMarrakechandBack.png",
+        "width": 640
+    },
+    {
+        "title": "Serpent",
+        "image": "screens/gb/Serpent.png",
+        "width": 640
+    },
+    {
+        "title": "RoboCop",
+        "image": "screens/gb/RoboCop.png",
+        "width": 640
+    },
+    {
+        "title": "Bomberman GB",
+        "image": "screens/gb/BombermanGB.png",
+        "width": 640
+    },
+    {
+        "title": "Adventures of Star Saver, The",
+        "image": "screens/gb/AdventuresofStarSaverThe.png",
+        "width": 640
+    },
+    {
+        "title": "Adventure Island II - Aliens in Paradise",
+        "image": "screens/gb/AdventureIslandIIAliensinParadise.png",
+        "width": 640
+    },
+    {
+        "title": "Operation C",
+        "image": "screens/gb/OperationC.png",
+        "width": 640
+    },
+    {
+        "title": "Super Breakout",
+        "image": "screens/gb/SuperBreakout.png",
+        "width": 640
+    },
+    {
+        "title": "Jeopardy! - Platinum Edition",
+        "image": "screens/gb/JeopardyPlatinumEdition.png",
+        "width": 640
+    },
+    {
+        "title": "Kirby's Block Ball",
+        "image": "screens/gb/KirbysBlockBall.png",
+        "width": 640
+    },
+    {
+        "title": "Heavyweight Championship Boxing",
+        "image": "screens/gb/HeavyweightChampionshipBoxing.png",
+        "width": 640
+    },
+    {
+        "title": "PGA Tour 96",
+        "image": "screens/gb/PGATour96.png",
+        "width": 640
+    },
+    {
+        "title": "Kirby's Pinball Land",
+        "image": "screens/gb/KirbysPinballLand.png",
+        "width": 640
+    },
+    {
+        "title": "Bonk's Adventure",
+        "image": "screens/gb/BonksAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Speedy Gonzales",
+        "image": "screens/gb/SpeedyGonzales.png",
+        "width": 640
+    },
+    {
+        "title": "Battle Arena Toshinden",
+        "image": "screens/gb/BattleArenaToshinden.png",
+        "width": 640
+    },
+    {
+        "title": "Donkey Kong Land",
+        "image": "screens/gb/DonkeyKongLand.png",
+        "width": 640
+    },
+    {
+        "title": "Ring Rage",
+        "image": "screens/gb/RingRage.png",
+        "width": 640
+    },
+    {
+        "title": "Bart Simpson's Escape from Camp Deadly",
+        "image": "screens/gb/BartSimpsonsEscapefromCampDeadly.png",
+        "width": 640
+    },
+    {
+        "title": "NBA All-Star Challenge",
+        "image": "screens/gb/NBAAllStarChallenge.png",
+        "width": 640
+    },
+    {
+        "title": "NFL Quarterback Club II",
+        "image": "screens/gb/NFLQuarterbackClubII.png",
+        "width": 640
+    },
+    {
+        "title": "Tetris 2",
+        "image": "screens/gb/Tetris2.png",
+        "width": 640
+    },
+    {
+        "title": "Alien Olympics",
+        "image": "screens/gb/AlienOlympics.png",
+        "width": 640
+    },
+    {
+        "title": "Jordan vs Bird - One on One",
+        "image": "screens/gb/JordanvsBirdOneonOne.png",
+        "width": 640
+    },
+    {
+        "title": "Stop That Roach!",
+        "image": "screens/gb/StopThatRoach.png",
+        "width": 640
+    },
+    {
+        "title": "Flintstones, The",
+        "image": "screens/gb/FlintstonesThe.png",
+        "width": 640
+    },
+    {
+        "title": "Barbie - Game Girl",
+        "image": "screens/gb/BarbieGameGirl.png",
+        "width": 640
+    },
+    {
+        "title": "Dennis the Menace",
+        "image": "screens/gb/DennistheMenace.png",
+        "width": 640
+    },
+    {
+        "title": "Tetris Attack",
+        "image": "screens/gb/TetrisAttack.png",
+        "width": 640
+    },
+    {
+        "title": "Nemesis",
+        "image": "screens/gb/Nemesis.png",
+        "width": 640
+    },
+    {
+        "title": "Asteroids",
+        "image": "screens/gb/Asteroids.png",
+        "width": 640
+    },
+    {
+        "title": "Crystal Quest",
+        "image": "screens/gb/CrystalQuest.png",
+        "width": 640
+    },
+    {
+        "title": "Pinball - Revenge of the 'Gator",
+        "image": "screens/gb/PinballRevengeoftheGator.png",
+        "width": 640
+    },
+    {
+        "title": "Mr. Chin's Gourmet Paradise",
+        "image": "screens/gb/Mr.ChinsGourmetParadise.png",
+        "width": 640
+    },
+    {
+        "title": "Fist of the North Star",
+        "image": "screens/gb/FistoftheNorthStar.png",
+        "width": 640
+    },
+    {
+        "title": "World Circuit Series",
+        "image": "screens/gb/WorldCircuitSeries.png",
+        "width": 640
+    },
+    {
+        "title": "Days of Thunder",
+        "image": "screens/gb/DaysofThunder.png",
+        "width": 640
+    },
+    {
+        "title": "Wave Race",
+        "image": "screens/gb/WaveRace.png",
+        "width": 640
+    },
+    {
+        "title": "Ninja Boy",
+        "image": "screens/gb/NinjaBoy.png",
+        "width": 640
+    },
+    {
+        "title": "Baby T-Rex",
+        "image": "screens/gb/BabyTRex.png",
+        "width": 640
+    },
+    {
+        "title": "CutThroat Island",
+        "image": "screens/gb/CutThroatIsland.png",
+        "width": 640
+    },
+    {
+        "title": "Adventures of Rocky and Bullwinkle and Friends, The",
+        "image": "screens/gb/AdventuresofRockyandBullwinkleandFriendsThe.png",
+        "width": 640
+    },
+    {
+        "title": "Arcade Classic No. 2 - Centipede & Millipede",
+        "image": "screens/gb/ArcadeClassicNo.2CentipedeMillipede.png",
+        "width": 640
+    },
+    {
+        "title": "Brain Bender",
+        "image": "screens/gb/BrainBender.png",
+        "width": 640
+    },
+    {
+        "title": "Elite Soccer",
+        "image": "screens/gb/EliteSoccer.png",
+        "width": 640
+    },
+    {
+        "title": "Smurfs Travel the World, The",
+        "image": "screens/gb/SmurfsTraveltheWorldThe.png",
+        "width": 640
+    },
+    {
+        "title": "Batman Forever",
+        "image": "screens/gb/BatmanForever.png",
+        "width": 640
+    },
+    {
+        "title": "NFL Quarterback Club '96",
+        "image": "screens/gb/NFLQuarterbackClub96.png",
+        "width": 640
+    },
+    {
+        "title": "Dropzone",
+        "image": "screens/gb/Dropzone.png",
+        "width": 640
+    },
+    {
+        "title": "Adventure Island",
+        "image": "screens/gb/AdventureIsland.png",
+        "width": 640
+    },
+    {
+        "title": "Mario's Picross",
+        "image": "screens/gb/MariosPicross.png",
+        "width": 640
+    },
+    {
+        "title": "Beetlejuice",
+        "image": "screens/gb/Beetlejuice.png",
+        "width": 640
+    },
+    {
+        "title": "Go! Go! Tank",
+        "image": "screens/gb/GoGoTank.png",
+        "width": 640
+    },
+    {
+        "title": "Black Bass - Lure Fishing",
+        "image": "screens/gb/BlackBassLureFishing.png",
+        "width": 640
+    },
+    {
+        "title": "Pipe Dream",
+        "image": "screens/gb/PipeDream.png",
+        "width": 640
+    },
+    {
+        "title": "Pang",
+        "image": "screens/gb/Pang.png",
+        "width": 640
+    },
+    {
+        "title": "Snow Bros. Jr.",
+        "image": "screens/gb/SnowBros.Jr..png",
+        "width": 640
+    },
+    {
+        "title": "True Lies",
+        "image": "screens/gb/TrueLies.png",
+        "width": 640
+    },
+    {
+        "title": "Torpedo Range",
+        "image": "screens/gb/TorpedoRange.png",
+        "width": 640
+    },
+    {
+        "title": "Double Dragon II",
+        "image": "screens/gb/DoubleDragonII.png",
+        "width": 640
+    },
+    {
+        "title": "Rodland",
+        "image": "screens/gb/Rodland.png",
+        "width": 640
+    },
+    {
+        "title": "NBA Jam - Tournament Edition",
+        "image": "screens/gb/NBAJamTournamentEdition.png",
+        "width": 640
+    },
+    {
+        "title": "Sensible Soccer - European Champions",
+        "image": "screens/gb/SensibleSoccerEuropeanChampions.png",
+        "width": 640
+    },
+    {
+        "title": "Monopoly",
+        "image": "screens/gb/Monopoly.png",
+        "width": 640
+    },
+    {
+        "title": "Spanky's Quest",
+        "image": "screens/gb/SpankysQuest.png",
+        "width": 640
+    },
+    {
+        "title": "Pokemon Blue/Red/Yellow",
+        "image": "screens/gb/PokemonRedVersion.png",
+        "width": 640
+    },
+    {
+        "title": "Double Dragon 3 - The Arcade Game",
+        "image": "screens/gb/DoubleDragon3TheArcadeGame.png",
+        "width": 640
+    },
+    {
+        "title": "Chuck Rock",
+        "image": "screens/gb/ChuckRock.png",
+        "width": 640
+    },
+    {
+        "title": "Legend of Prince Valiant, The",
+        "image": "screens/gb/LegendofPrinceValiantThe.png",
+        "width": 640
+    },
+    {
+        "title": "Best of the Best - Championship Karate",
+        "image": "screens/gb/BestoftheBestChampionshipKarate.png",
+        "width": 640
+    },
+    {
+        "title": "Joe & Mac",
+        "image": "screens/gb/JoeMac.png",
+        "width": 640
+    },
+    {
+        "title": "Double Dragon",
+        "image": "screens/gb/DoubleDragon.png",
+        "width": 640
+    },
+    {
+        "title": "Avenging Spirit",
+        "image": "screens/gb/AvengingSpirit.png",
+        "width": 640
+    },
+    {
+        "title": "Speedball 2 - Brutal Deluxe",
+        "image": "screens/gb/Speedball2BrutalDeluxe.png",
+        "width": 640
+    },
+    {
+        "title": "Game Boy Gallery - 5 Games in One",
+        "image": "screens/gb/GameBoyGallery5GamesinOne.png",
+        "width": 640
+    },
+    {
+        "title": "Cosmo Tank",
+        "image": "screens/gb/CosmoTank.png",
+        "width": 640
+    },
+    {
+        "title": "Riddick Bowe Boxing",
+        "image": "screens/gb/RiddickBoweBoxing.png",
+        "width": 640
+    },
+    {
+        "title": "NHL '96",
+        "image": "screens/gb/NHL96.png",
+        "width": 640
+    },
+    {
+        "title": "Looney Tunes",
+        "image": "screens/gb/LooneyTunes.png",
+        "width": 640
+    },
+    {
+        "title": "Choplifter II - Rescue & Survive",
+        "image": "screens/gb/ChoplifterIIRescueSurvive.png",
+        "width": 640
+    },
+    {
+        "title": "RoboCop 2",
+        "image": "screens/gb/RoboCop2.png",
+        "width": 640
+    },
+    {
+        "title": "Pyramids of Ra",
+        "image": "screens/gb/PyramidsofRa.png",
+        "width": 640
+    },
+    {
+        "title": "King of Fighters, The - Heat of Battle",
+        "image": "screens/gb/KingofFightersTheHeatofBattle.png",
+        "width": 640
+    },
+    {
+        "title": "Soccer",
+        "image": "screens/gb/Soccer.png",
+        "width": 640
+    },
+    {
+        "title": "Ninja Boy 2",
+        "image": "screens/gb/NinjaBoy2.png",
+        "width": 640
+    },
+    {
+        "title": "Tiny Toon Adventures - Wacky Sports",
+        "image": "screens/gb/TinyToonAdventuresWackySports.png",
+        "width": 640
+    },
+    {
+        "title": "Mole Mania",
+        "image": "screens/gb/MoleMania.png",
+        "width": 640
+    },
+    {
+        "title": "Harvest Moon GB",
+        "image": "screens/gb/HarvestMoonGB.png",
+        "width": 640
+    },
+    {
+        "title": "Turrican",
+        "image": "screens/gb/Turrican.png",
+        "width": 640
+    },
+    {
+        "title": "Tom and Jerry - Frantic Antics!",
+        "image": "screens/gb/TomandJerryFranticAntics.png",
+        "width": 640
+    },
+    {
+        "title": "Star Wars",
+        "image": "screens/gb/StarWars.png",
+        "width": 640
+    },
+    {
+        "title": "Mighty Morphin Power Rangers",
+        "image": "screens/gb/MightyMorphinPowerRangers.png",
+        "width": 640
+    },
+    {
+        "title": "InfoGenius Productivity Pak - Personal Organizer and Phone Book",
+        "image": "screens/gb/InfoGeniusProductivityPakPersonalOrganizerandPhoneBook.png",
+        "width": 640
+    },
+    {
+        "title": "Game & Watch Gallery",
+        "image": "screens/gb/GameWatchGallery.png",
+        "width": 640
+    },
+    {
+        "title": "Simpsons, The - Bart vs. the Juggernauts",
+        "image": "screens/gb/SimpsonsTheBartvs.theJuggernauts.png",
+        "width": 640
+    },
+    {
+        "title": "Casino FunPak",
+        "image": "screens/gb/CasinoFunPak.png",
+        "width": 640
+    },
+    {
+        "title": "Swamp Thing",
+        "image": "screens/gb/SwampThing.png",
+        "width": 640
+    },
+    {
+        "title": "Lock n' Chase ~ Lock 'n' Chase",
+        "image": "screens/gb/LocknChaseLocknChase.png",
+        "width": 640
+    },
+    {
+        "title": "Dragon's Lair - The Legend",
+        "image": "screens/gb/DragonsLairTheLegend.png",
+        "width": 640
+    },
+    {
+        "title": "Gear Works",
+        "image": "screens/gb/GearWorks.png",
+        "width": 640
+    },
+    {
+        "title": "College Slam",
+        "image": "screens/gb/CollegeSlam.png",
+        "width": 640
+    },
+    {
+        "title": "Adventures of Lolo",
+        "image": "screens/gb/AdventuresofLolo.png",
+        "width": 640
+    },
+    {
+        "title": "Arcade Classics - Battlezone & Super Breakout",
+        "image": "screens/gb/ArcadeClassicsBattlezoneSuperBreakout.png",
+        "width": 640
+    },
+    {
+        "title": "Konami Golf",
+        "image": "screens/gb/KonamiGolf.png",
+        "width": 640
+    },
+    {
+        "title": "World Heroes 2 Jet",
+        "image": "screens/gb/WorldHeroes2Jet.png",
+        "width": 640
+    },
+    {
+        "title": "WWF Raw",
+        "image": "screens/gb/WWFRaw.png",
+        "width": 640
+    },
+    {
+        "title": "Gremlins 2 - The New Batch",
+        "image": "screens/gb/Gremlins2TheNewBatch.png",
+        "width": 640
+    },
+    {
+        "title": "InfoGenius Systems - Personal Organizer with Phone Book",
+        "image": "screens/gb/InfoGeniusSystemsPersonalOrganizerwithPhoneBook.png",
+        "width": 640
+    },
+    {
+        "title": "Bonk's Revenge",
+        "image": "screens/gb/BonksRevenge.png",
+        "width": 640
+    },
+    {
+        "title": "Golf Classic",
+        "image": "screens/gb/GolfClassic.png",
+        "width": 640
+    },
+    {
+        "title": "Paperboy",
+        "image": "screens/gb/Paperboy.png",
+        "width": 640
+    },
+    {
+        "title": "Sword of Hope, The",
+        "image": "screens/gb/SwordofHopeThe.png",
+        "width": 640
+    },
+    {
+        "title": "Catrap",
+        "image": "screens/gb/Catrap.png",
+        "width": 640
+    },
+    {
+        "title": "Pinball Dreams",
+        "image": "screens/gb/PinballDreams.png",
+        "width": 640
+    },
+    {
+        "title": "Super Off Road",
+        "image": "screens/gb/SuperOffRoad.png",
+        "width": 640
+    },
+    {
+        "title": "Desert Strike - Return to the Gulf",
+        "image": "screens/gb/DesertStrikeReturntotheGulf.png",
+        "width": 640
+    },
+    {
+        "title": "Teenage Mutant Ninja Turtles II - Back from the Sewers",
+        "image": "screens/gb/TeenageMutantNinjaTurtlesIIBackfromtheSewers.png",
+        "width": 640
+    },
+    {
+        "title": "Fighting Simulator 2 in 1",
+        "image": "screens/gb/FightingSimulator2in1.png",
+        "width": 640
+    },
+    {
+        "title": "Vegas Stakes",
+        "image": "screens/gb/VegasStakes.png",
+        "width": 640
+    },
+    {
+        "title": "Pop'n TwinBee",
+        "image": "screens/gb/PopnTwinBee.png",
+        "width": 640
+    },
+    {
+        "title": "Snoopy - Magic Show",
+        "image": "screens/gb/SnoopyMagicShow.png",
+        "width": 640
+    },
+    {
+        "title": "Rolan's Curse II",
+        "image": "screens/gb/RolansCurseII.png",
+        "width": 640
+    },
+    {
+        "title": "Amazing Spider-Man, The",
+        "image": "screens/gb/AmazingSpiderManThe.png",
+        "width": 640
+    },
+    {
+        "title": "World Bowling",
+        "image": "screens/gb/WorldBowling.png",
+        "width": 640
+    },
+    {
+        "title": "Turok - Battle of the Bionosaurs",
+        "image": "screens/gb/TurokBattleoftheBionosaurs.png",
+        "width": 640
+    },
+    {
+        "title": "Tom & Jerry",
+        "image": "screens/gb/TomJerry.png",
+        "width": 640
+    },
+    {
+        "title": "Humans, The",
+        "image": "screens/gb/HumansThe.png",
+        "width": 640
+    },
+    {
+        "title": "Star Trek - The Next Generation",
+        "image": "screens/gb/StarTrekTheNextGeneration.png",
+        "width": 640
+    },
+    {
+        "title": "Super James Pond",
+        "image": "screens/gb/SuperJamesPond.png",
+        "width": 640
+    },
+    {
+        "title": "Home Alone",
+        "image": "screens/gb/HomeAlone.png",
+        "width": 640
+    },
+    {
+        "title": "Road Rash",
+        "image": "screens/gb/RoadRash.png",
+        "width": 640
+    },
+    {
+        "title": "F1 Pole Position",
+        "image": "screens/gb/F1PolePosition.png",
+        "width": 640
+    },
+    {
+        "title": "Tarzan",
+        "image": "screens/gb/Tarzan.png",
+        "width": 640
+    },
+    {
+        "title": "Gauntlet II",
+        "image": "screens/gb/GauntletII.png",
+        "width": 640
+    },
+    {
+        "title": "Aerostar",
+        "image": "screens/gb/Aerostar.png",
+        "width": 640
+    },
+    {
+        "title": "Spud's Adventure",
+        "image": "screens/gb/SpudsAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Tintin - Prisoners of the Sun",
+        "image": "screens/gb/TintinPrisonersoftheSun.png",
+        "width": 640
+    },
+    {
+        "title": "Teenage Mutant Ninja Turtles - Fall of the Foot Clan",
+        "image": "screens/gb/TeenageMutantNinjaTurtlesFalloftheFootClan.png",
+        "width": 640
+    },
+    {
+        "title": "Mega Man V",
+        "image": "screens/gb/MegaManV.png",
+        "width": 640
+    },
+    {
+        "title": "Teenage Mutant Hero Turtles - Fall of the Foot Clan",
+        "image": "screens/gb/TeenageMutantHeroTurtlesFalloftheFootClan.png",
+        "width": 640
+    },
+    {
+        "title": "Track Meet",
+        "image": "screens/gb/TrackMeet.png",
+        "width": 640
+    },
+    {
+        "title": "A-mazing Tater",
+        "image": "screens/gb/AmazingTater.png",
+        "width": 640
+    },
+    {
+        "title": "Dr. Franken",
+        "image": "screens/gb/Dr.Franken.png",
+        "width": 640
+    },
+    {
+        "title": "Dexterity",
+        "image": "screens/gb/Dexterity.png",
+        "width": 640
+    },
+    {
+        "title": "FIFA Road to World Cup 98",
+        "image": "screens/gb/FIFARoadtoWorldCup98.png",
+        "width": 640
+    },
+    {
+        "title": "Lemmings 2 - The Tribes",
+        "image": "screens/gb/Lemmings2TheTribes.png",
+        "width": 640
+    },
+    {
+        "title": "Last Action Hero",
+        "image": "screens/gb/LastActionHero.png",
+        "width": 640
+    },
+    {
+        "title": "Who Framed Roger Rabbit",
+        "image": "screens/gb/WhoFramedRogerRabbit.png",
+        "width": 640
+    },
+    {
+        "title": "WWF King of the Ring",
+        "image": "screens/gb/WWFKingoftheRing.png",
+        "width": 640
+    },
+    {
+        "title": "Bubble Bobble Part 2",
+        "image": "screens/gb/BubbleBobblePart2.png",
+        "width": 640
+    },
+    {
+        "title": "Wild Snake",
+        "image": "screens/gb/WildSnake.png",
+        "width": 640
+    },
+    {
+        "title": "Goal!",
+        "image": "screens/gb/Goal.png",
+        "width": 640
+    },
+    {
+        "title": "Super Star Wars - Return of the Jedi",
+        "image": "screens/gb/SuperStarWarsReturnoftheJedi.png",
+        "width": 640
+    },
+    {
+        "title": "Bubsy II",
+        "image": "screens/gb/BubsyII.png",
+        "width": 640
+    },
+    {
+        "title": "Yoshi's Cookie",
+        "image": "screens/gb/YoshisCookie.png",
+        "width": 640
+    },
+    {
+        "title": "Castelian",
+        "image": "screens/gb/Castelian.png",
+        "width": 640
+    },
+    {
+        "title": "Navy SEALs",
+        "image": "screens/gb/NavySEALs.png",
+        "width": 640
+    },
+    {
+        "title": "Street Racer",
+        "image": "screens/gb/StreetRacer.png",
+        "width": 640
+    },
+    {
+        "title": "BurgerTime Deluxe",
+        "image": "screens/gb/BurgerTimeDeluxe.png",
+        "width": 640
+    },
+    {
+        "title": "Wheel of Fortune",
+        "image": "screens/gb/WheelofFortune.png",
+        "width": 640
+    },
+    {
+        "title": "NHL Hockey '95",
+        "image": "screens/gb/NHLHockey95.png",
+        "width": 640
+    },
+    {
+        "title": "Sneaky Snakes",
+        "image": "screens/gb/SneakySnakes.png",
+        "width": 640
+    },
+    {
+        "title": "Othello",
+        "image": "screens/gb/Othello.png",
+        "width": 640
+    },
+    {
+        "title": "Mighty Morphin Power Rangers - The Movie",
+        "image": "screens/gb/MightyMorphinPowerRangersTheMovie.png",
+        "width": 640
+    },
+    {
+        "title": "Kid Dracula",
+        "image": "screens/gb/KidDracula.png",
+        "width": 640
+    },
+    {
+        "title": "Pinball Mania",
+        "image": "screens/gb/PinballMania.png",
+        "width": 640
+    },
+    {
+        "title": "Solitaire FunPak",
+        "image": "screens/gb/SolitaireFunPak.png",
+        "width": 640
+    },
+    {
+        "title": "Side Pocket",
+        "image": "screens/gb/SidePocket.png",
+        "width": 640
+    },
+    {
+        "title": "McDonaldland",
+        "image": "screens/gb/McDonaldland.png",
+        "width": 640
+    },
+    {
+        "title": "Hudson Hawk",
+        "image": "screens/gb/HudsonHawk.png",
+        "width": 640
+    },
+    {
+        "title": "Probotector 2",
+        "image": "screens/gb/Probotector2.png",
+        "width": 640
+    },
+    {
+        "title": "Mortal Kombat & Mortal Kombat II",
+        "image": "screens/gb/MortalKombatMortalKombatII.png",
+        "width": 640
+    },
+    {
+        "title": "Mickey Mouse - Magic Wands",
+        "image": "screens/gb/MickeyMouseMagicWands.png",
+        "width": 640
+    },
+    {
+        "title": "Panel Action Bingo",
+        "image": "screens/gb/PanelActionBingo.png",
+        "width": 640
+    },
+    {
+        "title": "Rolan's Curse",
+        "image": "screens/gb/RolansCurse.png",
+        "width": 640
+    },
+    {
+        "title": "Monster Truck Wars",
+        "image": "screens/gb/MonsterTruckWars.png",
+        "width": 640
+    },
+    {
+        "title": "Game Boy Camera",
+        "image": "screens/gb/GameBoyCamera.png",
+        "width": 640
+    },
+    {
+        "title": "Ultima - Runes of Virtue II",
+        "image": "screens/gb/UltimaRunesofVirtueII.png",
+        "width": 640
+    },
+    {
+        "title": "Teenage Mutant Hero Turtles III - Radical Rescue",
+        "image": "screens/gb/TeenageMutantHeroTurtlesIIIRadicalRescue.png",
+        "width": 640
+    },
+    {
+        "title": "Maui Mallard in Cold Shadow",
+        "image": "screens/gb/MauiMallardinColdShadow.png",
+        "width": 640
+    },
+    {
+        "title": "Winter Gold",
+        "image": "screens/gb/WinterGold.png",
+        "width": 640
+    },
+    {
+        "title": "World Beach Volley - 1992 GB Cup",
+        "image": "screens/gb/WorldBeachVolley1992GBCup.png",
+        "width": 640
+    },
+    {
+        "title": "WWF Superstars",
+        "image": "screens/gb/WWFSuperstars.png",
+        "width": 640
+    },
+    {
+        "title": "Cyraid",
+        "image": "screens/gb/Cyraid.png",
+        "width": 640
+    },
+    {
+        "title": "Sports Illustrated - Football & Baseball",
+        "image": "screens/gb/SportsIllustratedFootballBaseball.png",
+        "width": 640
+    },
+    {
+        "title": "Lemmings",
+        "image": "screens/gb/Lemmings.png",
+        "width": 640
+    },
+    {
+        "title": "Wayne's World",
+        "image": "screens/gb/WaynesWorld.png",
+        "width": 640
+    },
+    {
+        "title": "Sports Illustrated - Golf Classic",
+        "image": "screens/gb/SportsIllustratedGolfClassic.png",
+        "width": 640
+    },
+    {
+        "title": "Ken Griffey Jr. Presents Major League Baseball",
+        "image": "screens/gb/KenGriffeyJr.PresentsMajorLeagueBaseball.png",
+        "width": 640
+    },
+    {
+        "title": "Super Scrabble",
+        "image": "screens/gb/SuperScrabble.png",
+        "width": 640
+    },
+    {
+        "title": "Pac-Attack",
+        "image": "screens/gb/PacAttack.png",
+        "width": 640
+    },
+    {
+        "title": "Kirby's Dream Land",
+        "image": "screens/gb/KirbysDreamLand.png",
+        "width": 640
+    },
+    {
+        "title": "Alfred Chicken",
+        "image": "screens/gb/AlfredChicken.png",
+        "width": 640
+    },
+    {
+        "title": "Flipull",
+        "image": "screens/gb/Flipull.png",
+        "width": 640
+    },
+    {
+        "title": "Kirby's Star Stacker",
+        "image": "screens/gb/KirbysStarStacker.png",
+        "width": 640
+    },
+    {
+        "title": "Shaq Fu",
+        "image": "screens/gb/ShaqFu.png",
+        "width": 640
+    },
+    {
+        "title": "Super Black Bass",
+        "image": "screens/gb/SuperBlackBass.png",
+        "width": 640
+    },
+    {
+        "title": "Extra Bases!",
+        "image": "screens/gb/ExtraBases.png",
+        "width": 640
+    },
+    {
+        "title": "Montezuma's Return!",
+        "image": "screens/gb/MontezumasReturn.png",
+        "width": 640
+    },
+    {
+        "title": "Tasmania Story",
+        "image": "screens/gb/TasmaniaStory.png",
+        "width": 640
+    },
+    {
+        "title": "Super Mario Land",
+        "image": "screens/gb/SuperMarioLand.png",
+        "width": 640
+    },
+    {
+        "title": "Milon's Secret Castle",
+        "image": "screens/gb/MilonsSecretCastle.png",
+        "width": 640
+    },
+    {
+        "title": "Magnetic Soccer",
+        "image": "screens/gb/MagneticSoccer.png",
+        "width": 640
+    },
+    {
+        "title": "Bomb Jack",
+        "image": "screens/gb/BombJack.png",
+        "width": 640
+    },
+    {
+        "title": "Double Dribble - 5 on 5",
+        "image": "screens/gb/DoubleDribble5on5.png",
+        "width": 640
+    },
+    {
+        "title": "Alleyway",
+        "image": "screens/gb/Alleyway.png",
+        "width": 640
+    },
+    {
+        "title": "Bust-A-Move 3 DX",
+        "image": "screens/gb/BustAMove3DX.png",
+        "width": 640
+    },
+    {
+        "title": "Lingo",
+        "image": "screens/gb/Lingo.png",
+        "width": 640
+    },
+    {
+        "title": "Ninja Gaiden Shadow",
+        "image": "screens/gb/NinjaGaidenShadow.png",
+        "width": 640
+    },
+    {
+        "title": "Buster Bros.",
+        "image": "screens/gb/BusterBros..png",
+        "width": 640
+    },
+    {
+        "title": "Ishido - The Way of Stones",
+        "image": "screens/gb/IshidoTheWayofStones.png",
+        "width": 640
+    },
+    {
+        "title": "Attack of the Killer Tomatoes",
+        "image": "screens/gb/AttackoftheKillerTomatoes.png",
+        "width": 640
+    },
+    {
+        "title": "Choplifter III",
+        "image": "screens/gb/ChoplifterIII.png",
+        "width": 640
+    },
+    {
+        "title": "Tiny Toon Adventures - Babs' Big Break",
+        "image": "screens/gb/TinyToonAdventuresBabsBigBreak.png",
+        "width": 640
+    },
+    {
+        "title": "Hugo",
+        "image": "screens/gb/Hugo.png",
+        "width": 640
+    },
+    {
+        "title": "We're Back! - A Dinosaur's Story",
+        "image": "screens/gb/WereBackADinosaursStory.png",
+        "width": 640
+    },
+    {
+        "title": "Bo Jackson - Two Games in One",
+        "image": "screens/gb/BoJacksonTwoGamesinOne.png",
+        "width": 640
+    },
+    {
+        "title": "Trax",
+        "image": "screens/gb/Trax.png",
+        "width": 640
+    },
+    {
+        "title": "Top Ranking Tennis",
+        "image": "screens/gb/TopRankingTennis.png",
+        "width": 640
+    },
+    {
+        "title": "Hit the Ice - VHL - The Official Video Hockey League",
+        "image": "screens/gb/HittheIceVHLTheOfficialVideoHockeyLeague.png",
+        "width": 640
+    },
+    {
+        "title": "Hunchback of Notre Dame, The - 5 Foolishly Fun Topsy Turvy Games",
+        "image": "screens/gb/HunchbackofNotreDameThe5FoolishlyFunTopsyTurvyGames.png",
+        "width": 640
+    },
+    {
+        "title": "Jeopardy!",
+        "image": "screens/gb/Jeopardy.png",
+        "width": 640
+    },
+    {
+        "title": "Real Ghostbusters, The",
+        "image": "screens/gb/RealGhostbustersThe.png",
+        "width": 640
+    },
+    {
+        "title": "Boomer's Adventure in ASMIK World",
+        "image": "screens/gb/BoomersAdventureinASMIKWorld.png",
+        "width": 640
+    },
+    {
+        "title": "Nail'n Scale",
+        "image": "screens/gb/NailnScale.png",
+        "width": 640
+    },
+    {
+        "title": "Oddworld Adventures",
+        "image": "screens/gb/OddworldAdventures.png",
+        "width": 640
+    },
+    {
+        "title": "Ferrari Grand Prix Challenge",
+        "image": "screens/gb/FerrariGrandPrixChallenge.png",
+        "width": 640
+    },
+    {
+        "title": "Trip World",
+        "image": "screens/gb/TripWorld.png",
+        "width": 640
+    },
+    {
+        "title": "Dead Heat Scramble",
+        "image": "screens/gb/DeadHeatScramble.png",
+        "width": 640
+    },
+    {
+        "title": "Garfield Labyrinth",
+        "image": "screens/gb/GarfieldLabyrinth.png",
+        "width": 640
+    },
+    {
+        "title": "Spider-Man 2",
+        "image": "screens/gb/SpiderMan2.png",
+        "width": 640
+    },
+    {
+        "title": "King of the Zoo",
+        "image": "screens/gb/KingoftheZoo.png",
+        "width": 640
+    },
+    {
+        "title": "Lawnmower Man, The",
+        "image": "screens/gb/LawnmowerManThe.png",
+        "width": 640
+    },
+    {
+        "title": "Super Chase H.Q.",
+        "image": "screens/gb/SuperChaseH.Q..png",
+        "width": 640
+    },
+    {
+        "title": "Madden '97",
+        "image": "screens/gb/Madden97.png",
+        "width": 640
+    },
+    {
+        "title": "Ultra Golf",
+        "image": "screens/gb/UltraGolf.png",
+        "width": 640
+    },
+    {
+        "title": "World Cup USA 94",
+        "image": "screens/gb/WorldCupUSA94.png",
+        "width": 640
+    },
+    {
+        "title": "Nintendo World Cup",
+        "image": "screens/gb/NintendoWorldCup.png",
+        "width": 640
+    },
+    {
+        "title": "Jungle Book, The",
+        "image": "screens/gb/JungleBookThe.png",
+        "width": 640
+    },
+    {
+        "title": "Missile Command",
+        "image": "screens/gb/MissileCommand.png",
+        "width": 640
+    },
+    {
+        "title": "Samurai Shodown",
+        "image": "screens/gb/SamuraiShodown.png",
+        "width": 640
+    },
+    {
+        "title": "Batman - Return of the Joker",
+        "image": "screens/gb/BatmanReturnoftheJoker.png",
+        "width": 640
+    },
+    {
+        "title": "Donkey Kong Land III",
+        "image": "screens/gb/DonkeyKongLandIII.png",
+        "width": 640
+    },
+    {
+        "title": "Elevator Action",
+        "image": "screens/gb/ElevatorAction.png",
+        "width": 640
+    },
+    {
+        "title": "Bubble Ghost",
+        "image": "screens/gb/BubbleGhost.png",
+        "width": 640
+    },
+    {
+        "title": "Nemesis II - The Return of the Hero",
+        "image": "screens/gb/NemesisIITheReturnoftheHero.png",
+        "width": 640
+    },
+    {
+        "title": "Lion King, The",
+        "image": "screens/gb/LionKingThe.png",
+        "width": 640
+    },
+    {
+        "title": "Jimmy Connors Tennis",
+        "image": "screens/gb/JimmyConnorsTennis.png",
+        "width": 640
+    },
+    {
+        "title": "Spirou",
+        "image": "screens/gb/Spirou.png",
+        "width": 640
+    },
+    {
+        "title": "Ms. Pac-Man",
+        "image": "screens/gb/Ms.PacMan.png",
+        "width": 640
+    },
+    {
+        "title": "Punisher, The - The Ultimate Payback",
+        "image": "screens/gb/PunisherTheTheUltimatePayback.png",
+        "width": 640
+    },
+    {
+        "title": "Splitz",
+        "image": "screens/gb/Splitz.png",
+        "width": 640
+    },
+    {
+        "title": "Robin Hood - Prince of Thieves",
+        "image": "screens/gb/RobinHoodPrinceofThieves.png",
+        "width": 640
+    },
+    {
+        "title": "Judge Dredd",
+        "image": "screens/gb/JudgeDredd.png",
+        "width": 640
+    },
+    {
+        "title": "Pocket Bomberman",
+        "image": "screens/gb/PocketBomberman.png",
+        "width": 640
+    },
+    {
+        "title": "Final Fantasy Adventure",
+        "image": "screens/gb/FinalFantasyAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Pagemaster, The",
+        "image": "screens/gb/PagemasterThe.png",
+        "width": 640
+    },
+    {
+        "title": "Paperboy 2",
+        "image": "screens/gb/Paperboy2.png",
+        "width": 640
+    },
+    {
+        "title": "Probotector",
+        "image": "screens/gb/Probotector.png",
+        "width": 640
+    },
+    {
+        "title": "Nigel Mansell's World Championship",
+        "image": "screens/gb/NigelMansellsWorldChampionship.png",
+        "width": 640
+    },
+    {
+        "title": "Shadow Warriors",
+        "image": "screens/gb/ShadowWarriors.png",
+        "width": 640
+    },
+    {
+        "title": "Indiana Jones and the Last Crusade",
+        "image": "screens/gb/IndianaJonesandtheLastCrusade.png",
+        "width": 640
+    },
+    {
+        "title": "Mulan",
+        "image": "screens/gb/Mulan.png",
+        "width": 640
+    },
+    {
+        "title": "Top Rank Tennis",
+        "image": "screens/gb/TopRankTennis.png",
+        "width": 640
+    },
+    {
+        "title": "Castle Quest",
+        "image": "screens/gb/CastleQuest.png",
+        "width": 640
+    },
+    {
+        "title": "Smurfs Nightmare, The",
+        "image": "screens/gb/SmurfsNightmareThe.png",
+        "width": 640
+    },
+    {
+        "title": "B.C. Kid 2",
+        "image": "screens/gb/B.C.Kid2.png",
+        "width": 640
+    },
+    {
+        "title": "Jeopardy! - Teen Tournament",
+        "image": "screens/gb/JeopardyTeenTournament.png",
+        "width": 640
+    },
+    {
+        "title": "Miner 2049er Starring Bounty Bob",
+        "image": "screens/gb/Miner2049erStarringBountyBob.png",
+        "width": 640
+    },
+    {
+        "title": "B.C. Kid",
+        "image": "screens/gb/B.C.Kid.png",
+        "width": 640
+    },
+    {
+        "title": "Asterix & Obelix",
+        "image": "screens/gb/AsterixObelix.png",
+        "width": 640
+    },
+    {
+        "title": "Pac-In-Time",
+        "image": "screens/gb/PacInTime.png",
+        "width": 640
+    },
+    {
+        "title": "Lost World, The - Jurassic Park",
+        "image": "screens/gb/LostWorldTheJurassicPark.png",
+        "width": 640
+    },
+    {
+        "title": "Blues Brothers, The - Jukebox Adventure",
+        "image": "screens/gb/BluesBrothersTheJukeboxAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Franky, Joe & Dirk... On the Tiles",
+        "image": "screens/gb/FrankyJoeDirk...OntheTiles.png",
+        "width": 640
+    },
+    {
+        "title": "Race Drivin'",
+        "image": "screens/gb/RaceDrivin.png",
+        "width": 640
+    },
+    {
+        "title": "Jelly Boy",
+        "image": "screens/gb/JellyBoy.png",
+        "width": 640
+    },
+    {
+        "title": "HAL Wrestling",
+        "image": "screens/gb/HALWrestling.png",
+        "width": 640
+    },
+    {
+        "title": "Tintin in Tibet",
+        "image": "screens/gb/TintininTibet.png",
+        "width": 640
+    },
+    {
+        "title": "Cool Spot",
+        "image": "screens/gb/CoolSpot.png",
+        "width": 640
+    },
+    {
+        "title": "Battletoads in Ragnarok's World",
+        "image": "screens/gb/BattletoadsinRagnaroksWorld.png",
+        "width": 640
+    },
+    {
+        "title": "Frank Thomas Big Hurt Baseball",
+        "image": "screens/gb/FrankThomasBigHurtBaseball.png",
+        "width": 640
+    },
+    {
+        "title": "Altered Space - A 3-D Alien Adventure",
+        "image": "screens/gb/AlteredSpaceA3DAlienAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Alien vs Predator - The Last of His Clan",
+        "image": "screens/gb/AlienvsPredatorTheLastofHisClan.png",
+        "width": 640
+    },
+    {
+        "title": "Malibu Beach Volleyball",
+        "image": "screens/gb/MalibuBeachVolleyball.png",
+        "width": 640
+    },
+    {
+        "title": "4-in-1 Funpak - Volume II",
+        "image": "screens/gb/4in1FunpakVolumeII.png",
+        "width": 640
+    },
+    {
+        "title": "Soccer Mania",
+        "image": "screens/gb/SoccerMania.png",
+        "width": 640
+    },
+    {
+        "title": "Shanghai",
+        "image": "screens/gb/Shanghai.png",
+        "width": 640
+    },
+    {
+        "title": "Prehistorik Man",
+        "image": "screens/gb/PrehistorikMan.png",
+        "width": 640
+    },
+    {
+        "title": "Tail 'Gator",
+        "image": "screens/gb/TailGator.png",
+        "width": 640
+    },
+    {
+        "title": "Teenage Mutant Ninja Turtles III - Radical Rescue",
+        "image": "screens/gb/TeenageMutantNinjaTurtlesIIIRadicalRescue.png",
+        "width": 640
+    },
+    {
+        "title": "Cliffhanger",
+        "image": "screens/gb/Cliffhanger.png",
+        "width": 640
+    },
+    {
+        "title": "Football International",
+        "image": "screens/gb/FootballInternational.png",
+        "width": 640
+    },
+    {
+        "title": "Muhammad Ali Heavyweight Boxing",
+        "image": "screens/gb/MuhammadAliHeavyweightBoxing.png",
+        "width": 640
+    },
+    {
+        "title": "Fighting Simulator 2 in 1 - Flying Warriors",
+        "image": "screens/gb/FightingSimulator2in1FlyingWarriors.png",
+        "width": 640
+    },
+    {
+        "title": "Yogi Bear in Yogi Bear's Goldrush",
+        "image": "screens/gb/YogiBearinYogiBearsGoldrush.png",
+        "width": 640
+    },
+    {
+        "title": "Mystic Quest",
+        "image": "screens/gb/MysticQuest.png",
+        "width": 640
+    },
+    {
+        "title": "Reservoir Rat",
+        "image": "screens/gb/ReservoirRat.png",
+        "width": 640
+    },
+    {
+        "title": "Parasol Stars - Rainbow Islands II",
+        "image": "screens/gb/ParasolStarsRainbowIslandsII.png",
+        "width": 640
+    },
+    {
+        "title": "Megalit",
+        "image": "screens/gb/Megalit.png",
+        "width": 640
+    },
+    {
+        "title": "Nail 'n Scale",
+        "image": "screens/gb/NailnScale.png",
+        "width": 640
+    },
+    {
+        "title": "Race Days",
+        "image": "screens/gb/RaceDays.png",
+        "width": 640
+    },
+    {
+        "title": "High Stakes",
+        "image": "screens/gb/HighStakes.png",
+        "width": 640
+    },
+    {
+        "title": "InfoGenius Productivity Pak - Frommer's Travel Guide",
+        "image": "screens/gb/InfoGeniusProductivityPakFrommersTravelGuide.png",
+        "width": 640
+    },
+    {
+        "title": "Dig Dug",
+        "image": "screens/gb/DigDug.png",
+        "width": 640
+    },
+    {
+        "title": "V-Rally - Championship Edition",
+        "image": "screens/gb/VRallyChampionshipEdition.png",
+        "width": 640
+    },
+    {
+        "title": "Final Fantasy Legend III",
+        "image": "screens/gb/FinalFantasyLegendIII.png",
+        "width": 640
+    },
+    {
+        "title": "Final Fantasy Legend II",
+        "image": "screens/gb/FinalFantasyLegendII.png",
+        "width": 640
+    },
+    {
+        "title": "NBA Jam",
+        "image": "screens/gb/NBAJam.png",
+        "width": 640
+    },
+    {
+        "title": "Kid Icarus - Of Myths and Monsters",
+        "image": "screens/gb/KidIcarusOfMythsandMonsters.png",
+        "width": 640
+    },
+    {
+        "title": "Motocross Maniacs",
+        "image": "screens/gb/MotocrossManiacs.png",
+        "width": 640
+    },
+    {
+        "title": "Aladdin",
+        "image": "screens/gb/Aladdin.png",
+        "width": 640
+    },
+    {
+        "title": "Klax",
+        "image": "screens/gb/Klax.png",
+        "width": 640
+    },
+    {
+        "title": "Primal Rage",
+        "image": "screens/gb/PrimalRage.png",
+        "width": 640
+    },
+    {
+        "title": "Mickey's Dangerous Chase",
+        "image": "screens/gb/MickeysDangerousChase.png",
+        "width": 640
+    },
+    {
+        "title": "Lamborghini American Challenge",
+        "image": "screens/gb/LamborghiniAmericanChallenge.png",
+        "width": 640
+    },
+    {
+        "title": "Mr. Nutz",
+        "image": "screens/gb/Mr.Nutz.png",
+        "width": 640
+    },
+    {
+        "title": "Mortal Kombat II",
+        "image": "screens/gb/MortalKombatII.png",
+        "width": 640
+    },
+    {
+        "title": "DuckTales 2",
+        "image": "screens/gb/DuckTales2.png",
+        "width": 640
+    },
+    {
+        "title": "Tetris Blast",
+        "image": "screens/gb/TetrisBlast.png",
+        "width": 640
+    },
+    {
+        "title": "4-in-1 Fun Pak",
+        "image": "screens/gb/4in1FunPak.png",
+        "width": 640
+    },
+    {
+        "title": "WWF War Zone",
+        "image": "screens/gb/WWFWarZone.png",
+        "width": 640
+    },
+    {
+        "title": "InfoGenius Productivity Pak - Spell Checker and Calculator",
+        "image": "screens/gb/InfoGeniusProductivityPakSpellCheckerandCalculator.png",
+        "width": 640
+    },
+    {
+        "title": "Beethoven",
+        "image": "screens/gb/Beethoven.png",
+        "width": 640
+    },
+    {
+        "title": "Snow Brothers",
+        "image": "screens/gb/SnowBrothers.png",
+        "width": 640
+    },
+    {
+        "title": "Fish Dude",
+        "image": "screens/gb/FishDude.png",
+        "width": 640
+    },
+    {
+        "title": "Hyper Dunk",
+        "image": "screens/gb/HyperDunk.png",
+        "width": 640
+    },
+    {
+        "title": "Jeopardy! - Sports Edition",
+        "image": "screens/gb/JeopardySportsEdition.png",
+        "width": 640
+    },
+    {
+        "title": "Super Battletank",
+        "image": "screens/gb/SuperBattletank.png",
+        "width": 640
+    },
+    {
+        "title": "Track & Field",
+        "image": "screens/gb/TrackField.png",
+        "width": 640
+    },
+    {
+        "title": "Battletoads-Double Dragon",
+        "image": "screens/gb/BattletoadsDoubleDragon.png",
+        "width": 640
+    },
+    {
+        "title": "All-Star Baseball 99",
+        "image": "screens/gb/AllStarBaseball99.png",
+        "width": 640
+    },
+    {
+        "title": "Tiny Toon Adventures 2 - Montana's Movie Madness",
+        "image": "screens/gb/TinyToonAdventures2MontanasMovieMadness.png",
+        "width": 640
+    },
+    {
+        "title": "Battle Unit Zeoth",
+        "image": "screens/gb/BattleUnitZeoth.png",
+        "width": 640
+    },
+    {
+        "title": "Spirit of F-1, The",
+        "image": "screens/gb/SpiritofF1The.png",
+        "width": 640
+    },
+    {
+        "title": "Monster Max",
+        "image": "screens/gb/MonsterMax.png",
+        "width": 640
+    },
+    {
+        "title": "Little Mermaid, The",
+        "image": "screens/gb/LittleMermaidThe.png",
+        "width": 640
+    },
+    {
+        "title": "Pierre le Chef Is... Out to Lunch",
+        "image": "screens/gb/PierreleChefIs...OuttoLunch.png",
+        "width": 640
+    },
+    {
+        "title": "Toxic Crusaders",
+        "image": "screens/gb/ToxicCrusaders.png",
+        "width": 640
+    },
+    {
+        "title": "Jungle Strike",
+        "image": "screens/gb/JungleStrike.png",
+        "width": 640
+    },
+    {
+        "title": "Olympic Summer Games",
+        "image": "screens/gb/OlympicSummerGames.png",
+        "width": 640
+    },
+    {
+        "title": "T2 - The Arcade Game",
+        "image": "screens/gb/T2TheArcadeGame.png",
+        "width": 640
+    },
+    {
+        "title": "Dr. Mario",
+        "image": "screens/gb/Dr.Mario.png",
+        "width": 640
+    },
+    {
+        "title": "XVII Olympic Winter Games, The - Lillehammer 1994",
+        "image": "screens/gb/XVIIOlympicWinterGamesTheLillehammer1994.png",
+        "width": 640
+    },
+    {
+        "title": "Pinball Fantasies",
+        "image": "screens/gb/PinballFantasies.png",
+        "width": 640
+    },
+    {
+        "title": "SolarStriker",
+        "image": "screens/gb/SolarStriker.png",
+        "width": 640
+    },
+    {
+        "title": "Spot",
+        "image": "screens/gb/Spot.png",
+        "width": 640
+    },
+    {
+        "title": "Battleship",
+        "image": "screens/gb/Battleship.png",
+        "width": 640
+    },
+    {
+        "title": "WordZap",
+        "image": "screens/gb/WordZap.png",
+        "width": 640
+    },
+    {
+        "title": "Donkey Kong Land 2",
+        "image": "screens/gb/DonkeyKongLand2.png",
+        "width": 640
+    },
+    {
+        "title": "Bugs Bunny Crazy Castle, The",
+        "image": "screens/gb/BugsBunnyCrazyCastleThe.png",
+        "width": 640
+    },
+    {
+        "title": "Popeye 2",
+        "image": "screens/gb/Popeye2.png",
+        "width": 640
+    },
+    {
+        "title": "Frogger",
+        "image": "screens/gb/Frogger.png",
+        "width": 640
+    },
+    {
+        "title": "Kingdom Crusade",
+        "image": "screens/gb/KingdomCrusade.png",
+        "width": 640
+    },
+    {
+        "title": "Spy vs Spy - Operation Boobytrap",
+        "image": "screens/gb/SpyvsSpyOperationBoobytrap.png",
+        "width": 640
+    },
+    {
+        "title": "Batman - The Video Game",
+        "image": "screens/gb/BatmanTheVideoGame.png",
+        "width": 640
+    },
+    {
+        "title": "Addams Family, The - Pugsley's Scavenger Hunt",
+        "image": "screens/gb/AddamsFamilyThePugsleysScavengerHunt.png",
+        "width": 640
+    },
+    {
+        "title": "Zoop",
+        "image": "screens/gb/Zoop.png",
+        "width": 640
+    },
+    {
+        "title": "Ren & Stimpy Show, The - Space Cadet Adventures",
+        "image": "screens/gb/RenStimpyShowTheSpaceCadetAdventures.png",
+        "width": 640
+    },
+    {
+        "title": "Radar Mission",
+        "image": "screens/gb/RadarMission.png",
+        "width": 640
+    },
+    {
+        "title": "Pac-Man",
+        "image": "screens/gb/PacMan.png",
+        "width": 640
+    },
+    {
+        "title": "Amazing Penguin",
+        "image": "screens/gb/AmazingPenguin.png",
+        "width": 640
+    },
+    {
+        "title": "Knight Quest",
+        "image": "screens/gb/KnightQuest.png",
+        "width": 640
+    },
+    {
+        "title": "Wario Blast featuring Bomberman!",
+        "image": "screens/gb/WarioBlastfeaturingBomberman.png",
+        "width": 640
+    },
+    {
+        "title": "Baseball",
+        "image": "screens/gb/Baseball.png",
+        "width": 640
+    },
+    {
+        "title": "Urban Strike",
+        "image": "screens/gb/UrbanStrike.png",
+        "width": 640
+    },
+    {
+        "title": "Bill Elliott's NASCAR Fast Tracks",
+        "image": "screens/gb/BillElliottsNASCARFastTracks.png",
+        "width": 640
+    },
+    {
+        "title": "Rugrats Movie, The",
+        "image": "screens/gb/RugratsMovieThe.png",
+        "width": 640
+    },
+    {
+        "title": "Godzilla",
+        "image": "screens/gb/Godzilla.png",
+        "width": 640
+    },
+    {
+        "title": "Daedalian Opus",
+        "image": "screens/gb/DaedalianOpus.png",
+        "width": 640
+    },
+    {
+        "title": "Dick Tracy",
+        "image": "screens/gb/DickTracy.png",
+        "width": 640
+    },
+    {
+        "title": "Toy Story",
+        "image": "screens/gb/ToyStory.png",
+        "width": 640
+    },
+    {
+        "title": "Smurfs, The",
+        "image": "screens/gb/SmurfsThe.png",
+        "width": 640
+    },
+    {
+        "title": "Jetsons, The - Robot Panic",
+        "image": "screens/gb/JetsonsTheRobotPanic.png",
+        "width": 640
+    },
+    {
+        "title": "Addams Family, The",
+        "image": "screens/gb/AddamsFamilyThe.png",
+        "width": 640
+    },
+    {
+        "title": "DragonHeart",
+        "image": "screens/gb/DragonHeart.png",
+        "width": 640
+    },
+    {
+        "title": "Boxxle II",
+        "image": "screens/gb/BoxxleII.png",
+        "width": 640
+    },
+    {
+        "title": "Zen - Intergalactic Ninja",
+        "image": "screens/gb/ZenIntergalacticNinja.png",
+        "width": 640
+    },
+    {
+        "title": "Battle Bull",
+        "image": "screens/gb/BattleBull.png",
+        "width": 640
+    },
+    {
+        "title": "R-Type II",
+        "image": "screens/gb/RTypeII.png",
+        "width": 640
+    },
+    {
+        "title": "Bamse",
+        "image": "screens/gb/Bamse.png",
+        "width": 640
+    },
+    {
+        "title": "Blaster Master Boy",
+        "image": "screens/gb/BlasterMasterBoy.png",
+        "width": 640
+    },
+    {
+        "title": "Stargate",
+        "image": "screens/gb/Stargate.png",
+        "width": 640
+    },
+    {
+        "title": "Bugs Bunny Crazy Castle 2, The",
+        "image": "screens/gb/BugsBunnyCrazyCastle2The.png",
+        "width": 640
+    },
+    {
+        "title": "Batman - The Animated Series",
+        "image": "screens/gb/BatmanTheAnimatedSeries.png",
+        "width": 640
+    },
+    {
+        "title": "Wordtris",
+        "image": "screens/gb/Wordtris.png",
+        "width": 640
+    },
+    {
+        "title": "Balloon Kid",
+        "image": "screens/gb/BalloonKid.png",
+        "width": 640
+    },
+    {
+        "title": "Tip Off",
+        "image": "screens/gb/TipOff.png",
+        "width": 640
+    },
+    {
+        "title": "Asterix",
+        "image": "screens/gb/Asterix.png",
+        "width": 640
+    },
+    {
+        "title": "Marble Madness",
+        "image": "screens/gb/MarbleMadness.png",
+        "width": 640
+    },
+    {
+        "title": "Battle of Olympus, The",
+        "image": "screens/gb/BattleofOlympusThe.png",
+        "width": 640
+    },
+    {
+        "title": "Alien 3",
+        "image": "screens/gb/Alien3.png",
+        "width": 640
+    },
+    {
+        "title": "Mario & Yoshi",
+        "image": "screens/gb/MarioYoshi.png",
+        "width": 640
+    },
+    {
+        "title": "Tamagotchi",
+        "image": "screens/gb/Tamagotchi.png",
+        "width": 640
+    },
+    {
+        "title": "Home Alone 2 - Lost in New York",
+        "image": "screens/gb/HomeAlone2LostinNewYork.png",
+        "width": 640
+    },
+    {
+        "title": "Dennis",
+        "image": "screens/gb/Dennis.png",
+        "width": 640
+    },
+    {
+        "title": "Square Deal - The Game of Two-Dimensional Poker",
+        "image": "screens/gb/SquareDealTheGameofTwoDimensionalPoker.png",
+        "width": 640
+    },
+    {
+        "title": "Q Billion",
+        "image": "screens/gb/QBillion.png",
+        "width": 640
+    },
+    {
+        "title": "Q-bert for Game Boy",
+        "image": "screens/gb/QbertforGameBoy.png",
+        "width": 640
+    },
+    {
+        "title": "Pinocchio",
+        "image": "screens/gb/Pinocchio.png",
+        "width": 640
+    },
+    {
+        "title": "Snoopy's Magic Show",
+        "image": "screens/gb/SnoopysMagicShow.png",
+        "width": 640
+    },
+    {
+        "title": "Flash, The",
+        "image": "screens/gb/FlashThe.png",
+        "width": 640
+    },
+    {
+        "title": "Wario Land II",
+        "image": "screens/gb/WarioLandII.png",
+        "width": 640
+    },
+    {
+        "title": "Ren & Stimpy Show, The - Veediots!",
+        "image": "screens/gb/RenStimpyShowTheVeediots.png",
+        "width": 640
+    },
+    {
+        "title": "Maru's Mission",
+        "image": "screens/gb/MarusMission.png",
+        "width": 640
+    },
+    {
+        "title": "NFL Football",
+        "image": "screens/gb/NFLFootball.png",
+        "width": 640
+    },
+    {
+        "title": "Water World",
+        "image": "screens/gb/WaterWorld.png",
+        "width": 640
+    },
+    {
+        "title": "Turn and Burn",
+        "image": "screens/gb/TurnandBurn.png",
+        "width": 640
+    },
+    {
+        "title": "Star Trek Generations - Beyond the Nexus",
+        "image": "screens/gb/StarTrekGenerationsBeyondtheNexus.png",
+        "width": 640
+    },
+    {
+        "title": "Tennis",
+        "image": "screens/gb/Tennis.png",
+        "width": 640
+    },
+    {
+        "title": "Darkman",
+        "image": "screens/gb/Darkman.png",
+        "width": 640
+    },
+    {
+        "title": "Simpsons Itchy & Scratchy, The - Miniature Golf Madness",
+        "image": "screens/gb/SimpsonsItchyScratchyTheMiniatureGolfMadness.png",
+        "width": 640
+    },
+    {
+        "title": "FIFA International Soccer",
+        "image": "screens/gb/FIFAInternationalSoccer.png",
+        "width": 640
+    },
+    {
+        "title": "Arcade Classic No. 1 - Asteroids & Missile Command",
+        "image": "screens/gb/ArcadeClassicNo.1AsteroidsMissileCommand.png",
+        "width": 640
+    },
+    {
+        "title": "Cool Ball",
+        "image": "screens/gb/CoolBall.png",
+        "width": 640
+    },
+    {
+        "title": "Mega Man IV",
+        "image": "screens/gb/MegaManIV.png",
+        "width": 640
+    },
+    {
+        "title": "Prophecy - The Viking Child",
+        "image": "screens/gb/ProphecyTheVikingChild.png",
+        "width": 640
+    },
+    {
+        "title": "F-15 Strike Eagle",
+        "image": "screens/gb/F15StrikeEagle.png",
+        "width": 640
+    },
+    {
+        "title": "David Crane's The Rescue of Princess Blobette",
+        "image": "screens/gb/DavidCranesTheRescueofPrincessBlobette.png",
+        "width": 640
+    },
+    {
+        "title": "Bram Stoker's Dracula",
+        "image": "screens/gb/BramStokersDracula.png",
+        "width": 640
+    },
+    {
+        "title": "Tecmo Bowl",
+        "image": "screens/gb/TecmoBowl.png",
+        "width": 640
+    },
+    {
+        "title": "Hyper Lode Runner",
+        "image": "screens/gb/HyperLodeRunner.png",
+        "width": 640
+    },
+    {
+        "title": "Jurassic Park",
+        "image": "screens/gb/JurassicPark.png",
+        "width": 640
+    },
+    {
+        "title": "Ultima - Runes of Virtue",
+        "image": "screens/gb/UltimaRunesofVirtue.png",
+        "width": 640
+    },
+    {
+        "title": "Boxxle",
+        "image": "screens/gb/Boxxle.png",
+        "width": 640
+    },
+    {
+        "title": "Raging Fighter",
+        "image": "screens/gb/RagingFighter.png",
+        "width": 640
+    },
+    {
+        "title": "Space Invaders",
+        "image": "screens/gb/SpaceInvaders.png",
+        "width": 640
+    },
+    {
+        "title": "Ghostbusters II",
+        "image": "screens/gb/GhostbustersII.png",
+        "width": 640
+    },
+    {
+        "title": "Kwirk - He's A-maze-ing!",
+        "image": "screens/gb/KwirkHesAmazeing.png",
+        "width": 640
+    },
+    {
+        "title": "BreakThru!",
+        "image": "screens/gb/BreakThru.png",
+        "width": 640
+    },
+    {
+        "title": "PGA European Tour",
+        "image": "screens/gb/PGAEuropeanTour.png",
+        "width": 640
+    },
+    {
+        "title": "Fortified Zone",
+        "image": "screens/gb/FortifiedZone.png",
+        "width": 640
+    },
+    {
+        "title": "Boulder Dash",
+        "image": "screens/gb/BoulderDash.png",
+        "width": 640
+    },
+    {
+        "title": "Final Fantasy Legend, The",
+        "image": "screens/gb/FinalFantasyLegendThe.png",
+        "width": 640
+    },
+    {
+        "title": "Spider-Man - X-Men - Arcade's Revenge",
+        "image": "screens/gb/SpiderManXMenArcadesRevenge.png",
+        "width": 640
+    },
+    {
+        "title": "Power Mission",
+        "image": "screens/gb/PowerMission.png",
+        "width": 640
+    },
+    {
+        "title": "Earthworm Jim",
+        "image": "screens/gb/EarthwormJim.png",
+        "width": 640
+    },
+    {
+        "title": "Castlevania - The Adventure",
+        "image": "screens/gb/CastlevaniaTheAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Great Greed",
+        "image": "screens/gb/GreatGreed.png",
+        "width": 640
+    },
+    {
+        "title": "Flintstones, The - King Rock Treasure Island",
+        "image": "screens/gb/FlintstonesTheKingRockTreasureIsland.png",
+        "width": 640
+    },
+    {
+        "title": "Max",
+        "image": "screens/gb/Max.png",
+        "width": 640
+    },
+    {
+        "title": "Super Kick Off",
+        "image": "screens/gb/SuperKickOff.png",
+        "width": 640
+    },
+    {
+        "title": "Gradius - The Interstellar Assault",
+        "image": "screens/gb/GradiusTheInterstellarAssault.png",
+        "width": 640
+    },
+    {
+        "title": "Worms",
+        "image": "screens/gb/Worms.png",
+        "width": 640
+    },
+    {
+        "title": "Game Boy Camera Gold",
+        "image": "screens/gb/GameBoyCameraGold.png",
+        "width": 640
+    },
+    {
+        "title": "InfoGenius Productivity Pak - Berlitz French Translator",
+        "image": "screens/gb/InfoGeniusProductivityPakBerlitzFrenchTranslator.png",
+        "width": 640
+    },
+    {
+        "title": "Centipede",
+        "image": "screens/gb/Centipede.png",
+        "width": 640
+    },
+    {
+        "title": "Blades of Steel",
+        "image": "screens/gb/BladesofSteel.png",
+        "width": 640
+    },
+    {
+        "title": "Lethal Weapon",
+        "image": "screens/gb/LethalWeapon.png",
+        "width": 640
+    },
+    {
+        "title": "Arcade Classic No. 4 - Defender & Joust",
+        "image": "screens/gb/ArcadeClassicNo.4DefenderJoust.png",
+        "width": 640
+    },
+    {
+        "title": "Mr. Do!",
+        "image": "screens/gb/Mr.Do.png",
+        "width": 640
+    },
+    {
+        "title": "Spot - The Cool Adventure",
+        "image": "screens/gb/SpotTheCoolAdventure.png",
+        "width": 640
+    },
+    {
+        "title": "Donkey Kong",
+        "image": "screens/gb/DonkeyKong.png",
+        "width": 640
+    },
+    {
+        "title": "Super Battletank - War in the Gulf",
+        "image": "screens/gb/SuperBattletankWarintheGulf.png",
+        "width": 640
+    },
+    {
+        "title": "Out of Gas",
+        "image": "screens/gb/OutofGas.png",
+        "width": 640
+    },
+    {
+        "title": "NBA Live 96",
+        "image": "screens/gb/NBALive96.png",
+        "width": 640
+    },
+    {
+        "title": "Sea Battle",
+        "image": "screens/gb/SeaBattle.png",
+        "width": 640
+    },
+    {
+        "title": "Dr. Franken II",
+        "image": "screens/gb/Dr.FrankenII.png",
+        "width": 640
+    },
+    {
+        "title": "Kung-Fu Master",
+        "image": "screens/gb/KungFuMaster.png",
+        "width": 640
+    },
+    {
+        "title": "Killer Instinct",
+        "image": "screens/gb/KillerInstinct.png",
+        "width": 640
+    },
+    {
+        "title": "Mercenary Force",
+        "image": "screens/gb/MercenaryForce.png",
+        "width": 640
+    },
+    {
+        "title": "David Crane's The Rescue of Princess Blobette Starring A Boy and His Blob",
+        "image": "screens/gb/DavidCranesTheRescueofPrincessBlobetteStarringABoyandHisBlob.png",
+        "width": 640
+    },
+    {
+        "title": "Tesserae",
+        "image": "screens/gb/Tesserae.png",
+        "width": 640
+    },
+    {
+        "title": "Super Hunchback",
+        "image": "screens/gb/SuperHunchback.png",
+        "width": 640
+    },
+    {
+        "title": "Skate or Die - Tour de Thrash",
+        "image": "screens/gb/SkateorDieTourdeThrash.png",
+        "width": 640
+    },
+    {
+        "title": "Darkwing Duck",
+        "image": "screens/gb/DarkwingDuck.png",
+        "width": 640
+    },
+    {
+        "title": "Xenon 2 - Megablast",
+        "image": "screens/gb/Xenon2Megablast.png",
+        "width": 640
+    },
+    {
+        "title": "Tumble Pop",
+        "image": "screens/gb/TumblePop.png",
+        "width": 640
+    },
+    {
+        "title": "Krusty's Fun House",
+        "image": "screens/gb/KrustysFunHouse.png",
+        "width": 640
+    },
+    {
+        "title": "FIFA Soccer '96",
+        "image": "screens/gb/FIFASoccer96.png",
+        "width": 640
+    },
+    {
+        "title": "Faceball 2000",
+        "image": "screens/gb/Faceball2000.png",
+        "width": 640
+    },
+    {
+        "title": "Taz-Mania",
+        "image": "screens/gb/TazMania.png",
+        "width": 640
+    },
+    {
+        "title": "Mortal Kombat",
+        "image": "screens/gb/MortalKombat.png",
+        "width": 640
+    },
+    {
+        "title": "Tetris",
+        "image": "screens/gb/Tetris.png",
+        "width": 640
+    },
+    {
+        "title": "Mystical Ninja Starring Goemon",
+        "image": "screens/gb/MysticalNinjaStarringGoemon.png",
+        "width": 640
+    },
+    {
+        "title": "Hammerin' Harry",
+        "image": "screens/gb/HammerinHarry.png",
+        "width": 640
+    },
+    {
+        "title": "Casper",
+        "image": "screens/gb/Casper.png",
+        "width": 640
+    },
+    {
+        "title": "In Your Face",
+        "image": "screens/gb/InYourFace.png",
+        "width": 640
+    },
+    {
+        "title": "Joe & Mac - Caveman Ninja",
+        "image": "screens/gb/JoeMacCavemanNinja.png",
+        "width": 640
+    },
+    {
+        "title": "Fire Fighter",
+        "image": "screens/gb/FireFighter.png",
+        "width": 640
+    },
+    {
+        "title": "Star Hawk",
+        "image": "screens/gb/StarHawk.png",
+        "width": 640
+    },
+    {
+        "title": "New Chessmaster, The",
+        "image": "screens/gb/NewChessmasterThe.png",
+        "width": 640
+    },
+    {
+        "title": "Battletoads",
+        "image": "screens/gb/Battletoads.png",
+        "width": 640
+    },
+    {
+        "title": "Pop Up",
+        "image": "screens/gb/PopUp.png",
+        "width": 640
+    },
+    {
+        "title": "Ninja Taro",
+        "image": "screens/gb/NinjaTaro.png",
+        "width": 640
+    },
+    {
+        "title": "Wario Land - Super Mario Land 3",
+        "image": "screens/gb/WarioLandSuperMarioLand3.png",
+        "width": 640
+    },
+    {
+        "title": "Rampart",
+        "image": "screens/gb/Rampart.png",
+        "width": 640
+    },
+    {
+        "title": "Animaniacs",
+        "image": "screens/gb/Animaniacs.png",
+        "width": 640
+    },
+    {
+        "title": "Cool World",
+        "image": "screens/gb/CoolWorld.png",
+        "width": 640
+    },
+    {
+        "title": "Dynablaster",
+        "image": "screens/gb/Dynablaster.png",
+        "width": 640
+    },
+    {
+        "title": "QIX",
+        "image": "screens/gb/QIX.png",
+        "width": 640
+    },
+    {
+        "title": "Bases Loaded for Game Boy",
+        "image": "screens/gb/BasesLoadedforGameBoy.png",
+        "width": 640
+    },
+    {
+        "title": "Sports Illustrated for Kids - The Ultimate Triple Dare!",
+        "image": "screens/gb/SportsIllustratedforKidsTheUltimateTripleDare.png",
+        "width": 640
+    },
+    {
+        "title": "Mega Man II",
+        "image": "screens/gb/MegaManII.png",
+        "width": 640
+    },
+    {
+        "title": "Arcade Classic No. 3 - Galaga & Galaxian",
+        "image": "screens/gb/ArcadeClassicNo.3GalagaGalaxian.png",
+        "width": 640
+    },
+    {
+        "title": "Pocahontas",
+        "image": "screens/gb/Pocahontas.png",
+        "width": 640
+    },
+    {
+        "title": "Mickey's Ultimate Challenge",
+        "image": "screens/gb/MickeysUltimateChallenge.png",
+        "width": 640
+    },
+    {
+        "title": "Brain Drain",
+        "image": "screens/gb/BrainDrain.png",
+        "width": 640
+    },
+    {
+        "title": "Teenage Mutant Hero Turtles II - Back from the Sewers",
+        "image": "screens/gb/TeenageMutantHeroTurtlesIIBackfromtheSewers.png",
+        "width": 640
+    },
+    {
+        "title": "Contra - The Alien Wars",
+        "image": "screens/gb/ContraTheAlienWars.png",
+        "width": 640
+    },
+    {
+        "title": "SeaQuest DSV",
+        "image": "screens/gb/SeaQuestDSV.png",
+        "width": 640
+    },
+    {
+        "title": "Phantom Air Mission",
+        "image": "screens/gb/PhantomAirMission.png",
+        "width": 640
+    },
+    {
+        "title": "Jeep Jamboree",
+        "image": "screens/gb/JeepJamboree.png",
+        "width": 640
+    },
+    {
+        "title": "Taz-Mania 2",
+        "image": "screens/gb/TazMania2.png",
+        "width": 640
+    },
+    {
+        "title": "Solomon's Club",
+        "image": "screens/gb/SolomonsClub.png",
+        "width": 640
+    },
+    {
+        "title": "Gargoyle's Quest",
+        "image": "screens/gb/GargoylesQuest.png",
+        "width": 640
+    },
+    {
+        "title": "Beavis and Butt-Head",
+        "image": "screens/gb/BeavisandButtHead.png",
+        "width": 640
+    },
+    {
+        "title": "Lazlos' Leap",
+        "image": "screens/gb/LazlosLeap.png",
+        "width": 640
+    },
+    {
+        "title": "Loopz",
+        "image": "screens/gb/Loopz.png",
+        "width": 640
+    },
+    {
+        "title": "Terminator 2 - Judgment Day",
+        "image": "screens/gb/Terminator2JudgmentDay.png",
+        "width": 640
+    },
+    {
+        "title": "Legend of the River King GB",
+        "image": "screens/gb/LegendoftheRiverKingGB.png",
+        "width": 640
+    },
+    {
+        "title": "Penguin Wars",
+        "image": "screens/gb/PenguinWars.png",
+        "width": 640
+    },
+    {
+        "title": "Getaway, The",
+        "image": "screens/gb/GetawayThe.png",
+        "width": 640
+    },
+    {
+        "title": "Zool - Ninja of the 'Nth' Dimension",
+        "image": "screens/gb/ZoolNinjaoftheNthDimension.png",
+        "width": 640
+    },
+    {
+        "title": "Chessmaster, The",
+        "image": "screens/gb/ChessmasterThe.png",
+        "width": 640
+    },
+    {
+        "title": "Golf",
+        "image": "screens/gb/Golf.png",
+        "width": 640
+    },
+    {
+        "title": "Star Wars - The Empire Strikes Back",
+        "image": "screens/gb/StarWarsTheEmpireStrikesBack.png",
+        "width": 640
+    },
+    {
+        "title": "James Bond 007",
+        "image": "screens/gb/JamesBond007.png",
+        "width": 640
+    },
+    {
+        "title": "Prince of Persia",
+        "image": "screens/gb/PrinceofPersia.png",
+        "width": 640
+    },
+    {
+        "title": "World Cup 98",
+        "image": "screens/gb/WorldCup98.png",
+        "width": 640
+    },
+    {
+        "title": "Spider-Man 3 - Invasion of the Spider-Slayers",
+        "image": "screens/gb/SpiderMan3InvasionoftheSpiderSlayers.png",
+        "width": 640
+    }
+]
