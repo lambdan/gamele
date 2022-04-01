@@ -379,7 +379,7 @@ function showStats() {
 }
 
 function share() {
-	var res = SITE_URL + " " + daysSinceStart() + "\n";
+	var res = "🕹️ " + SITE_URL + " " + daysSinceStart() + "\n";
 
 	var squares = [];
 
