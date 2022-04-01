@@ -1,3 +1,5 @@
+var VERSION = "1.0.1" // shown in bottom of help box so we can verify the latest script is loaded
+
 var todays_image;
 var img = new Image();
 
@@ -26,14 +28,12 @@ var today_userdata;
 
 function dateToday() {
 	const d = new Date();
-	//console.log("moment:", moment(d).format())
 	iso = moment(d).format("YYYY-MM-DD")
-	//console.log("date is", iso)
 	return String(iso)
 }
 
 function daysSinceStart() {
-	start = moment(START_DATE);
+	start = moment(START_DATE); // set in each page's html <script>
 	today = moment(dateToday());
 	return today.diff(start,'days');
 }
@@ -80,14 +80,12 @@ function init () {
 		"max-width": playfield_max_width
 	});
 
-	//$("#guessinput").hide();
-
 	// setup the image and create blockers, after it has loaded
 	img.onload = function() {
 
 		console.log("finished loading img")
 		$("#loading").hide();
-		$("#image").html(img); // image needs to be shown before blockers are added
+		$("#image").html(img); // image needs to be "shown" before blockers are added
 
 		// create blockers
 		for (let r = 0; r < rows; r++) {
@@ -106,7 +104,6 @@ function init () {
 
 			if (today_userdata.revealed.length > 0) {
 				$.each(today_userdata.revealed, function(k,v) {
-					console.log("revealing", v)
 					$("#" + v).fadeOut();
 				});
 			}
@@ -311,7 +308,7 @@ function makeGuess() {
 }
 
 function help() {
-	alert("Click a tile to reveal part of a screenshot and try to guess what game it is.\n\n")
+	alert("Click a tile to reveal part of a screenshot and try to guess what game it is.\n\n(Version: " + VERSION + ")")
 }
 
 function saveTodayUserdata() {
