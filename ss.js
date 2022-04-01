@@ -4,7 +4,7 @@ var todays_image;
 var img = new Image();
 
 
-var rows = 2;
+var rows = 1;
 var cols = 5;
 var max_guesses = (rows*cols) + 1;
 
@@ -274,28 +274,17 @@ function makeGuess() {
 		updateGuessesRemaining();
 	}
 	
-	
-	stripped = guess.replace(/[^0-9a-z]/gi, '').toUpperCase() // strip non-alphanumeric
-	target = game_today.toUpperCase().replace(/[^0-9a-z]/gi, '') //todays game (alphanumeric and uppercase)
+	for (var c = 0; c < guess.length; c++) { // iterate the (stripped) guess
+		chr = guess[c].toUpperCase();
+		if (chr == " ") {
+			continue;
+		}
 
-	for (var c = 0; c < stripped.length; c++) { // iterate the (stripped) guess
-		chr = stripped.charAt(c)
-
-		if (target.includes(chr)) { // char is in todays game
+		if (game_today.toUpperCase().includes(chr)) { // char is in todays game
 
 			if (!today_userdata.correct.includes(chr)) { // push to correct (yellow) letters if not already there
 				today_userdata.correct.push(chr);
 			}
-
-			/*
-			for (var h=0; h < target.length; h++) {
-				if (target[h] == stripped[h]) {
-					today_userdata.perfect[h] = stripped[h];
-				} else if (!today_userdata.perfect[h]) {
-					today_userdata.perfect[h] = "*";
-				}
-			}
-			*/
 
 		} else {
 			if (!today_userdata.wrong.includes(chr)) {
@@ -304,6 +293,7 @@ function makeGuess() {
 		}
 	}
 
+	// update the _'s
 	for (var c = 0; c < game_today.length; c++) {
 		if (guess[c] == game_today[c]) {
 			today_userdata.perfect2[c] = guess[c].toUpperCase();
@@ -403,7 +393,7 @@ function showStats() {
 }
 
 function share() {
-	var res = "🕹️ " + SITE_URL + " " + daysSinceStart() + "\n";
+	var res = "" + SITE_URL + " " + daysSinceStart() + "\n";
 
 	var squares = [];
 
