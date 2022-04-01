@@ -4,7 +4,7 @@ var todays_image;
 var img = new Image();
 
 
-var rows = 1;
+var rows = 2;
 var cols = 5;
 var max_guesses = (rows*cols) + 1;
 
@@ -45,7 +45,6 @@ function init () {
 	today_userdata = loadTodayUserdata();
 	user_stats = loadStats();
 
-	$("#perfect-letters").html(today_userdata.perfect.join(""));
 	$("#correct-letters").html(today_userdata.correct.join(""));
 	$("#wrong-letters").html(today_userdata.wrong.join(""));
 	updateGuessesRemaining();
@@ -68,6 +67,20 @@ function init () {
 	game_today = games[r].title
 	todays_image = games[r].image
 	todays_width = games[r].width
+
+	if (today_userdata.perfect2.length == 0) {
+			// generate blank game title with _'s
+			for (var c = 0; c < game_today.length; c++) {
+		
+			if (game_today[c] ==  " ") {
+				today_userdata.perfect2[c] = " ";
+			} else if (!today_userdata.perfect2[c]) {
+				today_userdata.perfect2[c] = "_";
+			}
+		}
+	}
+	$("#perfect-letters").html(today_userdata.perfect2.join(""));
+
 
 	// set playfield area based on screenshot width
 	playfield_max_width = String(todays_width) + "px"
@@ -223,7 +236,7 @@ function wonGame() {
 
 		revealAll();
 		$("#guessinput").fadeOut(2000, function() {
-			$("#guessinput").html('<h2 class="winner">Winner!</h2><p><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
+			$("#guessinput").html('<h2 class="winner">Winner!</h2><a onclick="share()" class="sharebutton">Share</a>')
 			$("#guessinput").fadeIn(2000);
 		});	
 }
@@ -274,6 +287,7 @@ function makeGuess() {
 				today_userdata.correct.push(chr);
 			}
 
+			/*
 			for (var h=0; h < target.length; h++) {
 				if (target[h] == stripped[h]) {
 					today_userdata.perfect[h] = stripped[h];
@@ -281,6 +295,7 @@ function makeGuess() {
 					today_userdata.perfect[h] = "*";
 				}
 			}
+			*/
 
 		} else {
 			if (!today_userdata.wrong.includes(chr)) {
@@ -289,7 +304,17 @@ function makeGuess() {
 		}
 	}
 
-	$("#perfect-letters").html(today_userdata.perfect.join(""));
+	for (var c = 0; c < game_today.length; c++) {
+		if (guess[c] == game_today[c]) {
+			today_userdata.perfect2[c] = guess[c].toUpperCase();
+		} else if (game_today[c] ==  " ") {
+			today_userdata.perfect2[c] = " ";
+		} else if (!today_userdata.perfect2[c]) {
+			today_userdata.perfect2[c] = "_";
+		}
+	}
+
+	$("#perfect-letters").html(today_userdata.perfect2.join(""));
 	$("#correct-letters").html(today_userdata.correct.join(""));
 	$("#wrong-letters").html(today_userdata.wrong.join(""));
 
@@ -328,6 +353,7 @@ function loadTodayUserdata() {
 			"revealed": [],
 			"guesses": [],
 			"perfect": [],
+			"perfect2": [],
 			"correct": [],
 			"wrong": []
 		}
@@ -347,7 +373,6 @@ function loadStats() {
 	save_name = SAVE_PREFIX + "stats"
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved, generate defaults
-		//console.log("no stats, generating defaults")
 		return {
 			"first_played": dateToday(),
 			"last_played": dateToday(),
@@ -356,7 +381,6 @@ function loadStats() {
 			"fails": 0
 		}
 	} else {
-		//console.log("found stats")
 		var s = JSON.parse(localStorage.getItem(save_name))
 		if (s.wins.length <= max_guesses) {
 			s.wins.push(0); // we changed max_guesses so we need to extend the stats array
