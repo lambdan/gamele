@@ -1,4 +1,4 @@
-var VERSION = "1.0.1" // shown in bottom of help box so we can verify the latest script is loaded
+var VERSION = "1.0.2" // shown in bottom of help box so we can verify the latest script is loaded
 
 var todays_image;
 var img = new Image();
@@ -309,8 +309,9 @@ function makeGuess() {
 	$("#wrong-letters").html(today_userdata.wrong.join(""));
 
 
-	if (guess == game_today) { // winner!
+	if (guess.toUpperCase() == game_today.toUpperCase()) { // winner!
 		wonGame();
+		$("#perfect-letters").html(game_today.toUpperCase());
 
 	} else if (guessesRemaining() <= 0) { // failure
 		$("#playfield").effect("shake");
