@@ -184,15 +184,14 @@ function updateGuessesRemaining() {
 
 function clickedBlocker(id) {
 	today_userdata.revealed.push(id)
-	saveTodayUserdata();
-	
 	updateGuessesRemaining();
-
 	revealSquare(id);
 
 	if (guessesRemaining() <= 0) {
 		lostGame();
 	}
+
+	saveTodayUserdata();
 }
 
 function revealSquare(id) {
