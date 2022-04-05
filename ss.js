@@ -1,4 +1,4 @@
-var VERSION = "1.0.2" // shown in bottom of help box so we can verify the latest script is loaded
+var VERSION = "1.0.3" // shown in bottom of help box so we can verify the latest script is loaded
 
 var todays_image;
 var img = new Image();
