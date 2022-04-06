@@ -119,7 +119,7 @@ function init () {
 
 			if (today_userdata.revealed.length > 0) {
 				$.each(today_userdata.revealed, function(k,v) {
-					revealSquare(v);
+					$("#" + v).fadeOut();
 				});
 			}
 
