@@ -38,7 +38,7 @@ var GAMES_JSON = "snes.json"
     <div id="guessinput">
 
       <label for="guess">The game is:</label>
-      <input list="games" name="guess" id="guess">
+      <input list="games" name="guess" id="guess" onfocus="this.value=''">
       <datalist id="games">
         <!-- filled with script -->
       </datalist>
