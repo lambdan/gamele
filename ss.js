@@ -4,9 +4,9 @@ var todays_image;
 var img = new Image();
 
 
-var rows = 1;
-var cols = 5;
-var max_guesses = (rows*cols) + 1;
+var rows = 4;
+var cols = 4;
+var max_guesses = 6;
 
 var lastclicked = ""; // for double click prevention
 var blockers = [];
@@ -25,6 +25,8 @@ var user_stats;
 var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
 
 var today_userdata;
+
+var seededRNG = new Math.seedrandom(dateToday()); // seed RNG from todays date
 
 function dateToday() {
 	const d = new Date();
@@ -96,7 +98,7 @@ function init () {
 	// setup the image and create blockers, after it has loaded
 	img.onload = function() {
 
-		console.log("finished loading img")
+		//console.log("finished loading img")
 		$("#loading").hide();
 		$("#image").html(img); // image needs to be "shown" before blockers are added
 
@@ -152,14 +154,15 @@ function sizeChanged() {
 	if (today_userdata.revealed.length > 0) {
 		$.each(today_userdata.revealed, function(k,v) {
 			console.log("revealing", v)
-			$("#" + v).hide();
+			//$("#" + v).hide();
+			revealSquare(v);
 		});
 	}
 
 }
 
 function addBlock(row,col) {
-	console.log("addBlock img client sizes:", img.clientWidth, img.clientHeight)
+	//console.log("addBlock img client sizes:", img.clientWidth, img.clientHeight)
 	w = img.clientWidth/cols
 	h = img.clientHeight/rows
 
@@ -174,8 +177,8 @@ function addBlock(row,col) {
 }
 
 function guessesRemaining() {
-	var remain = max_guesses - (today_userdata.revealed.length + today_userdata.guesses.length)
-	return remain
+	//var remain = max_guesses - (today_userdata.revealed.length + today_userdata.guesses.length)
+	return max_guesses - today_userdata.guesscount
 }
 
 function updateGuessesRemaining() {
@@ -184,6 +187,8 @@ function updateGuessesRemaining() {
 
 function clickedBlocker(id) {
 	today_userdata.revealed.push(id)
+	today_userdata.guesscount++;
+
 	updateGuessesRemaining();
 	revealSquare(id);
 
@@ -228,7 +233,7 @@ function wonGame() {
 		if (!user_stats.played_days.includes(dateToday())) {
 			today_userdata.result = "win";
 
-			user_stats.wins[today_userdata.revealed.length + today_userdata.guesses.length]++;
+			user_stats.wins[today_userdata.guesscount]++;
 			user_stats.played_days.push(dateToday());
 			saveStats();
 		}
@@ -258,6 +263,21 @@ function lostGame() {
 		});	
 }
 
+function revealRandomSquare() {
+	r = Math.floor(seededRNG() * blockers.length)
+	while (today_userdata.revealed.includes(blockers[r].id)) {
+		// already revealed, randomize again
+		r = Math.floor(seededRNG() * blockers.length)
+	}
+
+	//console.log("revealRandomSqurae: got", r);
+	var block = blockers[r].id; // blocker id
+
+	revealSquare(block);
+	today_userdata.revealed.push(block);
+	saveTodayUserdata();
+}
+
 function makeGuess() {
 	if (game_over) {
 		return // game is over, do nothing
@@ -268,8 +288,12 @@ function makeGuess() {
 	if (today_userdata.guesses.includes(guess)) {
 		alert("You've already guessed that game today!");
 		return
+	} else if (guess == "") {
+		return // blank guess
 	} else {
+		revealRandomSquare();
 		today_userdata.guesses.push(guess);
+		today_userdata.guesscount++;
 		updateGuessesRemaining();
 	}
 	
@@ -329,17 +353,18 @@ function help() {
 function saveTodayUserdata() {
 	save_name = SAVE_PREFIX + "userdata_" + session_date
 	localStorage.setItem(save_name, JSON.stringify(today_userdata))
-	console.log("saved today userdata:", JSON.stringify(today_userdata))
+	//console.log("saved today userdata:", JSON.stringify(today_userdata))
 }
 
 function loadTodayUserdata() {
-	console.log("loading todays userdata")
+	//console.log("loading todays userdata")
 	save_name = SAVE_PREFIX + "userdata_" + session_date
 	//console.log("load:", save_name)
 	if (localStorage.getItem(save_name) == null) {
 		// nothing is saved
 		return {
 			"result": "incomplete",
+			"guesscount": 0,
 			"revealed": [],
 			"guesses": [],
 			"perfect": [],
@@ -355,7 +380,7 @@ function loadTodayUserdata() {
 function saveStats() {
 	save_name = SAVE_PREFIX + "stats"
 	localStorage.setItem(save_name, JSON.stringify(user_stats))
-	console.log("saved stats", save_name)
+	//console.log("saved stats", save_name)
 }
 
 function loadStats() {
@@ -406,7 +431,7 @@ function share() {
 
 	if (game_won) {
 		res += "✅" 
-		res += " " + (today_userdata.revealed.length + today_userdata.guesses.length) + "/" + (max_guesses) + "\n"
+		res += " " + today_userdata.guesscount + "/" + max_guesses + "\n"
 	} else {
 		res += "❌"
 		res += " X/" + (max_guesses) + "\n"
