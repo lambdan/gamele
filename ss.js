@@ -1,4 +1,4 @@
-var VERSION = "1.1.1" // shown in bottom of help box so we can verify the latest script is loaded
+var VERSION = "1.1.2" // shown in bottom of help box so we can verify the latest script is loaded
 
 var todays_image;
 var img = new Image();
@@ -26,7 +26,7 @@ var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣
 
 var today_userdata;
 
-var seededRNG = new Math.seedrandom(dateToday()); // seed RNG from todays date
+var seededRNG = new Math.seedrandom(dateToday() + GAMES_JSON); // seed RNG from todays date + json file name
 
 function dateToday() {
 	const d = new Date();
