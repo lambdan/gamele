@@ -1,4 +1,4 @@
-var VERSION = "1.1" // shown in bottom of help box so we can verify the latest script is loaded
+var VERSION = "1.1.1" // shown in bottom of help box so we can verify the latest script is loaded
 
 var todays_image;
 var img = new Image();
@@ -290,7 +290,6 @@ function makeGuess() {
 	} else if (guess == "") {
 		return // blank guess
 	} else {
-		revealRandomSquare();
 		today_userdata.guesses.push(guess);
 		today_userdata.guesscount++;
 		updateGuessesRemaining();
@@ -340,6 +339,7 @@ function makeGuess() {
 		lostGame();
 	} else { // just wrong guess
 		$("#guessinput").effect("shake");
+		revealRandomSquare();
 	}
 
 	saveTodayUserdata();
