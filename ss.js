@@ -22,7 +22,7 @@ var game_won = false;
 var session_date;
 
 var user_stats;
-var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟"]
+var num_emoji = ["1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟", "[11]", "[12]", "[13]", "[14]", "[15]", "[16]"]
 
 var today_userdata;
 
@@ -119,7 +119,7 @@ function init () {
 
 			if (today_userdata.revealed.length > 0) {
 				$.each(today_userdata.revealed, function(k,v) {
-					$("#" + v).fadeOut();
+					revealSquare(v);
 				});
 			}
 
@@ -153,9 +153,9 @@ function sizeChanged() {
 	// reveal blockers already clicked
 	if (today_userdata.revealed.length > 0) {
 		$.each(today_userdata.revealed, function(k,v) {
-			console.log("revealing", v)
-			//$("#" + v).hide();
-			revealSquare(v);
+			//console.log("revealing", v)
+			$("#" + v).hide(); // dont fade in for resizes
+			//revealSquare(v);
 		});
 	}
 
@@ -177,12 +177,11 @@ function addBlock(row,col) {
 }
 
 function guessesRemaining() {
-	//var remain = max_guesses - (today_userdata.revealed.length + today_userdata.guesses.length)
 	return max_guesses - today_userdata.guesscount
 }
 
 function updateGuessesRemaining() {
-	$("#guesses-remaining").html("Guesses/Reveals Remaining: " + guessesRemaining())
+	$("#guesses-remaining").html(today_userdata.guesscount + "/" + max_guesses)
 }
 
 function clickedBlocker(id) {
@@ -258,7 +257,7 @@ function lostGame() {
 
 		revealAll();
 		$("#guessinput").fadeOut(2000, function() {
-			$("#guessinput").html('<h2 class="failure">Failure.</h2><p>The game was:<br><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
+			$("#guessinput").html('<h2 class="failure">Failure</h2><p>The game was:<br><i>' + game_today + '</i></p><a onclick="share()" class="sharebutton">Share</a>')
 			$("#guessinput").fadeIn(2000);
 		});	
 }
@@ -337,10 +336,10 @@ function makeGuess() {
 		$("#perfect-letters").html(game_today.toUpperCase());
 
 	} else if (guessesRemaining() <= 0) { // failure
-		$("#playfield").effect("shake");
+		$("#guessinput").effect("shake");
 		lostGame();
 	} else { // just wrong guess
-		$("#playfield").effect("shake");
+		$("#guessinput").effect("shake");
 	}
 
 	saveTodayUserdata();
