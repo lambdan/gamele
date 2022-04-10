@@ -289,6 +289,9 @@ function makeGuess() {
 		return
 	} else if (guess == "") {
 		return // blank guess
+	} else if (!game_titles.includes(guess)) { // prevent typos etc
+		alert("Invalid guess. Please pick a game in the list.")
+		return
 	} else {
 		today_userdata.guesses.push(guess);
 		today_userdata.guesscount++;
