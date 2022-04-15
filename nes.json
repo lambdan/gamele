@@ -200,11 +200,6 @@
         "width": 512
     },
     {
-        "title": "Nintendo NTF2 System Cartridge",
-        "image": "screens/nes/NintendoNTF2SystemCartridge.png",
-        "width": 512
-    },
-    {
         "title": "Wall Street Kid",
         "image": "screens/nes/WallStreetKid.png",
         "width": 512
@@ -1310,11 +1305,6 @@
         "width": 512
     },
     {
-        "title": "Super Spike V'Ball + Nintendo World Cup",
-        "image": "screens/nes/SuperSpikeVBallNintendoWorldCup.png",
-        "width": 512
-    },
-    {
         "title": "Back to the Future",
         "image": "screens/nes/BacktotheFuture.png",
         "width": 512
@@ -1705,11 +1695,6 @@
         "width": 512
     },
     {
-        "title": "Super Mario Bros. + Duck Hunt + World Class Track Meet",
-        "image": "screens/nes/SuperMarioBros.DuckHuntWorldClassTrackMeet.png",
-        "width": 512
-    },
-    {
         "title": "Golf Grand Slam",
         "image": "screens/nes/GolfGrandSlam.png",
         "width": 512
@@ -1787,11 +1772,6 @@
     {
         "title": "The Adventures of Rad Gravity",
         "image": "screens/nes/AdventuresofRadGravityThe.png",
-        "width": 512
-    },
-    {
-        "title": "U-Force Test",
-        "image": "screens/nes/UForceTest.png",
         "width": 512
     },
     {
@@ -1892,11 +1872,6 @@
     {
         "title": "Foxs Peter Pan & the Pirates The Revenge of Captain Hook",
         "image": "screens/nes/FoxsPeterPanthePiratesTheRevengeofCaptainHook.png",
-        "width": 512
-    },
-    {
-        "title": "Nintendo World Class Service Power Pad Test Cartridge",
-        "image": "screens/nes/NintendoWorldClassServicePowerPadTestCartridge.png",
         "width": 512
     },
     {
@@ -2067,11 +2042,6 @@
     {
         "title": "Magic Darts",
         "image": "screens/nes/MagicDarts.png",
-        "width": 512
-    },
-    {
-        "title": "Nintendo World Class Service Port Test Cartridge",
-        "image": "screens/nes/NintendoWorldClassServicePortTestCartridge.png",
         "width": 512
     },
     {
@@ -2262,11 +2232,6 @@
     {
         "title": "Total Recall",
         "image": "screens/nes/TotalRecall.png",
-        "width": 512
-    },
-    {
-        "title": "Nintendo NTF2 Test Cartridge",
-        "image": "screens/nes/NintendoNTF2TestCartridge.png",
         "width": 512
     },
     {
@@ -2510,11 +2475,6 @@
         "width": 512
     },
     {
-        "title": "Nintendo World Class Service Joystick Test Cartridge",
-        "image": "screens/nes/NintendoWorldClassServiceJoystickTestCartridge.png",
-        "width": 512
-    },
-    {
         "title": "Conan",
         "image": "screens/nes/Conan.png",
         "width": 512
@@ -2542,11 +2502,6 @@
     {
         "title": "Ghosts'n Goblins",
         "image": "screens/nes/GhostsnGoblins.png",
-        "width": 512
-    },
-    {
-        "title": "Short Order + Egg-Splode!",
-        "image": "screens/nes/ShortOrderEggSplode.png",
         "width": 512
     },
     {
@@ -2875,11 +2830,6 @@
         "width": 512
     },
     {
-        "title": "Nintendo World Class Service Control Deck Test Cartridge",
-        "image": "screens/nes/NintendoWorldClassServiceControlDeckTestCartridge.png",
-        "width": 512
-    },
-    {
         "title": "Wurm Journey to the Center of the Earth!",
         "image": "screens/nes/WurmJourneytotheCenteroftheEarth.png",
         "width": 512
@@ -3177,11 +3127,6 @@
     {
         "title": "Little Nemo The Dream Master",
         "image": "screens/nes/LittleNemoTheDreamMaster.png",
-        "width": 512
-    },
-    {
-        "title": "Super Mario Bros. + Duck Hunt",
-        "image": "screens/nes/SuperMarioBros.DuckHunt.png",
         "width": 512
     },
     {
