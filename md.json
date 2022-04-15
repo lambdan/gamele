@@ -515,11 +515,6 @@
         "width": 640
     },
     {
-        "title": "Sonic & Knuckles + Sonic the Hedgehog 3",
-        "image": "screens/md/SonicKnucklesSonictheHedgehog3.png",
-        "width": 640
-    },
-    {
         "title": "Body Count",
         "image": "screens/md/BodyCount.png",
         "width": 640
@@ -1835,11 +1830,6 @@
         "width": 640
     },
     {
-        "title": "Sonic & Knuckles + Sonic the Hedgehog",
-        "image": "screens/md/SonicKnucklesSonictheHedgehog.png",
-        "width": 640
-    },
-    {
         "title": "Traysia",
         "image": "screens/md/Traysia.png",
         "width": 640
@@ -1972,11 +1962,6 @@
     {
         "title": "James Pond II Codename Robocod",
         "image": "screens/md/JamesPondIICodenameRobocod.png",
-        "width": 640
-    },
-    {
-        "title": "Sonic & Knuckles + Sonic the Hedgehog 2",
-        "image": "screens/md/SonicKnucklesSonictheHedgehog2.png",
         "width": 640
     },
     {
