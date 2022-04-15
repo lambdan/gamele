@@ -40,11 +40,6 @@
         "width": 512
     },
     {
-        "title": "World Class Service Super Nintendo Tester",
-        "image": "screens/snes/WorldClassServiceSuperNintendoTester.png",
-        "width": 512
-    },
-    {
         "title": "Choplifter III Rescue-Survive",
         "image": "screens/snes/ChoplifterIIIRescueSurvive.png",
         "width": 512
@@ -1920,11 +1915,6 @@
         "width": 512
     },
     {
-        "title": "Super Mario All-Stars + Super Mario World",
-        "image": "screens/snes/SuperMarioAllStarsSuperMarioWorld.png",
-        "width": 512
-    },
-    {
         "title": "Legend",
         "image": "screens/snes/Legend.png",
         "width": 512
@@ -3472,11 +3462,6 @@
     {
         "title": "Obitus",
         "image": "screens/snes/Obitus.png",
-        "width": 512
-    },
-    {
-        "title": "Exertainment Mountain Bike Rally + Speed Racer",
-        "image": "screens/snes/ExertainmentMountainBikeRallySpeedRacer.png",
         "width": 512
     },
     {
